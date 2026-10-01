@@ -1,0 +1,21 @@
+{
+  "name": "Knesset26 election audit seed data",
+  "version": "0.1",
+  "generated_at": "2026-10-01",
+  "language": "he/en mixed",
+  "purpose": "Neutral evidence dataset for comparing documented commitments, actions and public metrics.",
+  "important_note": "No party/candidate scores, rankings or voting recommendations are included. Metrics are not causally attributed to political actors unless independently supported.",
+  "built_from": "seed/election_audit_seed.json",
+  "seed_sha256": "55b9fd8c7550b770b8db64a6abf61f2ab3e77c8f6d180653fdda64f27fe48937",
+  "counts": {
+    "parties": 15,
+    "people": 0,
+    "commitments": 49,
+    "actions": 7,
+    "metric_series": 53,
+    "metrics": 70,
+    "sources": 29,
+    "commitment_action_links": 0,
+    "attributions": 0
+  }
+}

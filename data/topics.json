@@ -1,0 +1,44 @@
+[
+  {
+    "id": "education",
+    "label": "חינוך",
+    "primary": true,
+    "group": "education"
+  },
+  {
+    "id": "transport",
+    "label": "תחבורה ציבורית",
+    "primary": true,
+    "group": "transport"
+  },
+  {
+    "id": "health",
+    "label": "בריאות",
+    "primary": true,
+    "group": "health"
+  },
+  {
+    "id": "personal_security",
+    "label": "ביטחון אישי",
+    "primary": true,
+    "group": "personal_security"
+  },
+  {
+    "id": "cost_of_living",
+    "label": "יוקר מחיה",
+    "primary": true,
+    "group": "cost_of_living"
+  },
+  {
+    "id": "housing",
+    "label": "דיור",
+    "primary": true,
+    "group": "cost_of_living"
+  },
+  {
+    "id": "governance",
+    "label": "משילות",
+    "primary": false,
+    "group": "governance"
+  }
+]
