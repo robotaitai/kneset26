@@ -319,11 +319,17 @@ export async function mount(root, { repo, params, setParams, isCurrent }) {
         obs.length > shown.length ? h("span", { class: "cf-more" }, `${obs.length} תצפיות`) : null));
   }
 
+  // Newest holders first. Party is the holder's Knesset faction on the first
+  // day of the term, as recorded by the Knesset.
   function authorityCell(k) {
     if (!k.authorities.length) return missingCell(null, STATE.missing);
-    return h("ul", { class: "auth" }, k.authorities.slice(0, 3).map((a) =>
-      h("li", null, h("button", { type: "button", class: "linkish", dataset: { evidenceKind: "authority", evidenceId: a.authority_id } }, a.holder_name),
-        h("span", { class: "muted" }, ` · ${a.office_label || a.office} `, ltr(`${yearOf(a.start)}–${a.end ? yearOf(a.end) : ""}`)))));
+    const shown = k.authorities.slice(0, 3);
+    return h("button", { type: "button", class: "cell cell-auth", dataset: { evidenceKind: "kpi", evidenceId: k.kpi.kpi_id } },
+      h("ul", { class: "auth" }, shown.map((a) => h("li", null,
+        h("span", { class: "auth-name" }, a.holder_name, a.acting ? h("span", { class: "muted" }, " (מ״מ)") : null),
+        h("span", { class: "auth-meta" }, `${a.role === "head_of_government" ? "ראש הממשלה" : shortOffice(a.office_label)} · `,
+          a.entity_id ? short(a.entity_id) : a.faction_name || "—", " · ", ltr(`${yearOf(a.start)}–${a.end ? yearOf(a.end) : ""}`))))),
+      k.authorities.length > shown.length ? h("div", { class: "cell-foot" }, h("span", { class: "cf-more" }, `+${k.authorities.length - shown.length} בתקופה`)) : null);
   }
 
   function promisersCell(r, cmp) {
@@ -364,6 +370,7 @@ function spark(obs) {
   return svg;
 }
 
+const shortOffice = (o) => String(o || "").replace(/^(המשרד ל|משרד ה?)/, "").trim() || o;
 const missingText = (text = STATE.missing) => h("span", { class: "missing" }, text);
 const missingCell = (hint, text = STATE.missing) => h("div", { class: "cell-missing" }, text, hint ? h("span", { class: "cm-hint" }, hint) : null);
 const layer = (k, v) => h("div", { class: "layer" }, h("span", { class: "layer-k" }, k), v);

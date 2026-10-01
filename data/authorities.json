@@ -1,1 +1,5320 @@
-[]
+[
+  {
+    "authority_id": "AU_KNS_3762",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד העבודה והרווחה",
+    "office_label": "משרד העבודה והרווחה",
+    "duty": "שר העבודה והרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אליהו ישי",
+    "person_id": "P_KNS_494",
+    "entity_id": null,
+    "faction_name": "התאחדות הספרדים שומרי תורה - תנועת ש\"ס",
+    "government": "ממשלה 27–28",
+    "start": "1996-06-18",
+    "end": "2000-07-11",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3762",
+      "23116",
+      "4488"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3764",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אליהו סויסה",
+    "person_id": "P_KNS_500",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 27",
+    "start": "1996-06-18",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3764",
+      "23123"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3766",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון פנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "אביגדור קהלני",
+    "person_id": "P_KNS_2574",
+    "entity_id": null,
+    "faction_name": "הדרך השלישית",
+    "government": "ממשלה 27",
+    "start": "1996-06-18",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3766",
+      "23126"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4092",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "ליכוד - גשר - צומת",
+    "government": "ממשלה 27",
+    "start": "1996-06-18",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4092",
+      "23120"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4385",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "רפאל איתן",
+    "person_id": "P_KNS_2138",
+    "entity_id": null,
+    "faction_name": "ליכוד - גשר - צומת",
+    "government": "ממשלה 27",
+    "start": "1996-06-18",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4385",
+      "21291"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4436",
+    "role": "head_of_government",
+    "acting": false,
+    "office": "prime_minister",
+    "office_label": "ראש הממשלה",
+    "duty": "ראש הממשלה",
+    "topics": [
+      "education",
+      "transport",
+      "health",
+      "personal_security",
+      "cost_of_living",
+      "housing",
+      "governance"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "ליכוד - גשר - צומת",
+    "government": "ממשלה 27",
+    "start": "1996-06-18",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4436",
+      "23121"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4437",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התעשייה והמסחר",
+    "office_label": "משרד התעשייה והמסחר",
+    "duty": "שר התעשיה והמסחר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "נתן שרנסקי",
+    "person_id": "P_KNS_535",
+    "entity_id": null,
+    "faction_name": "ישראל בעלייה",
+    "government": "ממשלה 27",
+    "start": "1996-06-18",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4437",
+      "23133"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4308",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "יהושע מצא",
+    "person_id": "P_KNS_472",
+    "entity_id": null,
+    "faction_name": "ליכוד - גשר - צומת",
+    "government": "ממשלה 27",
+    "start": "1996-11-12",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4308",
+      "23119"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4417",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "שאול יהלום",
+    "person_id": "P_KNS_524",
+    "entity_id": null,
+    "faction_name": "מפלגה דתית לאומית",
+    "government": "ממשלה 27",
+    "start": "1998-02-25",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4417",
+      "24063"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4419",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך, התרבות והספורט",
+    "office_label": "משרד החינוך, התרבות והספורט",
+    "duty": "שר החינוך, התרבות והספורט",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "יצחק לוי",
+    "person_id": "P_KNS_765",
+    "entity_id": null,
+    "faction_name": "מפלגה דתית לאומית",
+    "government": "ממשלה 27",
+    "start": "1998-02-25",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4419",
+      "23118"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4426",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "ליכוד - גשר - צומת",
+    "government": "ממשלה 27",
+    "start": "1998-12-18",
+    "end": "1999-02-23",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4426"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4434",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "מאיר שטרית",
+    "person_id": "P_KNS_478",
+    "entity_id": null,
+    "faction_name": "ליכוד - גשר - צומת",
+    "government": "ממשלה 27",
+    "start": "1999-02-23",
+    "end": "1999-07-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4434",
+      "23129"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23152",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "1999-08-05",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23152"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3532",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "יצחק מרדכי",
+    "person_id": "P_KNS_2468",
+    "entity_id": null,
+    "faction_name": "מפלגת המרכז",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "2000-05-30",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3532"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3538",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון פנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "שלמה בן-עמי",
+    "person_id": "P_KNS_439",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3538"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4472",
+    "role": "head_of_government",
+    "acting": false,
+    "office": "prime_minister",
+    "office_label": "ראש הממשלה",
+    "duty": "ראש הממשלה",
+    "topics": [
+      "education",
+      "transport",
+      "health",
+      "personal_security",
+      "cost_of_living",
+      "housing",
+      "governance"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4472",
+      "4473"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4478",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "שלמה בניזרי",
+    "person_id": "P_KNS_484",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "2000-07-11",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4478"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4490",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התעשייה והמסחר",
+    "office_label": "משרד התעשייה והמסחר",
+    "duty": "שר התעשייה והמסחר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "רן כהן",
+    "person_id": "P_KNS_507",
+    "entity_id": null,
+    "faction_name": "מרצ",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "2000-06-24",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4490"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4493",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "יצחק לוי",
+    "person_id": "P_KNS_765",
+    "entity_id": null,
+    "faction_name": "מפלגה דתית לאומית",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "2000-07-12",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4493"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4499",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "יוסי שריד",
+    "person_id": "P_KNS_512",
+    "entity_id": null,
+    "faction_name": "מרצ",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "2000-06-24",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4499"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4500",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "נתן שרנסקי",
+    "person_id": "P_KNS_535",
+    "entity_id": null,
+    "faction_name": "ישראל בעלייה",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "2000-07-11",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4500"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4618",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אברהם-בייגה שוחט",
+    "person_id": "P_KNS_459",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "1999-07-06",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4618"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3447",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "חיים אורון",
+    "person_id": "P_KNS_1065",
+    "entity_id": null,
+    "faction_name": "מרצ",
+    "government": "ממשלה 28",
+    "start": "1999-08-05",
+    "end": "2000-06-24",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3447"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4480",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-05-30",
+    "end": "2000-06-25",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4480"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4481",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-06-24",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4481"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4482",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התעשייה והמסחר",
+    "office_label": "משרד התעשייה והמסחר",
+    "duty": "שר התעשייה והמסחר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-06-24",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4482"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4483",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-06-24",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4483"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4495",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "אמנון ליפקין-שחק",
+    "person_id": "P_KNS_2439",
+    "entity_id": null,
+    "faction_name": "מפלגת המרכז",
+    "government": "ממשלה 28",
+    "start": "2000-06-25",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4495"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4484",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "ממלא מקום שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-07-11",
+    "end": "2000-08-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4484"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4485",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "ממלא מקום שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-07-11",
+    "end": "2000-08-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4485"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4486",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד העבודה והרווחה",
+    "office_label": "משרד העבודה והרווחה",
+    "duty": "שר העבודה והרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-07-11",
+    "end": "2000-08-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4486"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3480",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-07-12",
+    "end": "2000-08-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3480"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3406",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "ממלא מקום שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "חיים רמון",
+    "person_id": "P_KNS_458",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-08-15",
+    "end": "2000-10-11",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3406"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4492",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד העבודה והרווחה",
+    "office_label": "משרד העבודה והרווחה",
+    "duty": "שר העבודה והרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "רענן כהן",
+    "person_id": "P_KNS_446",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-08-15",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4492"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4496",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "רוני מילוא",
+    "person_id": "P_KNS_545",
+    "entity_id": null,
+    "faction_name": "מפלגת המרכז",
+    "government": "ממשלה 28",
+    "start": "2000-08-15",
+    "end": "2001-01-16",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4496"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4511",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "ממלא מקום שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "בנימין בן-אליעזר",
+    "person_id": "P_KNS_435",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-08-15",
+    "end": "2000-10-11",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4511"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4612",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "בנימין בן-אליעזר",
+    "person_id": "P_KNS_435",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-10-11",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4612"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4617",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "חיים רמון",
+    "person_id": "P_KNS_458",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2000-10-11",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4617"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4543",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "ממלא מקום שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "אהוד ברק",
+    "person_id": "P_KNS_2226",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 28",
+    "start": "2001-01-16",
+    "end": "2001-03-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4543"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3625",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התעשייה והמסחר",
+    "office_label": "משרד התעשייה והמסחר",
+    "duty": "שרת התעשייה והמסחר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "דליה איציק",
+    "person_id": "P_KNS_433",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2002-11-02",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3625"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3627",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "אפרים סנה",
+    "person_id": "P_KNS_454",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2002-11-02",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3627"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3629",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "שלום שמחון",
+    "person_id": "P_KNS_461",
+    "entity_id": null,
+    "faction_name": "ישראל אחת",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2002-11-02",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3629"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3633",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד העבודה והרווחה",
+    "office_label": "משרד העבודה והרווחה",
+    "duty": "שר העבודה והרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "שלמה בניזרי",
+    "person_id": "P_KNS_484",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2002-05-23",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3633"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3634",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "נסים דהן",
+    "person_id": "P_KNS_487",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2002-05-23",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3634"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3635",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אליהו ישי",
+    "person_id": "P_KNS_494",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2002-05-23",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3635"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3643",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "סילבן שלום",
+    "person_id": "P_KNS_479",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3643",
+      "23196"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3672",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שרת החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "לימור לבנת",
+    "person_id": "P_KNS_470",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3672",
+      "23182"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3674",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון הפנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "עוזי לנדאו",
+    "person_id": "P_KNS_471",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3674",
+      "23184"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3680",
+    "role": "head_of_government",
+    "acting": false,
+    "office": "prime_minister",
+    "office_label": "ראש הממשלה",
+    "duty": "ראש הממשלה",
+    "topics": [
+      "education",
+      "transport",
+      "health",
+      "personal_security",
+      "cost_of_living",
+      "housing",
+      "governance"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29–30",
+    "start": "2001-03-07",
+    "end": "2006-01-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3680",
+      "23198",
+      "3692"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3681",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "נתן שרנסקי",
+    "person_id": "P_KNS_535",
+    "entity_id": null,
+    "faction_name": "ישראל בעלייה",
+    "government": "ממשלה 29",
+    "start": "2001-03-07",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3681",
+      "23199"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23158",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "ממלא מקום שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2002-05-23",
+    "end": "2002-06-03",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23158"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23160",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "ממלא מקום שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2002-05-23",
+    "end": "2002-06-03",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23160"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23165",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד העבודה והרווחה",
+    "office_label": "משרד העבודה והרווחה",
+    "duty": "ממלא מקום שר העבודה והרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2002-05-23",
+    "end": "2002-06-03",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23165"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3659",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד העבודה והרווחה",
+    "office_label": "משרד העבודה והרווחה",
+    "duty": "שר העבודה והרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "שלמה בניזרי",
+    "person_id": "P_KNS_484",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 29",
+    "start": "2002-06-03",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3659",
+      "23174"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3660",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אליהו ישי",
+    "person_id": "P_KNS_494",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 29",
+    "start": "2002-06-03",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3660",
+      "23179"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3661",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "נסים דהן",
+    "person_id": "P_KNS_487",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 29",
+    "start": "2002-06-03",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3661",
+      "23175"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23161",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "ממלא מקום שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2002-11-02",
+    "end": "2002-12-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23161"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23163",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד התעשייה והמסחר",
+    "office_label": "משרד התעשייה והמסחר",
+    "duty": "ממלא מקום שר התעשיה והמסחר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2002-11-02",
+    "end": "2002-12-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23163"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23166",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "ממלא מקום שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2002-11-02",
+    "end": "2002-12-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23166"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23162",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התעשייה והמסחר",
+    "office_label": "משרד התעשייה והמסחר",
+    "duty": "שר התעשיה והמסחר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "דני נוה",
+    "person_id": "P_KNS_473",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2002-12-15",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23162",
+      "23200"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4508",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שרת החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "ציפי לבני",
+    "person_id": "P_KNS_469",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2002-12-15",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4508",
+      "23181"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4512",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "צחי הנגבי",
+    "person_id": "P_KNS_467",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 29",
+    "start": "2002-12-15",
+    "end": "2003-02-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4512",
+      "23177"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23288",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2003-03-03",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23288"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23292",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "שר הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2003-03-03",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23292"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3694",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התעשיה, המסחר והתעסוקה",
+    "office_label": "משרד התעשיה, המסחר והתעסוקה",
+    "duty": "שר התעשיה, המסחר והתעסוקה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3694",
+      "3725",
+      "21284"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3700",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון פנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "צחי הנגבי",
+    "person_id": "P_KNS_467",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2004-09-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3700"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3702",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "ישראל כץ",
+    "person_id": "P_KNS_468",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2006-01-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3702"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3703",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך, התרבות והספורט",
+    "office_label": "משרד החינוך, התרבות והספורט",
+    "duty": "שרת החינוך, התרבות והספורט",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "לימור לבנת",
+    "person_id": "P_KNS_470",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2006-01-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3703"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3704",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "אביגדור ליברמן",
+    "person_id": "P_KNS_427",
+    "entity_id": null,
+    "faction_name": "האיחוד הלאומי - ישראל ביתנו - מולדת - תקומה",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2004-06-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3704"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3707",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "דני נוה",
+    "person_id": "P_KNS_473",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2006-01-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3707"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3708",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2005-08-09",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3708"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3709",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אברהם פורז",
+    "person_id": "P_KNS_519",
+    "entity_id": null,
+    "faction_name": "שינוי התנועה החילונית",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2004-12-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3709"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3717",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר במשרד האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "מאיר שטרית",
+    "person_id": "P_KNS_478",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2003-02-27",
+    "end": "2004-07-05",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3717"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3697",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "שר הרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "זבולון אורלב",
+    "person_id": "P_KNS_521",
+    "entity_id": null,
+    "faction_name": "מפלגה דתית לאומית",
+    "government": "ממשלה 30",
+    "start": "2003-03-03",
+    "end": "2004-11-11",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3697",
+      "21287"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3698",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "אפי איתם",
+    "person_id": "P_KNS_763",
+    "entity_id": null,
+    "faction_name": "מפלגה דתית לאומית",
+    "government": "ממשלה 30",
+    "start": "2003-03-03",
+    "end": "2004-06-10",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3698"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3716",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "ממלא מקום שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2004-06-06",
+    "end": "2004-07-05",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3716"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3714",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "ממלא מקום שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2004-06-10",
+    "end": "2004-07-05",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3714"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23283",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שרת הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "ציפי לבני",
+    "person_id": "P_KNS_469",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2004-07-05",
+    "end": "2005-01-10",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23283",
+      "3713"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23285",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "ממלא מקום שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "מאיר שטרית",
+    "person_id": "P_KNS_478",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2004-07-05",
+    "end": "2004-08-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23285"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3712",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה",
+    "office_label": "משרד התחבורה",
+    "duty": "שר התחבורה והבטיחות בדרכים",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "מאיר שטרית",
+    "person_id": "P_KNS_478",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2004-08-31",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3712",
+      "23286",
+      "23276"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3722",
+    "role": "minister",
+    "acting": true,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "ממלא מקום השר לביטחון פנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "גדעון עזרא",
+    "person_id": "P_KNS_474",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2004-09-06",
+    "end": "2004-11-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3722"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23289",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "ממלא מקום שר הרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2004-11-11",
+    "end": "2005-01-10",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23289"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3726",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון הפנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "גדעון עזרא",
+    "person_id": "P_KNS_474",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2004-11-29",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3726",
+      "23272"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3730",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "ממלא מקום שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2004-12-04",
+    "end": "2005-01-10",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3730"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23290",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "שר הרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2005-01-10",
+    "end": "2006-01-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23290"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3738",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "יצחק הרצוג",
+    "person_id": "P_KNS_1044",
+    "entity_id": null,
+    "faction_name": "העבודה-מימד בראשות מצנע",
+    "government": "ממשלה 30",
+    "start": "2005-01-10",
+    "end": "2005-11-23",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3738"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3741",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אופיר פינס-פז",
+    "person_id": "P_KNS_455",
+    "entity_id": null,
+    "faction_name": "העבודה-מימד בראשות מצנע",
+    "government": "ממשלה 30",
+    "start": "2005-01-10",
+    "end": "2005-11-23",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3741"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4509",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "ממלא מקום שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2005-08-09",
+    "end": "2005-11-07",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4509"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4456",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2005-11-07",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4456",
+      "21285"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4461",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "ממלא מקום שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2005-11-23",
+    "end": "2006-01-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4461"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4462",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "ממלא מקום שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "אריאל שרון",
+    "person_id": "P_KNS_482",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 30",
+    "start": "2005-11-23",
+    "end": "2006-01-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4462"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23293",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "ממלא מקום שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "אחריות לאומית",
+    "government": "ממשלה 30",
+    "start": "2006-01-04",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23293",
+      "23278"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23294",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "ממלא מקום שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "אחריות לאומית",
+    "government": "ממשלה 30",
+    "start": "2006-01-04",
+    "end": "2006-01-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23294"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23295",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "ממלא מקום שר הרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "אחריות לאומית",
+    "government": "ממשלה 30",
+    "start": "2006-01-04",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23295",
+      "23279"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4469",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "ממלא מקום שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "אחריות לאומית",
+    "government": "ממשלה 30",
+    "start": "2006-01-15",
+    "end": "2006-01-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4469"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4470",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "ממלא מקום שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "אחריות לאומית",
+    "government": "ממשלה 30",
+    "start": "2006-01-15",
+    "end": "2006-01-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4470"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4471",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד החינוך, התרבות והספורט",
+    "office_label": "משרד החינוך, התרבות והספורט",
+    "duty": "ממלא מקום שר החינוך, התרבות והספורט",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "אחריות לאומית",
+    "government": "ממשלה 30",
+    "start": "2006-01-15",
+    "end": "2006-01-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4471"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3441",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "זאב בוים",
+    "person_id": "P_KNS_464",
+    "entity_id": null,
+    "faction_name": "קדימה",
+    "government": "ממשלה 30",
+    "start": "2006-01-18",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3441",
+      "23258"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3442",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "זאב בוים",
+    "person_id": "P_KNS_464",
+    "entity_id": null,
+    "faction_name": "קדימה",
+    "government": "ממשלה 30",
+    "start": "2006-01-18",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3442",
+      "23259"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3443",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "יעקב אדרי",
+    "person_id": "P_KNS_1031",
+    "entity_id": null,
+    "faction_name": "קדימה",
+    "government": "ממשלה 30",
+    "start": "2006-01-18",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3443",
+      "21275"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3445",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך, התרבות והספורט",
+    "office_label": "משרד החינוך, התרבות והספורט",
+    "duty": "שר החינוך, התרבות והספורט",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "מאיר שטרית",
+    "person_id": "P_KNS_478",
+    "entity_id": null,
+    "faction_name": "קדימה",
+    "government": "ממשלה 30",
+    "start": "2006-01-18",
+    "end": "2006-05-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3445",
+      "23275"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21271",
+    "role": "head_of_government",
+    "acting": false,
+    "office": "prime_minister",
+    "office_label": "ראש הממשלה",
+    "duty": "ראש הממשלה",
+    "topics": [
+      "education",
+      "transport",
+      "health",
+      "personal_security",
+      "cost_of_living",
+      "housing",
+      "governance"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "קדימה",
+    "government": "ממשלה 30–31",
+    "start": "2006-04-14",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21271",
+      "21272",
+      "3497",
+      "3580"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23320",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שרת החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "יולי תמיר",
+    "person_id": "P_KNS_1043",
+    "entity_id": null,
+    "faction_name": "העבודה-מימד בראשות עמיר פרץ",
+    "government": "ממשלה 31",
+    "start": "2006-05-04",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23320",
+      "3607",
+      "3388"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3403",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "שר הרווחה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2006-05-04",
+    "end": "2007-03-21",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3403"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3566",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "רוני בר-און",
+    "person_id": "P_KNS_1038",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2006-05-04",
+    "end": "2007-07-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3566"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3602",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה והבטיחות בדרכים",
+    "office_label": "משרד התחבורה והבטיחות בדרכים",
+    "duty": "שר התחבורה",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "שאול מופז",
+    "person_id": "P_KNS_949",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2006-05-04",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3602",
+      "3390"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3609",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התעשיה, המסחר והתעסוקה",
+    "office_label": "משרד התעשיה, המסחר והתעסוקה",
+    "duty": "שר המסחר והתעשייה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אליהו ישי",
+    "person_id": "P_KNS_494",
+    "entity_id": null,
+    "faction_name": "ש\"ס-התאחדות הספרדים העולמית שומרי תורה",
+    "government": "ממשלה 31",
+    "start": "2006-05-04",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3609",
+      "3393"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4497",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "שלום שמחון",
+    "person_id": "P_KNS_461",
+    "entity_id": null,
+    "faction_name": "העבודה-מימד בראשות עמיר פרץ",
+    "government": "ממשלה 31–32",
+    "start": "2006-05-04",
+    "end": "2011-01-19",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4497",
+      "4646",
+      "3559"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4506",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "מאיר שטרית",
+    "person_id": "P_KNS_478",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2006-05-04",
+    "end": "2007-07-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4506"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4619",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אברהם הירשזון",
+    "person_id": "P_KNS_466",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2006-05-04",
+    "end": "2007-07-03",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4619"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4651",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "יעקב בן-יזרי",
+    "person_id": "P_KNS_4299",
+    "entity_id": null,
+    "faction_name": "גיל-גימלאי ישראל לכנסת",
+    "government": "ממשלה 31",
+    "start": "2006-05-04",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4651",
+      "3576"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4652",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לבטחון פנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "אבי דיכטר",
+    "person_id": "P_KNS_4395",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2006-05-04",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4652",
+      "3387"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3568",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר במשרד האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "משולם נהרי",
+    "person_id": "P_KNS_498",
+    "entity_id": null,
+    "faction_name": "ש\"ס-התאחדות הספרדים העולמית שומרי תורה",
+    "government": "ממשלה 31",
+    "start": "2006-09-27",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3568",
+      "3416"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3425",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "שר הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "יצחק הרצוג",
+    "person_id": "P_KNS_1044",
+    "entity_id": null,
+    "faction_name": "העבודה-מימד בראשות עמיר פרץ",
+    "government": "ממשלה 31–32",
+    "start": "2007-03-21",
+    "end": "2011-01-19",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3425",
+      "3413",
+      "3373"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23321",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "ממלא מקום שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אהוד אולמרט",
+    "person_id": "P_KNS_1064",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2007-04-22",
+    "end": "2007-07-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23321"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3457",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "רוני בר-און",
+    "person_id": "P_KNS_1038",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2007-07-04",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3457",
+      "3396"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3458",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "מאיר שטרית",
+    "person_id": "P_KNS_478",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2007-07-04",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3458",
+      "3389"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3459",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "זאב בוים",
+    "person_id": "P_KNS_464",
+    "entity_id": null,
+    "faction_name": "קדימה-עם אהוד אולמרט לראשות הממשלה",
+    "government": "ממשלה 31",
+    "start": "2007-07-04",
+    "end": "2009-03-31",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3459",
+      "3386"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23348",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד - אח\"י בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 32",
+    "start": "2009-03-31",
+    "end": "2013-03-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23348",
+      "23349"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3372",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התעשיה, המסחר והתעסוקה",
+    "office_label": "משרד התעשיה, המסחר והתעסוקה",
+    "duty": "שר התעשיה המסחר והתעסוקה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין בן-אליעזר",
+    "person_id": "P_KNS_435",
+    "entity_id": null,
+    "faction_name": "העבודה בראשות אהוד ברק",
+    "government": "ממשלה 32",
+    "start": "2009-03-31",
+    "end": "2011-01-19",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3372"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3429",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה, התשתיות הלאומיות והבטיחות בדרכים",
+    "office_label": "משרד התחבורה, התשתיות הלאומיות והבטיחות בדרכים",
+    "duty": "שר התחבורה, התשתיות הלאומיות והבטיחות בדרכים",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "ישראל כץ",
+    "person_id": "P_KNS_468",
+    "entity_id": null,
+    "faction_name": "הליכוד - אח\"י בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 32",
+    "start": "2009-03-31",
+    "end": "2013-03-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3429",
+      "3463",
+      "4634"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3542",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון הפנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "יצחק אהרונוביץ'",
+    "person_id": "P_KNS_4413",
+    "entity_id": null,
+    "faction_name": "ישראל ביתנו בראשות אביגדור ליברמן",
+    "government": "ממשלה 32–33",
+    "start": "2009-03-31",
+    "end": "2015-05-14",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3542",
+      "4608",
+      "3521",
+      "17077"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3543",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "אריאל אטיאס",
+    "person_id": "P_KNS_4417",
+    "entity_id": null,
+    "faction_name": "התאחדות הספרדים העולמית שומרי תורה",
+    "government": "ממשלה 32",
+    "start": "2009-03-31",
+    "end": "2013-03-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3543",
+      "4630"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3553",
+    "role": "head_of_government",
+    "acting": false,
+    "office": "prime_minister",
+    "office_label": "ראש הממשלה",
+    "duty": "ראש הממשלה",
+    "topics": [
+      "education",
+      "transport",
+      "health",
+      "personal_security",
+      "cost_of_living",
+      "housing",
+      "governance"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד - אח\"י בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 32–33–34–35",
+    "start": "2009-03-31",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3553",
+      "3586",
+      "3421",
+      "17091",
+      "17248",
+      "20323",
+      "20919",
+      "21509",
+      "21838",
+      "23705"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3556",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "גדעון סער",
+    "person_id": "P_KNS_1027",
+    "entity_id": null,
+    "faction_name": "הליכוד - אח\"י בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 32",
+    "start": "2009-03-31",
+    "end": "2013-03-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3556",
+      "4610"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3558",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "יובל שטייניץ",
+    "person_id": "P_KNS_477",
+    "entity_id": null,
+    "faction_name": "הליכוד - אח\"י בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 32",
+    "start": "2009-03-31",
+    "end": "2013-03-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3558",
+      "23345"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4600",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אליהו ישי",
+    "person_id": "P_KNS_494",
+    "entity_id": null,
+    "faction_name": "התאחדות הספרדים העולמית שומרי תורה",
+    "government": "ממשלה 32",
+    "start": "2009-03-31",
+    "end": "2013-03-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4600",
+      "4629"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23331",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "ממלא מקום שר הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "משה כחלון",
+    "person_id": "P_KNS_1034",
+    "entity_id": null,
+    "faction_name": "הליכוד - אח\"י בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 32",
+    "start": "2011-01-19",
+    "end": "2011-03-30",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23331"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3510",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התעשיה, המסחר והתעסוקה",
+    "office_label": "משרד התעשיה, המסחר והתעסוקה",
+    "duty": "שר התעשיה, המסחר והתעסוקה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "שלום שמחון",
+    "person_id": "P_KNS_461",
+    "entity_id": null,
+    "faction_name": "העצמאות",
+    "government": "ממשלה 32",
+    "start": "2011-01-19",
+    "end": "2013-03-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3510",
+      "3376"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3581",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שרת החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אורית נוקד",
+    "person_id": "P_KNS_865",
+    "entity_id": null,
+    "faction_name": "העצמאות",
+    "government": "ממשלה 32",
+    "start": "2011-01-19",
+    "end": "2013-03-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3581",
+      "3375"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23332",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "שר הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "משה כחלון",
+    "person_id": "P_KNS_1034",
+    "entity_id": null,
+    "faction_name": "הליכוד - אח\"י בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 32",
+    "start": "2011-03-30",
+    "end": "2013-03-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23332",
+      "23337"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23363",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הכלכלה",
+    "office_label": "משרד הכלכלה",
+    "duty": "שר הכלכלה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "נפתלי בנט",
+    "person_id": "P_KNS_23511",
+    "entity_id": null,
+    "faction_name": "הבית היהודי מייסודם של האיחוד הלאומי והמפד\"ל החדשה",
+    "government": "ממשלה 33",
+    "start": "2013-03-18",
+    "end": "2015-05-14",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23363",
+      "3438",
+      "17076"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23373",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה והבטיחות בדרכים",
+    "office_label": "משרד התחבורה והבטיחות בדרכים",
+    "duty": "שר התחבורה והבטיחות בדרכים",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "ישראל כץ",
+    "person_id": "P_KNS_468",
+    "entity_id": null,
+    "faction_name": "הליכוד - ישראל ביתנו",
+    "government": "ממשלה 33–34",
+    "start": "2013-03-18",
+    "end": "2019-06-23",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23373",
+      "3523",
+      "17079",
+      "17261",
+      "20326"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3527",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "יאיר שמיר",
+    "person_id": "P_KNS_23555",
+    "entity_id": null,
+    "faction_name": "הליכוד - ישראל ביתנו",
+    "government": "ממשלה 33",
+    "start": "2013-03-18",
+    "end": "2015-05-14",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3527",
+      "17081"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3529",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "גדעון סער",
+    "person_id": "P_KNS_1027",
+    "entity_id": null,
+    "faction_name": "הליכוד - ישראל ביתנו",
+    "government": "ממשלה 33",
+    "start": "2013-03-18",
+    "end": "2014-11-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3529"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3552",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "יאיר לפיד",
+    "person_id": "P_KNS_23594",
+    "entity_id": null,
+    "faction_name": "יש עתיד בראשות יאיר לפיד",
+    "government": "ממשלה 33",
+    "start": "2013-03-18",
+    "end": "2014-12-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3552"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_3622",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי",
+    "office_label": "משרד הבינוי",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "אורי אריאל",
+    "person_id": "P_KNS_713",
+    "entity_id": null,
+    "faction_name": "הבית היהודי מייסודם של האיחוד הלאומי והמפד\"ל החדשה",
+    "government": "ממשלה 33",
+    "start": "2013-03-18",
+    "end": "2015-05-14",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "3622",
+      "23362",
+      "17084"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4635",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "שי פירון",
+    "person_id": "P_KNS_23595",
+    "entity_id": null,
+    "faction_name": "יש עתיד בראשות יאיר לפיד",
+    "government": "ממשלה 33",
+    "start": "2013-03-18",
+    "end": "2014-12-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4635"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4637",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שרת הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "יעל גרמן",
+    "person_id": "P_KNS_23596",
+    "entity_id": null,
+    "faction_name": "יש עתיד בראשות יאיר לפיד",
+    "government": "ממשלה 33",
+    "start": "2013-03-18",
+    "end": "2014-12-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4637"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_4638",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "שר הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "מאיר כהן",
+    "person_id": "P_KNS_23597",
+    "entity_id": null,
+    "faction_name": "יש עתיד בראשות יאיר לפיד",
+    "government": "ממשלה 33",
+    "start": "2013-03-18",
+    "end": "2014-12-05",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "4638"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23360",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "גלעד ארדן",
+    "person_id": "P_KNS_1037",
+    "entity_id": null,
+    "faction_name": "הליכוד - תנועה לאומית ליברלית",
+    "government": "ממשלה 33",
+    "start": "2014-11-05",
+    "end": "2015-05-14",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23360",
+      "23361"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23380",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "ממלא מקום שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד - תנועה לאומית ליברלית",
+    "government": "ממשלה 33",
+    "start": "2014-12-04",
+    "end": "2015-03-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23380"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23396",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "ממלא מקום שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד - תנועה לאומית ליברלית",
+    "government": "ממשלה 33",
+    "start": "2014-12-04",
+    "end": "2015-03-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23396"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23447",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "ממלא מקום שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד - תנועה לאומית ליברלית",
+    "government": "ממשלה 33",
+    "start": "2014-12-04",
+    "end": "2015-03-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23447"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23399",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "שר הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד - תנועה לאומית ליברלית",
+    "government": "ממשלה 33",
+    "start": "2014-12-05",
+    "end": "2015-03-05",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23399"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23381",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד - תנועה לאומית ליברלית",
+    "government": "ממשלה 33–34",
+    "start": "2015-03-25",
+    "end": "2015-09-02",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23381",
+      "23382",
+      "17249"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23397",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד - תנועה לאומית ליברלית",
+    "government": "ממשלה 33",
+    "start": "2015-03-25",
+    "end": "2015-05-14",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23397",
+      "23398"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23400",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והשירותים החברתיים",
+    "office_label": "משרד הרווחה והשירותים החברתיים",
+    "duty": "שר הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד - תנועה לאומית ליברלית",
+    "government": "ממשלה 33",
+    "start": "2015-03-25",
+    "end": "2015-05-14",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23400",
+      "23401"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17254",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אורי אריאל",
+    "person_id": "P_KNS_713",
+    "entity_id": null,
+    "faction_name": "הבית היהודי בראשות נפתלי בנט",
+    "government": "ממשלה 34",
+    "start": "2015-05-14",
+    "end": "2019-11-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17254",
+      "20324",
+      "20891"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17255",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "נפתלי בנט",
+    "person_id": "P_KNS_23511",
+    "entity_id": null,
+    "faction_name": "הבית היהודי בראשות נפתלי בנט",
+    "government": "ממשלה 34",
+    "start": "2015-05-14",
+    "end": "2015-12-06",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17255"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17256",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "יואב גלנט",
+    "person_id": "P_KNS_30077",
+    "entity_id": null,
+    "faction_name": "כולנו בראשות משה כחלון",
+    "government": "ממשלה 34",
+    "start": "2015-05-14",
+    "end": "2019-01-02",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17256"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17259",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הכלכלה",
+    "office_label": "משרד הכלכלה",
+    "duty": "שר הכלכלה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אריה מכלוף דרעי",
+    "person_id": "P_KNS_2291",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 34",
+    "start": "2015-05-14",
+    "end": "2015-11-03",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17259"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17262",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "משה כחלון",
+    "person_id": "P_KNS_1034",
+    "entity_id": null,
+    "faction_name": "כולנו בראשות משה כחלון",
+    "government": "ממשלה 34",
+    "start": "2015-05-14",
+    "end": "2020-05-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17262",
+      "20327",
+      "20887",
+      "21479"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17263",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "office_label": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "duty": "שר העבודה, הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "חיים כץ",
+    "person_id": "P_KNS_556",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 34",
+    "start": "2015-05-14",
+    "end": "2019-08-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17263",
+      "20328"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17265",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון הפנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "יריב לוין",
+    "person_id": "P_KNS_12951",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 34",
+    "start": "2015-05-14",
+    "end": "2015-05-25",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17265"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17269",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "סילבן שלום",
+    "person_id": "P_KNS_479",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 34",
+    "start": "2015-05-14",
+    "end": "2015-12-27",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17269"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17290",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון הפנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "גלעד ארדן",
+    "person_id": "P_KNS_1037",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 34",
+    "start": "2015-05-25",
+    "end": "2020-05-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17290",
+      "20335",
+      "20898",
+      "21491"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_17753",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "יעקב ליצמן",
+    "person_id": "P_KNS_528",
+    "entity_id": null,
+    "faction_name": "יהדות התורה",
+    "government": "ממשלה 34",
+    "start": "2015-09-02",
+    "end": "2017-11-28",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "17753"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_18497",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הכלכלה",
+    "office_label": "משרד הכלכלה",
+    "duty": "ממלא מקום שר הכלכלה והתעשייה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 34",
+    "start": "2015-11-03",
+    "end": "2016-02-01",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "18497"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_18124",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "נפתלי בנט",
+    "person_id": "P_KNS_23511",
+    "entity_id": null,
+    "faction_name": "הבית היהודי בראשות נפתלי בנט",
+    "government": "ממשלה 34",
+    "start": "2015-12-07",
+    "end": "2019-06-04",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "18124",
+      "20344"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_18087",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 34",
+    "start": "2015-12-28",
+    "end": "2016-01-11",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "18087"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_18161",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אריה מכלוף דרעי",
+    "person_id": "P_KNS_2291",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 34–35",
+    "start": "2016-01-11",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "18161",
+      "20346",
+      "20893",
+      "21486",
+      "21851",
+      "23695"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_18498",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הכלכלה",
+    "office_label": "משרד הכלכלה",
+    "duty": "שר הכלכלה והתעשייה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 34",
+    "start": "2016-02-01",
+    "end": "2016-08-01",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "18498"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_18547",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הכלכלה",
+    "office_label": "משרד הכלכלה",
+    "duty": "שר הכלכלה והתעשייה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "משה כחלון",
+    "person_id": "P_KNS_1034",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 34",
+    "start": "2016-08-01",
+    "end": "2017-01-23",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "18547"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_19006",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הכלכלה",
+    "office_label": "משרד הכלכלה",
+    "duty": "שר הכלכלה והתעשייה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אלי כהן",
+    "person_id": "P_KNS_30083",
+    "entity_id": null,
+    "faction_name": "כולנו בראשות משה כחלון",
+    "government": "ממשלה 34",
+    "start": "2017-01-23",
+    "end": "2020-05-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "19006",
+      "20352",
+      "20901",
+      "21493"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_19521",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "ממלא מקום שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 34",
+    "start": "2017-11-28",
+    "end": "2018-02-05",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "19521"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_19624",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 34",
+    "start": "2018-02-05",
+    "end": "2019-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "19624",
+      "20357",
+      "20896"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_20154",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "ממלא מקום שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "משה כחלון",
+    "person_id": "P_KNS_1034",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 34",
+    "start": "2019-01-02",
+    "end": "2019-01-09",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "20154"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_20151",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שרת הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "יפעת שאשא ביטון",
+    "person_id": "P_KNS_30082",
+    "entity_id": null,
+    "faction_name": "כולנו בראשות משה כחלון",
+    "government": "ממשלה 34",
+    "start": "2019-01-09",
+    "end": "2020-05-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "20151",
+      "20362",
+      "20920",
+      "21511"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21260",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד החינוך והתרבות",
+    "office_label": "משרד החינוך והתרבות",
+    "duty": "ממלא מקום שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 21",
+    "start": "2019-06-04",
+    "end": "2019-06-23",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21260"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_20657",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "רפי פרץ",
+    "person_id": "P_KNS_30716",
+    "entity_id": null,
+    "faction_name": "הבית היהודי - האיחוד הלאומי",
+    "government": "ממשלה 34",
+    "start": "2019-06-23",
+    "end": "2020-05-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "20657",
+      "20890",
+      "21482"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_20659",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה והבטיחות בדרכים",
+    "office_label": "משרד התחבורה והבטיחות בדרכים",
+    "duty": "שר התחבורה והבטיחות בדרכים",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "בצלאל סמוטריץ'",
+    "person_id": "P_KNS_30055",
+    "entity_id": null,
+    "faction_name": "הבית היהודי - האיחוד הלאומי",
+    "government": "ממשלה 34",
+    "start": "2019-06-23",
+    "end": "2020-05-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "20659",
+      "20909",
+      "21501"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21205",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "office_label": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "duty": "ממלא מקום שר העבודה, הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 34",
+    "start": "2019-08-15",
+    "end": "2019-11-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21205"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21224",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "ממלא מקום שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 34",
+    "start": "2019-11-15",
+    "end": "2020-01-20",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21224"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21225",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "office_label": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "duty": "שר העבודה, הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 34",
+    "start": "2019-11-18",
+    "end": "2020-01-26",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21225",
+      "21338"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21258",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "יעקב ליצמן",
+    "person_id": "P_KNS_528",
+    "entity_id": null,
+    "faction_name": "יהדות התורה והשבת אגודת ישראל - דגל התורה",
+    "government": "ממשלה 34",
+    "start": "2019-12-29",
+    "end": "2020-05-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21258",
+      "21489"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21310",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "צחי הנגבי",
+    "person_id": "P_KNS_467",
+    "entity_id": null,
+    "faction_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 34",
+    "start": "2020-01-20",
+    "end": "2020-05-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21310",
+      "21483"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21312",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "office_label": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "duty": "שר העבודה, הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אופיר אקוניס",
+    "person_id": "P_KNS_12937",
+    "entity_id": null,
+    "faction_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+    "government": "ממשלה 34",
+    "start": "2020-01-26",
+    "end": "2020-05-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21312",
+      "21485"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21842",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "יולי יואל אדלשטיין",
+    "person_id": "P_KNS_532",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 35",
+    "start": "2020-05-17",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21842",
+      "23699"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21843",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון הפנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "אמיר אוחנה",
+    "person_id": "P_KNS_30300",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 35",
+    "start": "2020-05-17",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21843",
+      "23702"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21849",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "יואב גלנט",
+    "person_id": "P_KNS_30077",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 35",
+    "start": "2020-05-17",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21849",
+      "23689"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21855",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "ישראל כץ",
+    "person_id": "P_KNS_468",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 35",
+    "start": "2020-05-17",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21855",
+      "23683"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21856",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "יעקב ליצמן",
+    "person_id": "P_KNS_528",
+    "entity_id": null,
+    "faction_name": "יהדות התורה והשבת אגודת ישראל - דגל התורה",
+    "government": "ממשלה 35",
+    "start": "2020-05-17",
+    "end": "2020-09-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21856"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21859",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה והבטיחות בדרכים",
+    "office_label": "משרד התחבורה והבטיחות בדרכים",
+    "duty": "שרת התחבורה והבטיחות בדרכים",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "מירי מרים רגב",
+    "person_id": "P_KNS_12959",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 35",
+    "start": "2020-05-17",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21859",
+      "23715"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21871",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הכלכלה והתעשייה",
+    "office_label": "משרד הכלכלה והתעשייה",
+    "duty": "שר הכלכלה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "עמיר פרץ",
+    "person_id": "P_KNS_557",
+    "entity_id": null,
+    "faction_name": "העבודה הישראלית",
+    "government": "ממשלה 35",
+    "start": "2020-05-17",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21871",
+      "23707"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21873",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אלון שוסטר",
+    "person_id": "P_KNS_30694",
+    "entity_id": null,
+    "faction_name": "כחול לבן",
+    "government": "ממשלה 35",
+    "start": "2020-05-17",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21873",
+      "23691"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_21875",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "office_label": "משרד העבודה, הרווחה והשירותים החברתיים",
+    "duty": "שר העבודה, הרווחה והשירותים החברתיים",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "איציק שמולי",
+    "person_id": "P_KNS_23568",
+    "entity_id": null,
+    "faction_name": "העבודה הישראלית",
+    "government": "ממשלה 35",
+    "start": "2020-05-17",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "21875",
+      "23693"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_22958",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 35",
+    "start": "2020-09-15",
+    "end": "2020-10-14",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "22958"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23040",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "יצחק כהן",
+    "person_id": "P_KNS_580",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 35",
+    "start": "2020-10-14",
+    "end": "2020-11-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23040"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23041",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר במשרד האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "יצחק כהן",
+    "person_id": "P_KNS_580",
+    "entity_id": null,
+    "faction_name": "ש\"ס",
+    "government": "ממשלה 35",
+    "start": "2020-10-14",
+    "end": "2020-11-19",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23041"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23312",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": null,
+    "faction_name": "הליכוד",
+    "government": "ממשלה 35",
+    "start": "2020-11-15",
+    "end": "2020-11-18",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23312"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_23309",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "יעקב ליצמן",
+    "person_id": "P_KNS_528",
+    "entity_id": null,
+    "faction_name": "יהדות התורה והשבת אגודת ישראל - דגל התורה",
+    "government": "ממשלה 35",
+    "start": "2020-11-18",
+    "end": "2021-06-13",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "23309",
+      "23687"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24071",
+    "role": "head_of_government",
+    "acting": false,
+    "office": "prime_minister",
+    "office_label": "ראש הממשלה",
+    "duty": "ראש הממשלה",
+    "topics": [
+      "education",
+      "transport",
+      "health",
+      "personal_security",
+      "cost_of_living",
+      "housing",
+      "governance"
+    ],
+    "holder_name": "נפתלי בנט",
+    "person_id": "P_KNS_23511",
+    "entity_id": null,
+    "faction_name": "ימינה בראשות נפתלי בנט",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-07-01",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24071"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24076",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שרת הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אילת שקד",
+    "person_id": "P_KNS_23512",
+    "entity_id": null,
+    "faction_name": "ימינה בראשות נפתלי בנט",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24076",
+      "30336"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24079",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "זאב אלקין",
+    "person_id": "P_KNS_4397",
+    "entity_id": null,
+    "faction_name": "תקווה חדשה",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24079",
+      "30308"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24083",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שרת החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "יפעת שאשא ביטון",
+    "person_id": "P_KNS_30082",
+    "entity_id": null,
+    "faction_name": "תקווה חדשה",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24083",
+      "30335"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24085",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אביגדור ליברמן",
+    "person_id": "P_KNS_427",
+    "entity_id": null,
+    "faction_name": "ישראל ביתנו",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24085",
+      "30305"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24087",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הכלכלה והתעשייה",
+    "office_label": "משרד הכלכלה והתעשייה",
+    "duty": "שרת הכלכלה והתעשייה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אורנה ברביבאי",
+    "person_id": "P_KNS_30681",
+    "entity_id": null,
+    "faction_name": "יש עתיד",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24087",
+      "30338"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24092",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר במשרד האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "חמד עמאר",
+    "person_id": "P_KNS_12938",
+    "entity_id": null,
+    "faction_name": "ישראל ביתנו",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24092",
+      "30306"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24096",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והביטחון החברתי",
+    "office_label": "משרד הרווחה והביטחון החברתי",
+    "duty": "שר הרווחה והביטחון החברתי",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "מאיר כהן",
+    "person_id": "P_KNS_23597",
+    "entity_id": null,
+    "faction_name": "יש עתיד",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24096",
+      "30312"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24097",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה והבטיחות בדרכים",
+    "office_label": "משרד התחבורה והבטיחות בדרכים",
+    "duty": "שרת התחבורה והבטיחות בדרכים",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "מרב מיכאלי",
+    "person_id": "P_KNS_23565",
+    "entity_id": null,
+    "faction_name": "העבודה",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24097",
+      "30340"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24099",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "ניצן הורוביץ",
+    "person_id": "P_KNS_12947",
+    "entity_id": null,
+    "faction_name": "מרצ",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24099",
+      "30315"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24100",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות ופיתוח הכפר",
+    "office_label": "משרד החקלאות ופיתוח הכפר",
+    "duty": "שר החקלאות ופיתוח הכפר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "עודד פורר",
+    "person_id": "P_KNS_30121",
+    "entity_id": null,
+    "faction_name": "ישראל ביתנו",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24100",
+      "30310"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_24103",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון הפנים",
+    "office_label": "המשרד לביטחון הפנים",
+    "duty": "השר לביטחון הפנים",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "עמר בר לב",
+    "person_id": "P_KNS_23673",
+    "entity_id": null,
+    "faction_name": "העבודה",
+    "government": "ממשלה 36",
+    "start": "2021-06-13",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "24103",
+      "30316"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30115",
+    "role": "head_of_government",
+    "acting": false,
+    "office": "prime_minister",
+    "office_label": "ראש הממשלה",
+    "duty": "ראש הממשלה",
+    "topics": [
+      "education",
+      "transport",
+      "health",
+      "personal_security",
+      "cost_of_living",
+      "housing",
+      "governance"
+    ],
+    "holder_name": "יאיר לפיד",
+    "person_id": "P_KNS_23594",
+    "entity_id": null,
+    "faction_name": "יש עתיד",
+    "government": "ממשלה 36",
+    "start": "2022-07-01",
+    "end": "2022-12-29",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30115",
+      "30333"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30679",
+    "role": "head_of_government",
+    "acting": false,
+    "office": "prime_minister",
+    "office_label": "ראש הממשלה",
+    "duty": "ראש הממשלה",
+    "topics": [
+      "education",
+      "transport",
+      "health",
+      "personal_security",
+      "cost_of_living",
+      "housing",
+      "governance"
+    ],
+    "holder_name": "בנימין נתניהו",
+    "person_id": "P_KNS_965",
+    "entity_id": "faction_likud",
+    "faction_name": "הליכוד",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30679"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30682",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "יצחק גולדקנופ",
+    "person_id": "P_KNS_30846",
+    "entity_id": "faction_utj",
+    "faction_name": "יהדות התורה",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": "2025-06-15",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30682"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30686",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החקלאות וביטחון המזון",
+    "office_label": "משרד החקלאות וביטחון המזון",
+    "duty": "שר החקלאות וביטחון המזון",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "אבי דיכטר",
+    "person_id": "P_KNS_4395",
+    "entity_id": "faction_likud",
+    "faction_name": "הליכוד",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30686"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30687",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר בלי תיק במשרד החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "חיים ביטון",
+    "person_id": "P_KNS_30804",
+    "entity_id": "faction_shas",
+    "faction_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": "2025-07-20",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30687"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30689",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "אריה מכלוף דרעי",
+    "person_id": "P_KNS_2291",
+    "entity_id": "faction_shas",
+    "faction_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": "2023-01-24",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30689"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30690",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "אריה מכלוף דרעי",
+    "person_id": "P_KNS_2291",
+    "entity_id": "faction_shas",
+    "faction_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": "2023-01-24",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30690"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30691",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון לאומי",
+    "office_label": "המשרד לביטחון לאומי",
+    "duty": "השר לביטחון לאומי",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "איתמר בן גביר",
+    "person_id": "P_KNS_30811",
+    "entity_id": "faction_otzma",
+    "faction_name": "עוצמה יהודית בראשות איתמר בן גביר",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": "2025-01-21",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30691"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30705",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "בצלאל סמוטריץ'",
+    "person_id": "P_KNS_30055",
+    "entity_id": "faction_rz",
+    "faction_name": "הציונות הדתית בראשות בצלאל סמוטריץ'",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30705"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30706",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד החינוך",
+    "office_label": "משרד החינוך",
+    "duty": "שר החינוך",
+    "topics": [
+      "education"
+    ],
+    "holder_name": "יואב קיש",
+    "person_id": "P_KNS_30057",
+    "entity_id": "faction_likud",
+    "faction_name": "הליכוד",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30706"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30709",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד התחבורה והבטיחות בדרכים",
+    "office_label": "משרד התחבורה והבטיחות בדרכים",
+    "duty": "שרת התחבורה והבטיחות בדרכים",
+    "topics": [
+      "transport"
+    ],
+    "holder_name": "מירי מרים רגב",
+    "person_id": "P_KNS_12959",
+    "entity_id": "faction_likud",
+    "faction_name": "הליכוד",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30709"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_30717",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הכלכלה והתעשייה",
+    "office_label": "משרד הכלכלה והתעשייה",
+    "duty": "שר הכלכלה והתעשייה",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "ניר ברקת",
+    "person_id": "P_KNS_30700",
+    "entity_id": "faction_likud",
+    "faction_name": "הליכוד",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "30717"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_31010",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והביטחון החברתי",
+    "office_label": "משרד הרווחה והביטחון החברתי",
+    "duty": "שר הרווחה והביטחון החברתי",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "יעקב מרגי",
+    "person_id": "P_KNS_1056",
+    "entity_id": "faction_shas",
+    "faction_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": "2025-07-20",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "31010"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_31011",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והביטחון החברתי",
+    "office_label": "משרד הרווחה והביטחון החברתי",
+    "duty": "שר במשרד העבודה והביטחון החברתי",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "יואב בן צור",
+    "person_id": "P_KNS_28513",
+    "entity_id": "faction_shas",
+    "faction_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "government": "ממשלה 37",
+    "start": "2022-12-29",
+    "end": "2023-01-30",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "31011"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_31013",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "ממלא מקום שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "יואב בן צור",
+    "person_id": "P_KNS_28513",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 37",
+    "start": "2023-01-24",
+    "end": "2023-04-19",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "31013"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_31014",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "ממלא מקום שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "מיכאל מלכיאלי",
+    "person_id": "P_KNS_30470",
+    "entity_id": "faction_shas",
+    "faction_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "government": "ממשלה 37",
+    "start": "2023-01-24",
+    "end": "2023-04-19",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "31014"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_31464",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "משה ארבל",
+    "person_id": "P_KNS_30660",
+    "entity_id": "faction_shas",
+    "faction_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "government": "ממשלה 37",
+    "start": "2023-04-19",
+    "end": "2025-07-22",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "31464"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_31465",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר משרד הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "משה ארבל",
+    "person_id": "P_KNS_30660",
+    "entity_id": "faction_shas",
+    "faction_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "government": "ממשלה 37",
+    "start": "2023-04-19",
+    "end": "2023-10-12",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "31465"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_31712",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "אוריאל בוסו",
+    "person_id": "P_KNS_30765",
+    "entity_id": "faction_shas",
+    "faction_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+    "government": "ממשלה 37",
+    "start": "2023-10-12",
+    "end": "2025-07-20",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "31712"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_32039",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד האוצר",
+    "office_label": "משרד האוצר",
+    "duty": "שר נוסף במשרד האוצר",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "זאב אלקין",
+    "person_id": "P_KNS_4397",
+    "entity_id": "faction_new_hope",
+    "faction_name": "הימין הממלכתי",
+    "government": "ממשלה 37",
+    "start": "2024-11-08",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "32039"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_32122",
+    "role": "minister",
+    "acting": true,
+    "office": "המשרד לביטחון לאומי",
+    "office_label": "המשרד לביטחון לאומי",
+    "duty": "ממלא מקום השר לביטחון לאומי",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "חיים כץ",
+    "person_id": "P_KNS_556",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 37",
+    "start": "2025-01-27",
+    "end": "2025-03-19",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "32122"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_32164",
+    "role": "minister",
+    "acting": false,
+    "office": "המשרד לביטחון לאומי",
+    "office_label": "המשרד לביטחון לאומי",
+    "duty": "השר לביטחון לאומי",
+    "topics": [
+      "personal_security"
+    ],
+    "holder_name": "איתמר בן גביר",
+    "person_id": "P_KNS_30811",
+    "entity_id": "faction_otzma",
+    "faction_name": "עוצמה יהודית בראשות איתמר בן גביר",
+    "government": "ממשלה 37",
+    "start": "2025-03-19",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "32164"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_32262",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "ממלא מקום שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "חיים כץ",
+    "person_id": "P_KNS_556",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 37",
+    "start": "2025-06-15",
+    "end": "2025-09-17",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "32262"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_32366",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "ממלא מקום שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "חיים כץ",
+    "person_id": "P_KNS_556",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 37",
+    "start": "2025-07-29",
+    "end": "2025-11-24",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "32366"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_32367",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הרווחה והביטחון החברתי",
+    "office_label": "משרד הרווחה והביטחון החברתי",
+    "duty": "ממלא מקום שר הרווחה והביטחון החברתי",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "חיים כץ",
+    "person_id": "P_KNS_556",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 37",
+    "start": "2025-07-29",
+    "end": "2025-11-24",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "32367"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_32368",
+    "role": "minister",
+    "acting": true,
+    "office": "משרד הפנים",
+    "office_label": "משרד הפנים",
+    "duty": "ממלא מקום שר הפנים",
+    "topics": [
+      "governance"
+    ],
+    "holder_name": "יריב לוין",
+    "person_id": "P_KNS_12951",
+    "entity_id": "faction_likud",
+    "faction_name": "הליכוד",
+    "government": "ממשלה 37",
+    "start": "2025-07-29",
+    "end": "2025-12-24",
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "32368"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_32408",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבינוי והשיכון",
+    "office_label": "משרד הבינוי והשיכון",
+    "duty": "שר הבינוי והשיכון",
+    "topics": [
+      "housing"
+    ],
+    "holder_name": "חיים כץ",
+    "person_id": "P_KNS_556",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 37",
+    "start": "2025-09-17",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "32408"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_33453",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הבריאות",
+    "office_label": "משרד הבריאות",
+    "duty": "שר הבריאות",
+    "topics": [
+      "health"
+    ],
+    "holder_name": "חיים כץ",
+    "person_id": "P_KNS_556",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 37",
+    "start": "2025-11-24",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "33453"
+    ]
+  },
+  {
+    "authority_id": "AU_KNS_33454",
+    "role": "minister",
+    "acting": false,
+    "office": "משרד הרווחה והביטחון החברתי",
+    "office_label": "משרד הרווחה והביטחון החברתי",
+    "duty": "שר הרווחה והביטחון החברתי",
+    "topics": [
+      "cost_of_living"
+    ],
+    "holder_name": "חיים כץ",
+    "person_id": "P_KNS_556",
+    "entity_id": null,
+    "faction_name": null,
+    "government": "ממשלה 37",
+    "start": "2025-11-24",
+    "end": null,
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "source_record_ids": [
+      "33454"
+    ]
+  }
+]

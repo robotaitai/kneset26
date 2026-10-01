@@ -40,7 +40,7 @@ const monthEnd = (d) => (d ? (d.length === 4 ? d + "-12" : d.slice(0, 7)) : null
 export function authoritiesFor(authorities, topic, start, end) {
   return authorities
     .filter((a) => (a.topics || []).includes(topic) && overlaps(monthStart(a.start), monthEnd(a.end), start, end))
-    .sort((a, b) => String(a.start).localeCompare(String(b.start)));
+    .sort((a, b) => String(b.start).localeCompare(String(a.start)) || (a.role === "head_of_government") - (b.role === "head_of_government"));
 }
 
 export function buildComparison(d, { mode = "now", partyIds = [], topicIds = [] } = {}) {

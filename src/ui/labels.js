@@ -171,7 +171,7 @@ export const EVIDENCE_STATUS = {
 };
 
 export const AUTHORITY_ROLES = {
-  government: "ממשלה",
+  head_of_government: "ראש הממשלה",
   minister: "שר/ה",
   deputy_minister: "סגן/ית שר",
   committee_chair: "יו״ר ועדה",

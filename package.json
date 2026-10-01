@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node scripts/serve.mjs",
+    "data:import-knesset": "node scripts/import-knesset.mjs --refresh",
     "data:build": "node scripts/build-data.mjs",
     "data:validate": "node scripts/validate-data.mjs",
     "test": "node --test tests/*.test.mjs"

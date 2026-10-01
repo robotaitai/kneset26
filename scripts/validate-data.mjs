@@ -152,7 +152,7 @@ for (const s of data.sources) {
 }
 const cited = new Set(
   ["parties", "people", "commitments", "actions", "metrics", "authorities"].flatMap((n) => data[n].map((r) => r.source_id))
-    .concat(["commitment_action_links", "attributions"].flatMap((n) => data[n].flatMap((r) => r.source_ids || []))),
+    .concat(["commitment_action_links", "attributions", "people"].flatMap((n) => data[n].flatMap((r) => r.source_ids || []))),
 );
 for (const s of data.sources) if (!cited.has(s.source_id)) warn(`sources/${s.source_id}`, "not cited by any record");
 

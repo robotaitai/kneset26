@@ -1,0 +1,46 @@
+{
+  "_doc": "How Knesset OData tables (KNS_Person, KNS_PersonToPosition, KNS_Faction) become data/authorities.json and data/people.json. Ministry -> topic mapping says which comparison topics a ministry has formal authority over. It does not claim the holder caused any change.",
+  "mirror_base": "https://storage.googleapis.com/knesset-data-pipelines/data",
+  "tables": {
+    "persons": "members/kns_person/kns_person.csv",
+    "positions": "members/kns_persontoposition/kns_persontoposition.csv",
+    "factions": "knesset/kns_faction/kns_faction.csv"
+  },
+  "authority_since": "1999-01-01",
+  "people_knesset": "25",
+  "position_roles": {
+    "45": "head_of_government",
+    "39": "minister",
+    "57": "minister"
+  },
+  "faction_member_positions": ["54"],
+  "factions_k25": {
+    "1095": "faction_shas",
+    "1096": "faction_likud",
+    "1099": "faction_raam",
+    "1100": "faction_labor",
+    "1101": "faction_utj",
+    "1102": "faction_yesh_atid",
+    "1103": "faction_hadash_taal",
+    "1104": "faction_yisrael_beiteinu",
+    "1105": "faction_rz",
+    "1106": "faction_otzma",
+    "1107": "faction_noam",
+    "1108": "faction_new_hope",
+    "1110": "faction_blue_white"
+  },
+  "_factions_unmapped": "1097 (joint Religious Zionism list, 15-20/11/2022, before it split into three factions), 1098 (National Unity, 2022-2025, before Blue and White and New Hope separated), 1109 (single MK) are kept by Knesset name only.",
+  "ministry_topics": [
+    { "match": ["משרד החינוך", "משרד החינוך והתרבות", "משרד החינוך, התרבות והספורט"], "topics": ["education"] },
+    { "match": ["משרד הבריאות"], "topics": ["health"] },
+    { "match": ["משרד התחבורה", "משרד התחבורה והבטיחות בדרכים", "משרד התחבורה, התשתיות הלאומיות והבטיחות בדרכים"], "topics": ["transport"] },
+    { "match": ["המשרד לביטחון הפנים", "המשרד לביטחון לאומי"], "topics": ["personal_security"] },
+    { "match": ["משרד הבינוי והשיכון", "משרד הבינוי"], "topics": ["housing"] },
+    { "match": ["משרד האוצר"], "topics": ["cost_of_living"] },
+    { "match": ["משרד הכלכלה", "משרד הכלכלה והתעשייה", "משרד התעשייה והמסחר", "משרד התעשיה, המסחר והתעסוקה"], "topics": ["cost_of_living"] },
+    { "match": ["משרד החקלאות ופיתוח הכפר", "משרד החקלאות וביטחון המזון"], "topics": ["cost_of_living"] },
+    { "match": ["משרד העבודה והרווחה", "משרד הרווחה והשירותים החברתיים", "משרד העבודה, הרווחה והשירותים החברתיים", "משרד הרווחה והביטחון החברתי"], "topics": ["cost_of_living"] },
+    { "match": ["משרד הפנים"], "topics": ["governance"] }
+  ],
+  "head_of_government_topics": ["education", "transport", "health", "personal_security", "cost_of_living", "housing", "governance"]
+}

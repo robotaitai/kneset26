@@ -3,8 +3,9 @@
 // Usage: node scripts/build-data.mjs [path/to/election_audit_seed.json]
 //
 // Seed-derived files are overwritten on every run. Curated files
-// (people, commitment_action_links, attributions, authorities) are never
-// overwritten; they are created empty if missing.
+// (commitment_action_links, attributions) are never overwritten; they are
+// created empty if missing. people and authorities are generated from
+// seed/knesset/snapshot.json when it exists, and curated otherwise.
 //
 // Config-derived files (subtopics, kpis) come from config/*.json, and each
 // commitment/action gets the comparison rows it belongs to from
@@ -15,6 +16,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { resolve, dirname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
+import { deriveKnesset } from "./knesset.mjs";
 import { TOPICS, SUBTOPICS, ACTION_STAGE_BY_STATUS, parsePeriod, datePrecision, readConfig } from "./schema.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -56,6 +58,20 @@ const checkTopic = (rec, idField) => {
 // Entities and sources pass through unchanged.
 const parties = seed.parties.map((p) => ({ ...p }));
 const sources = seed.sources.map((s) => ({ ...s }));
+
+// Official Knesset records (ministers, MKs, factions), imported by
+// scripts/import-knesset.mjs. Without a snapshot, authorities and people
+// stay as curated files.
+const KNESSET_SNAPSHOT = resolve(ROOT, "seed/knesset/snapshot.json");
+const knesset = existsSync(KNESSET_SNAPSHOT)
+  ? deriveKnesset(JSON.parse(readFileSync(KNESSET_SNAPSHOT, "utf8")), readConfig("knesset_import"))
+  : null;
+if (knesset) {
+  for (const s of knesset.sources) {
+    if (sources.some((x) => x.source_id === s.source_id)) fail(`source ${s.source_id} defined twice`);
+    sources.push(s);
+  }
+}
 
 const commitments = seed.commitments.map((c) => {
   checkTopic(c, "commitment_id");
@@ -162,7 +178,7 @@ if (errors.length) done();
 mkdirSync(OUT, { recursive: true });
 const counts = {
   parties: parties.length,
-  people: 0,
+  people: knesset ? knesset.people.length : 0,
   commitments: commitments.length,
   actions: actions.length,
   metric_series: metricSeries.length,
@@ -182,7 +198,12 @@ write("actions", actions);
 write("metric_series", metricSeries);
 write("metrics", metrics);
 write("sources", sources);
+if (knesset) {
+  write("people", knesset.people);
+  write("authorities", knesset.authorities);
+}
 for (const curated of ["people", "commitment_action_links", "attributions", "authorities"]) {
+  if (knesset && (curated === "people" || curated === "authorities")) { counts[curated] = knesset[curated].length; continue; }
   const p = resolve(OUT, curated + ".json");
   if (!existsSync(p)) write(curated, []);
   counts[curated] = JSON.parse(readFileSync(p, "utf8")).length;

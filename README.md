@@ -23,6 +23,7 @@ Opens a static server at http://localhost:8126. The site is plain HTML/CSS/ES mo
 | Command | What it does |
 | --- | --- |
 | `npm start` | Local static server (`scripts/serve.mjs`) |
+| `npm run data:import-knesset` | Refresh official Knesset records into `seed/knesset/` |
 | `npm run data:build` | Seed JSON -> normalized `data/*.json` |
 | `npm run data:validate` | Validates `data/`, exits non-zero on errors |
 | `npm test` | Tests for the data-access layer and comparison logic |
@@ -73,26 +74,44 @@ To add a row: add it to `config/taxonomy.json`. To move a record: edit `config/c
 
 ### Authority during a period
 
-`data/authorities.json` is curated and currently empty, so the table shows `לא נמצא מידע מתועד` in that column. Record shape:
+`data/authorities.json` is generated from official Knesset records (see section 2a): every prime minister and every minister of a ministry mapped to a comparison topic since 1999 (233 terms), with the holder's Knesset faction on the first day of the term. Record shape:
 
 ```json
 {
-  "authority_id": "AU_G37_HEALTH_01",
-  "role": "minister",
-  "office": "ministry_of_health",
+  "authority_id": "AU_KNS_<first PersonToPositionID>",
+  "role": "minister | head_of_government",
+  "acting": false,
+  "office": "משרד הבריאות",
   "office_label": "משרד הבריאות",
+  "duty": "שר הבריאות",
   "topics": ["health"],
   "holder_name": "...",
-  "person_id": null,
-  "entity_id": "faction_...",
-  "government": "Government 37",
-  "start": "2023-01-01",
+  "person_id": "P_KNS_<PersonID>",
+  "entity_id": "faction_... | null",
+  "faction_name": "faction name as recorded by the Knesset",
+  "government": "ממשלה 37",
+  "start": "2023-10-12",
   "end": null,
-  "source_id": "SRC_..."
+  "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+  "source_record_ids": ["<PersonToPositionID>", "..."]
 }
 ```
 
 Each KPI row lists the authorities whose topic matches and whose term overlaps the KPI's observation period, with the fixed note `לא ניתן לקבוע קשר סיבתי מהנתון לבדו` unless an attribution record exists.
+
+## 2a. Official Knesset records (ministers, MKs, factions)
+
+```bash
+node scripts/import-knesset.mjs [--refresh]   # downloads + selects rows -> seed/knesset/snapshot.json
+npm run data:build                             # derives data/authorities.json and data/people.json
+```
+
+- Source: the Knesset OData service (`KNS_Person`, `KNS_PersonToPosition`, `KNS_Faction`), read from the public CSV mirror maintained by Hasadna (`storage.googleapis.com/knesset-data-pipelines`). The snapshot records each file's URL, sha256 and row count; values are copied unchanged.
+- `config/knesset_import.json` holds the rules: which positions count (prime minister, minister), the cutoff (terms active since 1999, so they cover the oldest KPI periods), Knesset-25 faction ID -> `entity_id`, and ministry -> comparison topic (e.g. משרד הבריאות -> health, המשרד לביטחון לאומי / לביטחון הפנים -> personal security, משרד האוצר / הכלכלה / החקלאות / הרווחה -> cost of living).
+- The Knesset splits a term into rows at each Knesset/government transition. The build merges rows only when one ends on the day the next starts.
+- Party = the holder's faction membership on the term's first day. When the Knesset has no membership for that day (e.g. a minister who was not an MK at the time), it stays empty.
+- `data/people.json`: all members of the 25th Knesset (152 including replacements) plus every authority holder, with full faction-membership history.
+- Factions not mapped to a current party (the joint Religious Zionism list of Nov 2022, National Unity 2022-2025) are shown by their Knesset name only.
 
 ## 3. Where the data lives
 
@@ -106,9 +125,9 @@ data/                         normalized files the site reads (committed)
   subtopics.json              comparison rows (from config/taxonomy.json)
   kpis.json                   KPI definitions (from config/kpis.json)
   compare.json                comparison defaults (from config/compare.json)
-  authorities.json            who held authority over a topic, when (curated, empty)
+  authorities.json            who held authority over a topic, when (from seed/knesset)
   parties.json                parties / factions / lists
-  people.json                 politicians (curated, empty for now)
+  people.json                 MKs of the 25th Knesset + authority holders (from seed/knesset)
   commitments.json            what parties say they will do
   actions.json                documented government / budget / work-plan acts
   metric_series.json          what is measured (name, unit, population, sources)
@@ -129,7 +148,7 @@ scripts/
   schema.mjs                  shared vocabulary, enums and collection schemas
 ```
 
-`data:build` overwrites the seed-derived files. It never overwrites the curated files (`people`, `commitment_action_links`, `attributions`, `authorities`); it only creates them empty when missing. Every seed field is carried through: the build fails if a field is dropped or changed.
+`data:build` overwrites the seed-derived files (and `people`/`authorities` when `seed/knesset/snapshot.json` exists). It never overwrites the curated files (`commitment_action_links`, `attributions`); it only creates them empty when missing. Every seed field is carried through: the build fails if a field is dropped or changed.
 
 Records reference each other by stable ID (`entity_id`, `commitment_id`, `action_id`, `series_id`, `metric_id`, `source_id`). Source metadata lives only in `sources.json`.
 

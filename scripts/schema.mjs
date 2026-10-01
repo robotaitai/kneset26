@@ -13,7 +13,7 @@ export const TOPICS = TAXONOMY.topics.map((t) => ({ id: t.id, label: t.label, la
 export const SUBTOPICS = TAXONOMY.topics.flatMap((t) =>
   t.subtopics.map((s, i) => ({ subtopic_id: s.id, topic: t.id, label: s.label, label_en: s.label_en, order: i, core: s.core !== false })));
 
-export const AUTHORITY_ROLES = ["government", "minister", "deputy_minister", "committee_chair"];
+export const AUTHORITY_ROLES = ["head_of_government", "minister", "deputy_minister", "committee_chair"];
 
 // Normalized action stages, in pipeline order. Raw seed `status` is kept
 // verbatim; `stage` is derived from it via the explicit map below.
@@ -75,7 +75,7 @@ export const COLLECTIONS = {
   people: {
     id: "person_id",
     required: ["person_id", "name", "source_id"],
-    refs: { source_id: "sources", entity_ids: "parties" },
+    refs: { source_id: "sources", source_ids: "sources", entity_ids: "parties" },
   },
   commitments: {
     id: "commitment_id",
