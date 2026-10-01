@@ -11,6 +11,9 @@
     "source_id": "SRC_GOV_DEC_1936",
     "attribution_strength": "direct_to_budget_decision",
     "outcome_link": "not_inferred",
+    "subtopic_ids": [
+      "edu_general"
+    ],
     "date_precision": "day",
     "stage": "approved",
     "implementation_verified": false,
@@ -28,6 +31,9 @@
     "source_id": "SRC_GOV_DEC_4294",
     "attribution_strength": "direct_to_planning_decision",
     "outcome_link": "not_inferred",
+    "subtopic_ids": [
+      "ho_planning"
+    ],
     "date_precision": "day",
     "stage": "approved",
     "implementation_verified": false,
@@ -45,6 +51,9 @@
     "source_id": "SRC_GOV_DEC_3229",
     "attribution_strength": "direct_to_government_position",
     "outcome_link": "legislative_completion_not_verified_here",
+    "subtopic_ids": [
+      "ho_planning"
+    ],
     "date_precision": "day",
     "stage": "proposed",
     "implementation_verified": false,
@@ -62,6 +71,9 @@
     "source_id": "SRC_GOV_HOUSING_PLAN_2025",
     "attribution_strength": "direct_to_ministry_plan",
     "outcome_link": "actual_achievement_not_verified_here",
+    "subtopic_ids": [
+      "ho_long_term_rental"
+    ],
     "date_precision": "year",
     "stage": "target",
     "implementation_verified": false,
@@ -79,6 +91,9 @@
     "source_id": "SRC_GOV_HOUSING_PLAN_2025",
     "attribution_strength": "direct_to_ministry_plan",
     "outcome_link": "actual_achievement_not_verified_here",
+    "subtopic_ids": [
+      "ho_long_term_rental"
+    ],
     "date_precision": "year",
     "stage": "target",
     "implementation_verified": false,
@@ -96,6 +111,9 @@
     "source_id": "SRC_GOV_HOUSING_PLAN_2025",
     "attribution_strength": "direct_to_ministry_plan",
     "outcome_link": "actual_achievement_not_verified_here",
+    "subtopic_ids": [
+      "ho_long_term_rental"
+    ],
     "date_precision": "year",
     "stage": "target",
     "implementation_verified": false,
@@ -113,6 +131,9 @@
     "source_id": "SRC_BUDGET_2025",
     "attribution_strength": "direct_to_budget",
     "outcome_link": "not_inferred",
+    "subtopic_ids": [
+      "ho_rent"
+    ],
     "date_precision": "year",
     "stage": "budgeted",
     "implementation_verified": false,

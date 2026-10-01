@@ -62,3 +62,17 @@ Missing values render as `לא נמצא מידע מתועד`, unknown implementa
 ### 5. Docs
 
 Rewrite `README.md` (run, data, adding records, sources, validation, methodology). Keep the original seed README as `seed/README.md`.
+
+## Phase 2: comparison-first redesign
+
+The product is a side-by-side comparison table, not a data browser. The data layer above is kept unchanged; the UI is rebuilt around it.
+
+- `/` opens `views/compare.js`: parties as columns (pick, add, remove, reorder), topic -> subtopic rows from `config/taxonomy.json`, three modes (current positions, past promise vs documented action, measured outcomes).
+- `config/classification.json` places each seed record in one or more rows and marks its campaign. It never links records.
+- `config/kpis.json` defines each KPI once; the outcomes mode always uses that definition regardless of which parties are selected.
+- `data/authorities.json` (curated, empty) holds who had formal authority over a topic and when. The outcomes mode lists overlapping holders and states that causality cannot be determined from the metric alone.
+- `src/data/comparison.js` builds the matrix as pure functions, covered by Node tests (empty cells stay empty, actions never enter a party cell without an explicit link, KPI output identical across party selections).
+- Detail lives in the evidence drawer (`ui/drawer.js`), not in table cells.
+- Secondary pages: party profile, politician profile, metrics explorer, source explorer, plus the earlier commitment and action lists.
+
+Next data that would make each mode more useful: authority holders for Government 37 (ministers per ministry with dates), Knesset 25 platforms as past promises, and sourced commitment-action links.

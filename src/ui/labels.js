@@ -8,6 +8,12 @@ export const STATE = {
   causalUnknownLong: "לא ניתן לקבוע קשר סיבתי על בסיס הנתונים הקיימים",
   noLink: "לא נמצא קשר מתועד",
   outcomeUnverified: "תוצאה לא אומתה",
+  noCausal: "לא ניתן לקבוע קשר סיבתי מהנתון לבדו",
+  noExcerpt: "לא נשמר במאגר ציטוט מתוך המקור",
+  noKpi: "לא נמצא מדד מתועד",
+  noAuthority: "לא נמצא מידע מתועד על בעלי הסמכות בתקופה",
+  noLinkedAction: "לא נמצאה פעולה מתועדת שמקושרת להתחייבות",
+  notPartyAttributed: "המקור אינו משייך פעולה זו למפלגה",
 };
 
 export const STATUS = {
@@ -130,4 +136,54 @@ export const FIELD_LABELS = {
   name: "שם",
   entity_type: "סוג גוף",
   knesset: "כנסת",
+};
+
+// Comparison modes.
+export const MODES = {
+  now: {
+    label: "מה מבטיחים עכשיו",
+    short: "עמדות נוכחיות",
+    note: "עמדות שהמפלגות פרסמו לקראת הבחירות לכנסת ה־26, זו לצד זו. התחייבות היא הצהרת כוונה בלבד, לא ראיה לביצוע.",
+  },
+  track: {
+    label: "הבטיחו מול ביצעו",
+    short: "התחייבות קודמת ופעולה",
+    note: "התחייבות קודמת מוצגת לצד פעולה רק כשקיים במקור קשר מתועד ביניהן. פעולות ממשלה שהמקור אינו משייך למפלגה מוצגות בעמודה נפרדת ולא בתא של מפלגה.",
+  },
+  outcomes: {
+    label: "מה קרה בפועל",
+    short: "מדדים אובייקטיביים",
+    note: "מדדי מערכת בהגדרה אחידה, זהה לכל שחקן פוליטי. זו אינה טבלת ציונים: הצגת מי החזיק בסמכות בתקופה אינה קביעה שהוא גרם לשינוי.",
+  },
+};
+
+// Evidence statuses: how far the documented evidence goes. Not scores.
+export const EVIDENCE_STATUS = {
+  promise_documented: { label: "התחייבות מתועדת", hint: "המפלגה פרסמה כוונה. אין בכך ראיה לביצוע." },
+  proposed: { label: "הוצע", hint: STATUS.proposed.hint },
+  target: { label: "יעד בתוכנית", hint: STATUS.target.hint },
+  approved: { label: "אושר", hint: STATUS.approved.hint },
+  budgeted: { label: "תוקצב", hint: STATUS.budgeted.hint },
+  implemented: { label: "בוצע", hint: STATUS.implemented.hint },
+  outcome_measured: { label: "מדד נמדד", hint: "קיימת תצפית מדד רשמית. אין בכך ייחוס לגורם כלשהו." },
+  not_verified: { label: "ביצוע לא אומת", hint: "קיימת התחייבות, אך לא נמצאה פעולה מתועדת שמקושרת אליה." },
+  insufficient: { label: "אין די ראיות", hint: "המידע במאגר אינו מספיק כדי לקבוע את מצב הביצוע." },
+};
+
+export const AUTHORITY_ROLES = {
+  government: "ממשלה",
+  minister: "שר/ה",
+  deputy_minister: "סגן/ית שר",
+  committee_chair: "יו״ר ועדה",
+};
+
+// Seed geographies are stored in English; display names only.
+export const GEOGRAPHY = {
+  Israel: "ישראל",
+  "Haifa District": "מחוז חיפה",
+  "Northern District": "מחוז הצפון",
+  "Tel Aviv District": "מחוז תל אביב",
+  "Jerusalem District": "מחוז ירושלים",
+  "Central District": "מחוז המרכז",
+  "Southern District": "מחוז הדרום",
 };

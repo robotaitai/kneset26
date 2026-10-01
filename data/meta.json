@@ -5,6 +5,17 @@
   "language": "he/en mixed",
   "purpose": "Neutral evidence dataset for comparing documented commitments, actions and public metrics.",
   "important_note": "No party/candidate scores, rankings or voting recommendations are included. Metrics are not causally attributed to political actors unless independently supported.",
+  "current_campaign": "knesset26",
+  "campaigns": {
+    "knesset26": {
+      "label": "בחירות לכנסת ה־26",
+      "election_year": 2026
+    },
+    "knesset25": {
+      "label": "בחירות לכנסת ה־25",
+      "election_year": 2022
+    }
+  },
   "built_from": "seed/election_audit_seed.json",
   "seed_sha256": "55b9fd8c7550b770b8db64a6abf61f2ab3e77c8f6d180653fdda64f27fe48937",
   "counts": {
@@ -15,7 +26,10 @@
     "metric_series": 53,
     "metrics": 70,
     "sources": 29,
+    "subtopics": 54,
+    "kpis": 53,
     "commitment_action_links": 0,
-    "attributions": 0
+    "attributions": 0,
+    "authorities": 0
   }
 }

@@ -2,7 +2,7 @@ import { h, ltr, sourceTag, evidenceButton, pagedList, fmtNumber, fmtAmountNis, 
 import { topicChips, updateChipCounts, selectControl } from "../ui/filters.js";
 import { STATE, STATUS, ACTION_TYPES, OUTCOME_LINK, RELATIONSHIP } from "../ui/labels.js";
 
-export const title = "הבטיחו מול ביצעו";
+export const title = "פעולות וקשרים";
 
 const STAGE_ORDER = ["proposed", "target", "approved", "budgeted", "implemented"];
 

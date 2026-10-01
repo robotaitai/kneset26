@@ -1,0 +1,747 @@
+{
+  "_doc": "Reusable KPI definitions. A KPI is defined once and displayed the same way for every political actor; it is never redefined per party. series_ids point into data/metric_series.json. preferred_denominator is the population the value is expressed over (null = absolute count or index change).",
+  "kpis": [
+    {
+      "kpi_id": "cpi_monthly_change",
+      "topic": "cost_of_living",
+      "subtopic": "col_prices",
+      "label": "מדד המחירים לצרכן: שינוי חודשי",
+      "label_en": "Consumer Price Index monthly change",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_consumer_price_index_monthly_change"
+      ]
+    },
+    {
+      "kpi_id": "cpi_12m_change",
+      "topic": "cost_of_living",
+      "subtopic": "col_prices",
+      "label": "מדד המחירים לצרכן: שינוי ב־12 חודשים",
+      "label_en": "Consumer Price Index 12-month change",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_consumer_price_index_12_month_change"
+      ]
+    },
+    {
+      "kpi_id": "cpi_ytd_change",
+      "topic": "cost_of_living",
+      "subtopic": "col_prices",
+      "label": "מדד המחירים לצרכן: שינוי מתחילת השנה",
+      "label_en": "Consumer Price Index year-to-date change",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_consumer_price_index_year_to_date_change"
+      ]
+    },
+    {
+      "kpi_id": "cpi_food_monthly_change",
+      "topic": "cost_of_living",
+      "subtopic": "col_food",
+      "label": "רכיב המזון במדד המחירים לצרכן: שינוי חודשי",
+      "label_en": "CPI food component monthly change",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_cpi_food_component_monthly_change"
+      ]
+    },
+    {
+      "kpi_id": "food_share_of_consumption",
+      "topic": "cost_of_living",
+      "subtopic": "col_food",
+      "label": "שיעור המזון (כולל פירות וירקות) מהוצאות הצריכה של משק הבית",
+      "label_en": "Food incl. fruit and vegetables share of household consumption expenditure",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": "הוצאה לצריכה של משק הבית",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_food_incl_fruit_and_vegetables_share_of_household_consumption_expenditure"
+      ]
+    },
+    {
+      "kpi_id": "household_gross_income",
+      "topic": "cost_of_living",
+      "subtopic": "col_household",
+      "label": "הכנסה כספית ברוטו ממוצעת למשק בית לחודש",
+      "label_en": "Average gross monetary household income per month",
+      "unit": "NIS/month",
+      "population": null,
+      "preferred_denominator": "משק בית",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_average_gross_monetary_household_income_per_month"
+      ]
+    },
+    {
+      "kpi_id": "household_net_income",
+      "topic": "cost_of_living",
+      "subtopic": "col_household",
+      "label": "הכנסה כספית נטו ממוצעת למשק בית לחודש",
+      "label_en": "Average net monetary household income per month",
+      "unit": "NIS/month",
+      "population": null,
+      "preferred_denominator": "משק בית",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_average_net_monetary_household_income_per_month"
+      ]
+    },
+    {
+      "kpi_id": "household_consumption",
+      "topic": "cost_of_living",
+      "subtopic": "col_household",
+      "label": "הוצאה ממוצעת לצריכה למשק בית לחודש",
+      "label_en": "Average total monthly consumption expenditure",
+      "unit": "NIS/month",
+      "population": null,
+      "preferred_denominator": "משק בית",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_average_total_monthly_consumption_expenditure"
+      ]
+    },
+    {
+      "kpi_id": "cpi_housing_monthly_change",
+      "topic": "housing",
+      "subtopic": "ho_rent",
+      "label": "רכיב הדיור במדד המחירים לצרכן: שינוי חודשי",
+      "label_en": "CPI housing component monthly change",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_cpi_housing_component_monthly_change"
+      ]
+    },
+    {
+      "kpi_id": "housing_price_change",
+      "topic": "housing",
+      "subtopic": "ho_prices",
+      "label": "שינוי במחירי הדירות (מדד דו־חודשי)",
+      "label_en": "Housing price index bi-monthly change",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_housing_price_index_bi_monthly_change"
+      ]
+    },
+    {
+      "kpi_id": "housing_starts",
+      "topic": "housing",
+      "subtopic": "ho_starts",
+      "label": "יחידות דיור שבנייתן החלה",
+      "label_en": "Housing units construction started",
+      "unit": "units",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_housing_units_construction_started"
+      ]
+    },
+    {
+      "kpi_id": "housing_net_starts",
+      "topic": "housing",
+      "subtopic": "ho_starts",
+      "label": "התחלות בנייה נטו",
+      "label_en": "Net housing starts",
+      "unit": "units",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_net_housing_starts"
+      ]
+    },
+    {
+      "kpi_id": "housing_under_construction",
+      "topic": "housing",
+      "subtopic": "ho_starts",
+      "label": "יחידות דיור בבנייה פעילה",
+      "label_en": "Housing units under active construction",
+      "unit": "units",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_housing_units_under_active_construction"
+      ]
+    },
+    {
+      "kpi_id": "housing_urban_renewal_share",
+      "topic": "housing",
+      "subtopic": "ho_starts",
+      "label": "שיעור ההתחלות בהתחדשות עירונית",
+      "label_en": "Share of housing starts in urban renewal",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": "התחלות בנייה",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_share_of_housing_starts_in_urban_renewal"
+      ]
+    },
+    {
+      "kpi_id": "housing_completions",
+      "topic": "housing",
+      "subtopic": "ho_completions",
+      "label": "יחידות דיור שבנייתן הסתיימה",
+      "label_en": "Housing units completed",
+      "unit": "units",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_housing_units_completed"
+      ]
+    },
+    {
+      "kpi_id": "housing_construction_duration",
+      "topic": "housing",
+      "subtopic": "ho_completions",
+      "label": "משך בנייה משוקלל",
+      "label_en": "Weighted construction duration",
+      "unit": "months",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_weighted_construction_duration"
+      ]
+    },
+    {
+      "kpi_id": "housing_permits",
+      "topic": "housing",
+      "subtopic": "ho_planning",
+      "label": "יחידות דיור בהיתרי בנייה",
+      "label_en": "Housing units in permits",
+      "unit": "units",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_housing_units_in_permits"
+      ]
+    },
+    {
+      "kpi_id": "housing_share_of_consumption",
+      "topic": "housing",
+      "subtopic": "ho_tenure",
+      "label": "שיעור הדיור מהוצאות הצריכה של משק הבית",
+      "label_en": "Housing share of household consumption expenditure",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": "הוצאה לצריכה של משק הבית",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_housing_share_of_household_consumption_expenditure"
+      ]
+    },
+    {
+      "kpi_id": "households_owner_occupied",
+      "topic": "housing",
+      "subtopic": "ho_tenure",
+      "label": "משקי בית הגרים בדירה בבעלותם",
+      "label_en": "Households living in owner-occupied dwelling",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": "משקי בית",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_households_living_in_owner_occupied_dwelling"
+      ]
+    },
+    {
+      "kpi_id": "households_renting",
+      "topic": "housing",
+      "subtopic": "ho_tenure",
+      "label": "משקי בית הגרים בדירה שכורה",
+      "label_en": "Households living in rented dwelling",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": "משקי בית",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_households_living_in_rented_dwelling"
+      ]
+    },
+    {
+      "kpi_id": "health_expenditure",
+      "topic": "health",
+      "subtopic": "hl_funding",
+      "label": "הוצאה לאומית לבריאות",
+      "label_en": "National health expenditure",
+      "unit": "NIS billions",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_national_health_expenditure"
+      ]
+    },
+    {
+      "kpi_id": "health_expenditure_gdp",
+      "topic": "health",
+      "subtopic": "hl_funding",
+      "label": "הוצאה לאומית לבריאות כאחוז מהתמ״ג",
+      "label_en": "National health expenditure as share of GDP",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": "תמ״ג",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_national_health_expenditure_as_share_of_gdp"
+      ]
+    },
+    {
+      "kpi_id": "primary_students_change",
+      "topic": "education",
+      "subtopic": "edu_class_size",
+      "label": "שינוי במספר התלמידים, יסודי",
+      "label_en": "Primary students change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_primary_students_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "middle_students_change",
+      "topic": "education",
+      "subtopic": "edu_class_size",
+      "label": "שינוי במספר התלמידים, חטיבות ביניים",
+      "label_en": "Middle-school students change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_middle_school_students_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "upper_students_change",
+      "topic": "education",
+      "subtopic": "edu_class_size",
+      "label": "שינוי במספר התלמידים, חטיבה עליונה",
+      "label_en": "Upper-secondary students change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_upper_secondary_students_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "primary_classes_change",
+      "topic": "education",
+      "subtopic": "edu_class_size",
+      "label": "שינוי במספר הכיתות, יסודי",
+      "label_en": "Primary classes change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_primary_classes_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "middle_classes_change",
+      "topic": "education",
+      "subtopic": "edu_class_size",
+      "label": "שינוי במספר הכיתות, חטיבות ביניים",
+      "label_en": "Middle-school classes change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_middle_school_classes_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "upper_classes_change",
+      "topic": "education",
+      "subtopic": "edu_class_size",
+      "label": "שינוי במספר הכיתות, חטיבה עליונה",
+      "label_en": "Upper-secondary classes change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_upper_secondary_classes_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "primary_teachers_change",
+      "topic": "education",
+      "subtopic": "edu_teacher_workforce",
+      "label": "שינוי במספר עובדי ההוראה, יסודי",
+      "label_en": "Primary teachers change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_primary_teachers_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "middle_teachers_change",
+      "topic": "education",
+      "subtopic": "edu_teacher_workforce",
+      "label": "שינוי במספר עובדי ההוראה, חטיבות ביניים",
+      "label_en": "Middle-school teachers change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_middle_school_teachers_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "upper_teachers_change",
+      "topic": "education",
+      "subtopic": "edu_teacher_workforce",
+      "label": "שינוי במספר עובדי ההוראה, חטיבה עליונה",
+      "label_en": "Upper-secondary teachers change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_upper_secondary_teachers_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "primary_fte_change",
+      "topic": "education",
+      "subtopic": "edu_teacher_workforce",
+      "label": "שינוי במשרות מלאות בהוראה, יסודי",
+      "label_en": "Primary full-time positions change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_primary_full_time_positions_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "middle_fte_change",
+      "topic": "education",
+      "subtopic": "edu_teacher_workforce",
+      "label": "שינוי במשרות מלאות בהוראה, חטיבות ביניים",
+      "label_en": "Middle-school full-time positions change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_middle_school_full_time_positions_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "upper_fte_change",
+      "topic": "education",
+      "subtopic": "edu_teacher_workforce",
+      "label": "שינוי במשרות מלאות בהוראה, חטיבה עליונה",
+      "label_en": "Upper-secondary full-time positions change 1999/00-2023/24",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_upper_secondary_full_time_positions_change_1999_00_2023_24"
+      ]
+    },
+    {
+      "kpi_id": "students_per_teacher_arab_primary",
+      "topic": "education",
+      "subtopic": "edu_teacher_workforce",
+      "label": "תלמידים למורה, חינוך יסודי ערבי",
+      "label_en": "Students per teacher, Arab primary education",
+      "unit": "students per teacher",
+      "population": null,
+      "preferred_denominator": "מורה",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_students_per_teacher_arab_primary_education"
+      ]
+    },
+    {
+      "kpi_id": "students_per_teacher_hebrew_middle",
+      "topic": "education",
+      "subtopic": "edu_teacher_workforce",
+      "label": "תלמידים למורה, חטיבות ביניים בחינוך הממלכתי העברי",
+      "label_en": "Students per teacher, Hebrew state middle schools",
+      "unit": "students per teacher",
+      "population": null,
+      "preferred_denominator": "מורה",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_students_per_teacher_hebrew_state_middle_schools"
+      ]
+    },
+    {
+      "kpi_id": "victimized_selected_offenses",
+      "topic": "personal_security",
+      "subtopic": "ps_victimization",
+      "label": "בני 20+ שנפגעו מעבירות נבחרות בשנה שקדמה לסקר",
+      "label_en": "Adults victimized by selected offenses in preceding year",
+      "unit": "percent",
+      "population": "Age 20+",
+      "preferred_denominator": "בני 20+",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_adults_victimized_by_selected_offenses_in_preceding_year__age_20"
+      ]
+    },
+    {
+      "kpi_id": "victimized_online",
+      "topic": "personal_security",
+      "subtopic": "ps_victimization",
+      "label": "בני 20+ שנפגעו מעבירות מקוונות",
+      "label_en": "Adults victimized by online offenses",
+      "unit": "percent",
+      "population": "Age 20+",
+      "preferred_denominator": "בני 20+",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_adults_victimized_by_online_offenses__age_20"
+      ]
+    },
+    {
+      "kpi_id": "victimized_sexual_harassment",
+      "topic": "personal_security",
+      "subtopic": "ps_victimization",
+      "label": "בני 20+ שנפגעו מהטרדה מינית",
+      "label_en": "Adults victimized by sexual harassment",
+      "unit": "percent",
+      "population": "Age 20+",
+      "preferred_denominator": "בני 20+",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_adults_victimized_by_sexual_harassment__age_20"
+      ]
+    },
+    {
+      "kpi_id": "victimized_violence",
+      "topic": "personal_security",
+      "subtopic": "ps_violent",
+      "label": "בני 20+ שנפגעו מאלימות או מאיום באלימות",
+      "label_en": "Adults victimized by violence or threat of violence",
+      "unit": "percent",
+      "population": "Age 20+",
+      "preferred_denominator": "בני 20+",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_adults_victimized_by_violence_or_threat_of_violence__age_20"
+      ]
+    },
+    {
+      "kpi_id": "victimized_theft",
+      "topic": "personal_security",
+      "subtopic": "ps_property",
+      "label": "בני 20+ שנפגעו מגניבה ללא שימוש בכוח",
+      "label_en": "Adults victimized by theft without force",
+      "unit": "percent",
+      "population": "Age 20+",
+      "preferred_denominator": "בני 20+",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_adults_victimized_by_theft_without_force__age_20"
+      ]
+    },
+    {
+      "kpi_id": "safety_worsened",
+      "topic": "personal_security",
+      "subtopic": "ps_subjective",
+      "label": "משיבים שדיווחו על הרעה בתחושת הביטחון האישי",
+      "label_en": "Reported change for worse in personal safety",
+      "unit": "percent",
+      "population": "Survey respondents",
+      "preferred_denominator": "משיבי הסקר",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_reported_change_for_worse_in_personal_safety__survey_respondents"
+      ]
+    },
+    {
+      "kpi_id": "homicide_victims",
+      "topic": "personal_security",
+      "subtopic": "ps_homicide",
+      "label": "נרצחים (נתוני משטרה בוועדת הכנסת)",
+      "label_en": "Homicide victims reported by police in Knesset committee",
+      "unit": "people",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הכנסת",
+      "series_ids": [
+        "S_homicide_victims_reported_by_police_in_knesset_committee"
+      ]
+    },
+    {
+      "kpi_id": "homicide_victims_jewish",
+      "topic": "personal_security",
+      "subtopic": "ps_homicide",
+      "label": "נרצחים בחברה היהודית (נתוני משטרה)",
+      "label_en": "Homicide victims in Jewish sector reported by police in Knesset committee",
+      "unit": "people",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הכנסת",
+      "series_ids": [
+        "S_homicide_victims_in_jewish_sector_reported_by_police_in_knesset_committee"
+      ]
+    },
+    {
+      "kpi_id": "homicide_prevented",
+      "topic": "personal_security",
+      "subtopic": "ps_homicide",
+      "label": "אירועי רצח שלפי המשטרה סוכלו",
+      "label_en": "Homicide events police said were prevented",
+      "unit": "events",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הכנסת",
+      "series_ids": [
+        "S_homicide_events_police_said_were_prevented"
+      ]
+    },
+    {
+      "kpi_id": "homicide_victims_arab",
+      "topic": "personal_security",
+      "subtopic": "ps_arab_sector",
+      "label": "נרצחים בחברה הערבית (נתוני משטרה)",
+      "label_en": "Homicide victims in Arab sector reported by police in Knesset committee",
+      "unit": "people",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הכנסת",
+      "series_ids": [
+        "S_homicide_victims_in_arab_sector_reported_by_police_in_knesset_committee"
+      ]
+    },
+    {
+      "kpi_id": "motor_vehicles",
+      "topic": "transport",
+      "subtopic": "tr_fleet",
+      "label": "כלי רכב מנועיים",
+      "label_en": "Motor vehicles",
+      "unit": "vehicles",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_motor_vehicles"
+      ]
+    },
+    {
+      "kpi_id": "private_vehicles",
+      "topic": "transport",
+      "subtopic": "tr_fleet",
+      "label": "כלי רכב פרטיים",
+      "label_en": "Private vehicles",
+      "unit": "vehicles",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_private_vehicles"
+      ]
+    },
+    {
+      "kpi_id": "electric_vehicles",
+      "topic": "transport",
+      "subtopic": "tr_fleet",
+      "label": "כלי רכב חשמליים",
+      "label_en": "Electric vehicles",
+      "unit": "vehicles",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_electric_vehicles"
+      ]
+    },
+    {
+      "kpi_id": "motorization_level",
+      "topic": "transport",
+      "subtopic": "tr_fleet",
+      "label": "רמת מינוע",
+      "label_en": "Motorization level",
+      "unit": "vehicles per 1,000 residents",
+      "population": null,
+      "preferred_denominator": "1,000 תושבים",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_motorization_level"
+      ]
+    },
+    {
+      "kpi_id": "electric_buses",
+      "topic": "transport",
+      "subtopic": "tr_bus",
+      "label": "אוטובוסים חשמליים",
+      "label_en": "Electric buses",
+      "unit": "buses",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_electric_buses"
+      ]
+    },
+    {
+      "kpi_id": "cpi_transport_monthly_change",
+      "topic": "transport",
+      "subtopic": "tr_costs",
+      "label": "רכיב התחבורה במדד המחירים לצרכן: שינוי חודשי",
+      "label_en": "CPI transport component monthly change",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": null,
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_cpi_transport_component_monthly_change"
+      ]
+    },
+    {
+      "kpi_id": "transport_share_of_consumption",
+      "topic": "transport",
+      "subtopic": "tr_costs",
+      "label": "שיעור התחבורה והתקשורת מהוצאות הצריכה של משק הבית",
+      "label_en": "Transport and communications share of household consumption expenditure",
+      "unit": "percent",
+      "population": null,
+      "preferred_denominator": "הוצאה לצריכה של משק הבית",
+      "source": "הלשכה המרכזית לסטטיסטיקה",
+      "series_ids": [
+        "S_transport_and_communications_share_of_household_consumption_expenditure"
+      ]
+    }
+  ]
+}

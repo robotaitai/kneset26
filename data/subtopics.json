@@ -1,0 +1,434 @@
+[
+  {
+    "subtopic_id": "edu_teacher_workforce",
+    "topic": "education",
+    "label": "כוח אדם בהוראה",
+    "label_en": "Teacher workforce",
+    "order": 0,
+    "core": true
+  },
+  {
+    "subtopic_id": "edu_teacher_pay",
+    "topic": "education",
+    "label": "שכר מורים",
+    "label_en": "Teacher pay",
+    "order": 1,
+    "core": true
+  },
+  {
+    "subtopic_id": "edu_class_size",
+    "topic": "education",
+    "label": "גודל כיתות",
+    "label_en": "Class size",
+    "order": 2,
+    "core": true
+  },
+  {
+    "subtopic_id": "edu_early_childhood",
+    "topic": "education",
+    "label": "גיל הרך",
+    "label_en": "Early childhood",
+    "order": 3,
+    "core": true
+  },
+  {
+    "subtopic_id": "edu_core_curriculum",
+    "topic": "education",
+    "label": "לימודי ליבה",
+    "label_en": "Core curriculum",
+    "order": 4,
+    "core": true
+  },
+  {
+    "subtopic_id": "edu_gaps",
+    "topic": "education",
+    "label": "פערים בחינוך",
+    "label_en": "Education gaps",
+    "order": 5,
+    "core": true
+  },
+  {
+    "subtopic_id": "edu_informal",
+    "topic": "education",
+    "label": "חינוך בלתי פורמלי",
+    "label_en": "Informal education",
+    "order": 6,
+    "core": false
+  },
+  {
+    "subtopic_id": "edu_governance",
+    "topic": "education",
+    "label": "ניהול וביזור סמכויות",
+    "label_en": "System governance",
+    "order": 7,
+    "core": false
+  },
+  {
+    "subtopic_id": "edu_general",
+    "topic": "education",
+    "label": "תוכנית או תקציב כללי",
+    "label_en": "General program / budget",
+    "order": 8,
+    "core": false
+  },
+  {
+    "subtopic_id": "tr_frequency",
+    "topic": "transport",
+    "label": "תדירות",
+    "label_en": "Frequency",
+    "order": 0,
+    "core": true
+  },
+  {
+    "subtopic_id": "tr_reliability",
+    "topic": "transport",
+    "label": "אמינות",
+    "label_en": "Reliability",
+    "order": 1,
+    "core": true
+  },
+  {
+    "subtopic_id": "tr_travel_time",
+    "topic": "transport",
+    "label": "זמני נסיעה וגודש",
+    "label_en": "Travel time",
+    "order": 2,
+    "core": true
+  },
+  {
+    "subtopic_id": "tr_rail",
+    "topic": "transport",
+    "label": "רכבות",
+    "label_en": "Rail",
+    "order": 3,
+    "core": true
+  },
+  {
+    "subtopic_id": "tr_bus",
+    "topic": "transport",
+    "label": "אוטובוסים ונת״צים",
+    "label_en": "Bus service",
+    "order": 4,
+    "core": true
+  },
+  {
+    "subtopic_id": "tr_weekend",
+    "topic": "transport",
+    "label": "תחבורה בסופ״ש",
+    "label_en": "Weekend transport",
+    "order": 5,
+    "core": true
+  },
+  {
+    "subtopic_id": "tr_periphery",
+    "topic": "transport",
+    "label": "חיבור הפריפריה",
+    "label_en": "Periphery connectivity",
+    "order": 6,
+    "core": true
+  },
+  {
+    "subtopic_id": "tr_ridership",
+    "topic": "transport",
+    "label": "שימוש בתחבורה ציבורית",
+    "label_en": "Ridership",
+    "order": 7,
+    "core": false
+  },
+  {
+    "subtopic_id": "tr_costs",
+    "topic": "transport",
+    "label": "תעריפים ועלות למשק הבית",
+    "label_en": "Fares and household cost",
+    "order": 8,
+    "core": false
+  },
+  {
+    "subtopic_id": "tr_shared",
+    "topic": "transport",
+    "label": "תחבורה שיתופית",
+    "label_en": "Shared mobility",
+    "order": 9,
+    "core": false
+  },
+  {
+    "subtopic_id": "tr_governance",
+    "topic": "transport",
+    "label": "רשויות וניהול התחבורה",
+    "label_en": "Transport governance",
+    "order": 10,
+    "core": false
+  },
+  {
+    "subtopic_id": "tr_fleet",
+    "topic": "transport",
+    "label": "צי כלי רכב ומינוע",
+    "label_en": "Vehicle fleet",
+    "order": 11,
+    "core": false
+  },
+  {
+    "subtopic_id": "hl_waiting",
+    "topic": "health",
+    "label": "זמני המתנה",
+    "label_en": "Waiting times",
+    "order": 0,
+    "core": true
+  },
+  {
+    "subtopic_id": "hl_doctors",
+    "topic": "health",
+    "label": "רופאים",
+    "label_en": "Doctors",
+    "order": 1,
+    "core": true
+  },
+  {
+    "subtopic_id": "hl_nurses",
+    "topic": "health",
+    "label": "אחיות",
+    "label_en": "Nurses",
+    "order": 2,
+    "core": true
+  },
+  {
+    "subtopic_id": "hl_beds",
+    "topic": "health",
+    "label": "מיטות אשפוז",
+    "label_en": "Hospital beds",
+    "order": 3,
+    "core": true
+  },
+  {
+    "subtopic_id": "hl_community",
+    "topic": "health",
+    "label": "רפואה בקהילה ומניעה",
+    "label_en": "Community medicine",
+    "order": 4,
+    "core": true
+  },
+  {
+    "subtopic_id": "hl_periphery",
+    "topic": "health",
+    "label": "נגישות בפריפריה",
+    "label_en": "Periphery accessibility",
+    "order": 5,
+    "core": true
+  },
+  {
+    "subtopic_id": "hl_drug_basket",
+    "topic": "health",
+    "label": "סל התרופות",
+    "label_en": "Drug basket",
+    "order": 6,
+    "core": true
+  },
+  {
+    "subtopic_id": "hl_long_term_care",
+    "topic": "health",
+    "label": "סיעוד וגריאטריה",
+    "label_en": "Long-term care",
+    "order": 7,
+    "core": false
+  },
+  {
+    "subtopic_id": "hl_mental",
+    "topic": "health",
+    "label": "בריאות הנפש",
+    "label_en": "Mental health",
+    "order": 8,
+    "core": false
+  },
+  {
+    "subtopic_id": "hl_funding",
+    "topic": "health",
+    "label": "מימון מערכת הבריאות",
+    "label_en": "Health funding",
+    "order": 9,
+    "core": false
+  },
+  {
+    "subtopic_id": "ps_homicide",
+    "topic": "personal_security",
+    "label": "רצח",
+    "label_en": "Homicide",
+    "order": 0,
+    "core": true
+  },
+  {
+    "subtopic_id": "ps_violent",
+    "topic": "personal_security",
+    "label": "אלימות",
+    "label_en": "Violent crime",
+    "order": 1,
+    "core": true
+  },
+  {
+    "subtopic_id": "ps_property",
+    "topic": "personal_security",
+    "label": "פשיעת רכוש",
+    "label_en": "Property crime",
+    "order": 2,
+    "core": true
+  },
+  {
+    "subtopic_id": "ps_vehicle_theft",
+    "topic": "personal_security",
+    "label": "גניבת רכב",
+    "label_en": "Vehicle theft",
+    "order": 3,
+    "core": true
+  },
+  {
+    "subtopic_id": "ps_arab_sector",
+    "topic": "personal_security",
+    "label": "אלימות בחברה הערבית",
+    "label_en": "Arab-sector violence",
+    "order": 4,
+    "core": true
+  },
+  {
+    "subtopic_id": "ps_subjective",
+    "topic": "personal_security",
+    "label": "תחושת ביטחון",
+    "label_en": "Subjective sense of safety",
+    "order": 5,
+    "core": true
+  },
+  {
+    "subtopic_id": "ps_victimization",
+    "topic": "personal_security",
+    "label": "נפגעות מעבירות (כללי)",
+    "label_en": "Victimization (overall)",
+    "order": 6,
+    "core": false
+  },
+  {
+    "subtopic_id": "ps_road_safety",
+    "topic": "personal_security",
+    "label": "בטיחות בדרכים",
+    "label_en": "Road safety",
+    "order": 7,
+    "core": false
+  },
+  {
+    "subtopic_id": "col_food",
+    "topic": "cost_of_living",
+    "label": "מזון",
+    "label_en": "Food",
+    "order": 0,
+    "core": true
+  },
+  {
+    "subtopic_id": "col_prices",
+    "topic": "cost_of_living",
+    "label": "מחירים לצרכן",
+    "label_en": "Consumer prices",
+    "order": 1,
+    "core": true
+  },
+  {
+    "subtopic_id": "col_taxes",
+    "topic": "cost_of_living",
+    "label": "מסים",
+    "label_en": "Taxes",
+    "order": 2,
+    "core": true
+  },
+  {
+    "subtopic_id": "col_competition",
+    "topic": "cost_of_living",
+    "label": "תחרות ויבוא",
+    "label_en": "Competition / imports",
+    "order": 3,
+    "core": true
+  },
+  {
+    "subtopic_id": "col_allowances",
+    "topic": "cost_of_living",
+    "label": "קצבאות",
+    "label_en": "Allowances",
+    "order": 4,
+    "core": false
+  },
+  {
+    "subtopic_id": "col_household",
+    "topic": "cost_of_living",
+    "label": "הכנסות והוצאות משק הבית",
+    "label_en": "Household income and spending",
+    "order": 5,
+    "core": false
+  },
+  {
+    "subtopic_id": "col_general",
+    "topic": "cost_of_living",
+    "label": "תוכנית כלכלית כללית",
+    "label_en": "General economic program",
+    "order": 6,
+    "core": false
+  },
+  {
+    "subtopic_id": "ho_prices",
+    "topic": "housing",
+    "label": "מחירי דירות",
+    "label_en": "Home prices",
+    "order": 0,
+    "core": true
+  },
+  {
+    "subtopic_id": "ho_rent",
+    "topic": "housing",
+    "label": "שכר דירה",
+    "label_en": "Rent",
+    "order": 1,
+    "core": true
+  },
+  {
+    "subtopic_id": "ho_starts",
+    "topic": "housing",
+    "label": "התחלות בנייה",
+    "label_en": "Housing starts",
+    "order": 2,
+    "core": true
+  },
+  {
+    "subtopic_id": "ho_completions",
+    "topic": "housing",
+    "label": "גמר בנייה",
+    "label_en": "Building completions",
+    "order": 3,
+    "core": true
+  },
+  {
+    "subtopic_id": "ho_planning",
+    "topic": "housing",
+    "label": "תכנון וקרקע",
+    "label_en": "Planning",
+    "order": 4,
+    "core": true
+  },
+  {
+    "subtopic_id": "ho_long_term_rental",
+    "topic": "housing",
+    "label": "דיור להשכרה ארוכת טווח",
+    "label_en": "Long-term rental",
+    "order": 5,
+    "core": true
+  },
+  {
+    "subtopic_id": "ho_tenure",
+    "topic": "housing",
+    "label": "בעלות ונטל דיור",
+    "label_en": "Tenure and housing burden",
+    "order": 6,
+    "core": false
+  },
+  {
+    "subtopic_id": "gov_local",
+    "topic": "governance",
+    "label": "שלטון מקומי",
+    "label_en": "Local government",
+    "order": 0,
+    "core": true
+  }
+]

@@ -111,11 +111,47 @@ for (const c of data.commitments) {
   if (party && c.entity_name && !party.name.startsWith(c.entity_name))
     warn(`commitments/${c.commitment_id}`, `entity_name "${c.entity_name}" differs from party name "${party.name}"`);
 }
+// Comparison rows: every placement must stay inside the record's own topic.
+const subtopicTopic = new Map(data.subtopics.map((s) => [s.subtopic_id, s.topic]));
+const checkRows = (name, rec, idField, ids) => {
+  for (const id of [].concat(ids || [])) {
+    const t = subtopicTopic.get(id);
+    if (t && t !== rec.topic) err(`${name}/${rec[idField]}`, `row "${id}" belongs to topic "${t}", record topic is "${rec.topic}"`);
+  }
+};
+for (const c of data.commitments) {
+  checkRows("commitments", c, "commitment_id", c.subtopic_ids);
+  if (isEmpty(c.subtopic_ids)) warn(`commitments/${c.commitment_id}`, "not placed in any comparison row");
+}
+for (const a of data.actions) {
+  checkRows("actions", a, "action_id", a.subtopic_ids);
+  if (isEmpty(a.subtopic_ids)) warn(`actions/${a.action_id}`, "not placed in any comparison row");
+}
+for (const k of data.kpis) {
+  checkRows("kpis", k, "kpi_id", k.subtopic);
+  for (const sid of k.series_ids || []) {
+    const s = data.metric_series.find((x) => x.series_id === sid);
+    if (s && s.kpi_id !== k.kpi_id) err(`kpis/${k.kpi_id}`, `series "${sid}" says it belongs to KPI "${s.kpi_id}"`);
+    if (s && s.unit !== k.unit) err(`kpis/${k.kpi_id}`, `unit "${k.unit}" differs from series "${sid}" unit "${s.unit}"`);
+  }
+}
+for (const a of data.authorities) {
+  if (a.start && a.end && String(a.end) < String(a.start)) err(`authorities/${a.authority_id}`, `end ${a.end} is before start ${a.start}`);
+}
+
+// Presentation config must point at real parties.
+const compareFile = resolve(DIR, "compare.json");
+if (existsSync(compareFile)) {
+  const cfg = JSON.parse(readFileSync(compareFile, "utf8"));
+  for (const id of [...(cfg.default_parties || []), ...Object.keys(cfg.short_names || {})])
+    if (!ids.parties.has(id)) err("compare", `unknown party "${id}"`);
+} else err("compare", "missing file compare.json");
+
 for (const s of data.sources) {
   if (isEmpty(s.source_date)) warn(`sources/${s.source_id}`, "no source_date");
 }
 const cited = new Set(
-  ["parties", "people", "commitments", "actions", "metrics"].flatMap((n) => data[n].map((r) => r.source_id))
+  ["parties", "people", "commitments", "actions", "metrics", "authorities"].flatMap((n) => data[n].map((r) => r.source_id))
     .concat(["commitment_action_links", "attributions"].flatMap((n) => data[n].flatMap((r) => r.source_ids || []))),
 );
 for (const s of data.sources) if (!cited.has(s.source_id)) warn(`sources/${s.source_id}`, "not cited by any record");

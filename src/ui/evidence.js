@@ -1,5 +1,6 @@
 import { h, orMissing, ltr, sourceTag } from "./dom.js";
 import { STATE, FIELD_LABELS, OUTCOME_LINK, ATTRIBUTION_STRENGTH, SOURCE_TYPES } from "./labels.js";
+import { COMPOSITE_KINDS, renderComposite } from "./drawer.js";
 
 const KIND_LABELS = {
   commitment: "התחייבות",
@@ -8,29 +9,44 @@ const KIND_LABELS = {
   series: "סדרת מדד",
   party: "גוף",
   source: "מקור",
+  kpi: "הגדרת מדד",
+  authority: "בעל סמכות",
 };
 
-// Evidence panel: one <dialog> shared by every view. Any element with
-// data-evidence-kind / data-evidence-id opens it.
+// Evidence drawer: one <dialog> shared by every view. Any element with
+// data-evidence-kind / data-evidence-id opens it. Opening a record from
+// inside the drawer pushes onto a stack so "back" returns to the cell.
 export function setupEvidencePanel(repo) {
   const dialog = h("dialog", { class: "evidence", "aria-labelledby": "ev-title" });
   const body = h("div", { class: "ev-body" });
+  const stack = [];
+  const back = h("button", { type: "button", class: "ev-back", hidden: true, onclick: () => { stack.pop(); const prev = stack.pop(); if (prev) open(...prev); } }, "→ חזרה");
   const close = h("button", { type: "button", class: "ev-close", "aria-label": "סגירה", onclick: () => dialog.close() }, "×");
-  dialog.append(close, body);
+  dialog.append(h("div", { class: "ev-bar" }, back, close), body);
   dialog.addEventListener("click", (e) => { if (e.target === dialog) dialog.close(); });
+  dialog.addEventListener("close", () => { stack.length = 0; });
   document.body.append(dialog);
 
   document.addEventListener("click", (e) => {
     const btn = e.target.closest("[data-evidence-kind]");
     if (!btn) return;
     e.preventDefault();
+    if (!btn.closest("dialog.evidence")) stack.length = 0;
     open(btn.dataset.evidenceKind, btn.dataset.evidenceId);
   });
 
   async function open(kind, id) {
-    const record = await repo.getRecord(kind, id);
+    stack.push([kind, id]);
+    back.hidden = stack.length < 2;
     body.replaceChildren(h("p", { class: "muted" }, "טוען..."));
     if (!dialog.open) dialog.showModal();
+    dialog.scrollTop = 0;
+    if (COMPOSITE_KINDS.has(kind)) {
+      const node = await renderComposite(repo, kind, id);
+      body.replaceChildren(node || h("h2", { id: "ev-title" }, STATE.missing));
+      return;
+    }
+    const record = await repo.getRecord(kind, id);
     if (!record) {
       body.replaceChildren(h("h2", { id: "ev-title" }, STATE.missing), h("p", { class: "mono" }, `${kind}/${id}`));
       return;
@@ -50,7 +66,7 @@ export function setupEvidencePanel(repo) {
         h("summary", null, "כל השדות ברשומה"),
         fieldTable(record)),
     ));
-    close.focus();
+    close.focus({ preventScroll: true });
   }
 
   return { open };
@@ -64,6 +80,8 @@ function title(kind, r, series) {
     case "series": return r.metric_name;
     case "party": return r.name;
     case "source": return r.title;
+    case "kpi": return r.label;
+    case "authority": return `${r.holder_name} · ${r.office_label || r.office}`;
     default: return r[Object.keys(r)[0]];
   }
 }

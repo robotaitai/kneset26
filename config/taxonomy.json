@@ -1,0 +1,94 @@
+{
+  "_doc": "Comparison taxonomy: topics -> subtopics. Row order in the comparison matrix follows this file. `core: false` marks rows added to hold seed records that fit none of the core rows; they are shown only when they have data.",
+  "topics": [
+    {
+      "id": "education", "label": "חינוך", "label_en": "Education", "primary": true,
+      "subtopics": [
+        { "id": "edu_teacher_workforce", "label": "כוח אדם בהוראה", "label_en": "Teacher workforce" },
+        { "id": "edu_teacher_pay", "label": "שכר מורים", "label_en": "Teacher pay" },
+        { "id": "edu_class_size", "label": "גודל כיתות", "label_en": "Class size" },
+        { "id": "edu_early_childhood", "label": "גיל הרך", "label_en": "Early childhood" },
+        { "id": "edu_core_curriculum", "label": "לימודי ליבה", "label_en": "Core curriculum" },
+        { "id": "edu_gaps", "label": "פערים בחינוך", "label_en": "Education gaps" },
+        { "id": "edu_informal", "label": "חינוך בלתי פורמלי", "label_en": "Informal education", "core": false },
+        { "id": "edu_governance", "label": "ניהול וביזור סמכויות", "label_en": "System governance", "core": false },
+        { "id": "edu_general", "label": "תוכנית או תקציב כללי", "label_en": "General program / budget", "core": false }
+      ]
+    },
+    {
+      "id": "transport", "label": "תחבורה ציבורית", "label_en": "Public transport", "primary": true,
+      "subtopics": [
+        { "id": "tr_frequency", "label": "תדירות", "label_en": "Frequency" },
+        { "id": "tr_reliability", "label": "אמינות", "label_en": "Reliability" },
+        { "id": "tr_travel_time", "label": "זמני נסיעה וגודש", "label_en": "Travel time" },
+        { "id": "tr_rail", "label": "רכבות", "label_en": "Rail" },
+        { "id": "tr_bus", "label": "אוטובוסים ונת״צים", "label_en": "Bus service" },
+        { "id": "tr_weekend", "label": "תחבורה בסופ״ש", "label_en": "Weekend transport" },
+        { "id": "tr_periphery", "label": "חיבור הפריפריה", "label_en": "Periphery connectivity" },
+        { "id": "tr_ridership", "label": "שימוש בתחבורה ציבורית", "label_en": "Ridership", "core": false },
+        { "id": "tr_costs", "label": "תעריפים ועלות למשק הבית", "label_en": "Fares and household cost", "core": false },
+        { "id": "tr_shared", "label": "תחבורה שיתופית", "label_en": "Shared mobility", "core": false },
+        { "id": "tr_governance", "label": "רשויות וניהול התחבורה", "label_en": "Transport governance", "core": false },
+        { "id": "tr_fleet", "label": "צי כלי רכב ומינוע", "label_en": "Vehicle fleet", "core": false }
+      ]
+    },
+    {
+      "id": "health", "label": "בריאות", "label_en": "Health", "primary": true,
+      "subtopics": [
+        { "id": "hl_waiting", "label": "זמני המתנה", "label_en": "Waiting times" },
+        { "id": "hl_doctors", "label": "רופאים", "label_en": "Doctors" },
+        { "id": "hl_nurses", "label": "אחיות", "label_en": "Nurses" },
+        { "id": "hl_beds", "label": "מיטות אשפוז", "label_en": "Hospital beds" },
+        { "id": "hl_community", "label": "רפואה בקהילה ומניעה", "label_en": "Community medicine" },
+        { "id": "hl_periphery", "label": "נגישות בפריפריה", "label_en": "Periphery accessibility" },
+        { "id": "hl_drug_basket", "label": "סל התרופות", "label_en": "Drug basket" },
+        { "id": "hl_long_term_care", "label": "סיעוד וגריאטריה", "label_en": "Long-term care", "core": false },
+        { "id": "hl_mental", "label": "בריאות הנפש", "label_en": "Mental health", "core": false },
+        { "id": "hl_funding", "label": "מימון מערכת הבריאות", "label_en": "Health funding", "core": false }
+      ]
+    },
+    {
+      "id": "personal_security", "label": "ביטחון אישי", "label_en": "Personal security", "primary": true,
+      "subtopics": [
+        { "id": "ps_homicide", "label": "רצח", "label_en": "Homicide" },
+        { "id": "ps_violent", "label": "אלימות", "label_en": "Violent crime" },
+        { "id": "ps_property", "label": "פשיעת רכוש", "label_en": "Property crime" },
+        { "id": "ps_vehicle_theft", "label": "גניבת רכב", "label_en": "Vehicle theft" },
+        { "id": "ps_arab_sector", "label": "אלימות בחברה הערבית", "label_en": "Arab-sector violence" },
+        { "id": "ps_subjective", "label": "תחושת ביטחון", "label_en": "Subjective sense of safety" },
+        { "id": "ps_victimization", "label": "נפגעות מעבירות (כללי)", "label_en": "Victimization (overall)", "core": false },
+        { "id": "ps_road_safety", "label": "בטיחות בדרכים", "label_en": "Road safety", "core": false }
+      ]
+    },
+    {
+      "id": "cost_of_living", "label": "יוקר מחיה", "label_en": "Cost of living", "primary": true,
+      "subtopics": [
+        { "id": "col_food", "label": "מזון", "label_en": "Food" },
+        { "id": "col_prices", "label": "מחירים לצרכן", "label_en": "Consumer prices" },
+        { "id": "col_taxes", "label": "מסים", "label_en": "Taxes" },
+        { "id": "col_competition", "label": "תחרות ויבוא", "label_en": "Competition / imports" },
+        { "id": "col_allowances", "label": "קצבאות", "label_en": "Allowances", "core": false },
+        { "id": "col_household", "label": "הכנסות והוצאות משק הבית", "label_en": "Household income and spending", "core": false },
+        { "id": "col_general", "label": "תוכנית כלכלית כללית", "label_en": "General economic program", "core": false }
+      ]
+    },
+    {
+      "id": "housing", "label": "דיור", "label_en": "Housing", "primary": true,
+      "subtopics": [
+        { "id": "ho_prices", "label": "מחירי דירות", "label_en": "Home prices" },
+        { "id": "ho_rent", "label": "שכר דירה", "label_en": "Rent" },
+        { "id": "ho_starts", "label": "התחלות בנייה", "label_en": "Housing starts" },
+        { "id": "ho_completions", "label": "גמר בנייה", "label_en": "Building completions" },
+        { "id": "ho_planning", "label": "תכנון וקרקע", "label_en": "Planning" },
+        { "id": "ho_long_term_rental", "label": "דיור להשכרה ארוכת טווח", "label_en": "Long-term rental" },
+        { "id": "ho_tenure", "label": "בעלות ונטל דיור", "label_en": "Tenure and housing burden", "core": false }
+      ]
+    },
+    {
+      "id": "governance", "label": "משילות", "label_en": "Governance", "primary": false,
+      "subtopics": [
+        { "id": "gov_local", "label": "שלטון מקומי", "label_en": "Local government" }
+      ]
+    }
+  ]
+}
