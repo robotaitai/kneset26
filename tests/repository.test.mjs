@@ -157,3 +157,46 @@ test("comparison: a documented link puts the action in that party's cell only", 
   const other = cmp.topics[0].rows.find((r) => r.subtopic.subtopic_id === "ho_prices");
   assert.equal(other.cells.faction_likud.track_status, null, "link does not leak to other rows");
 });
+
+// ---------------------------------------------------------------------------
+// Knesset-derived authorities and people
+
+test("authorities: contiguous Knesset rows are merged into one term", async () => {
+  const a = await repo.getAuthorities();
+  const kish = a.filter((x) => x.holder_name === "יואב קיש" && x.office === "משרד החינוך");
+  assert.equal(kish.length, 1);
+  assert.equal(kish[0].start, "2022-12-29");
+  assert.equal(kish[0].end, null);
+  assert.equal(kish[0].entity_id, "faction_likud");
+  const bennett = a.filter((x) => x.holder_name === "נפתלי בנט" && x.office === "משרד החינוך");
+  assert.equal(bennett.length, 2, "a one-day gap (2015-12-06/07) is not merged over");
+});
+
+test("authorities: every record maps to comparison topics and cites the Knesset", async () => {
+  const [a, topics] = await Promise.all([repo.getAuthorities(), repo.getTopics()]);
+  const ids = new Set(topics.map((t) => t.id));
+  assert.ok(a.length > 100);
+  for (const x of a) {
+    assert.ok(x.topics.length && x.topics.every((t) => ids.has(t)), x.authority_id);
+    assert.equal(x.source_id, "SRC_KNESSET_ODATA_POSITIONS");
+    assert.ok(x.source_record_ids.length >= 1);
+  }
+});
+
+test("outcomes: a 2025 KPI lists the holders of that period, newest first", async () => {
+  const cmp = await repo.getComparison({ mode: "outcomes", partyIds: [], topicIds: ["personal_security"] });
+  const k = cmp.topics[0].rows.flatMap((r) => r.kpis).find((x) => x.kpi.kpi_id === "homicide_victims");
+  const names = k.authorities.map((x) => x.holder_name);
+  assert.ok(names.includes("איתמר בן גביר"));
+  assert.ok(names.includes("בנימין נתניהו"));
+  for (let i = 1; i < k.authorities.length; i++) assert.ok(k.authorities[i - 1].start >= k.authorities[i].start);
+  assert.ok(k.authorities.every((x) => x.topics.includes("personal_security")));
+});
+
+test("people: current Knesset members carry their mapped party", async () => {
+  const people = await repo.getPeople();
+  const current = people.filter((p) => p.in_current_knesset);
+  assert.ok(current.length >= 120);
+  const mapped = current.filter((p) => p.entity_ids.length);
+  assert.ok(mapped.length / current.length > 0.95);
+});

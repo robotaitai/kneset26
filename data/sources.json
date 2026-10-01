@@ -317,5 +317,38 @@
     "source_date": "2025",
     "retrieved_at": "2026-10-01",
     "notes": "Official state budget book."
+  },
+  {
+    "source_id": "SRC_KNESSET_ODATA_POSITIONS",
+    "publisher": "הכנסת – מאגר המידע הפתוח (OData)",
+    "title": "תפקידי חברי כנסת ושרים (KNS_PersonToPosition)",
+    "url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_PersonToPosition",
+    "source_type": "official_primary",
+    "topic": "entities",
+    "source_date": "2026-10-01",
+    "retrieved_at": "2026-10-01",
+    "notes": "נשלף מהמראה הציבורית של הסדנא לידע ציבורי (knesset-data-pipelines): https://storage.googleapis.com/knesset-data-pipelines/data/members/kns_persontoposition/kns_persontoposition.csv · sha256 ff1f95e7d985 · 23663 שורות בטבלה המלאה. הערכים הועתקו ללא שינוי."
+  },
+  {
+    "source_id": "SRC_KNESSET_ODATA_PERSONS",
+    "publisher": "הכנסת – מאגר המידע הפתוח (OData)",
+    "title": "רשימת אישים (KNS_Person)",
+    "url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Person",
+    "source_type": "official_primary",
+    "topic": "entities",
+    "source_date": "2026-10-01",
+    "retrieved_at": "2026-10-01",
+    "notes": "נשלף מהמראה הציבורית של הסדנא לידע ציבורי (knesset-data-pipelines): https://storage.googleapis.com/knesset-data-pipelines/data/members/kns_person/kns_person.csv · sha256 03e32f1a97c1 · 1189 שורות בטבלה המלאה. הערכים הועתקו ללא שינוי."
+  },
+  {
+    "source_id": "SRC_KNESSET_ODATA_FACTIONS",
+    "publisher": "הכנסת – מאגר המידע הפתוח (OData)",
+    "title": "סיעות הכנסת (KNS_Faction)",
+    "url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Faction",
+    "source_type": "official_primary",
+    "topic": "entities",
+    "source_date": "2026-10-01",
+    "retrieved_at": "2026-10-01",
+    "notes": "נשלף מהמראה הציבורית של הסדנא לידע ציבורי (knesset-data-pipelines): https://storage.googleapis.com/knesset-data-pipelines/data/knesset/kns_faction/kns_faction.csv · sha256 cb46bce1babe · 545 שורות בטבלה המלאה. הערכים הועתקו ללא שינוי."
   }
 ]

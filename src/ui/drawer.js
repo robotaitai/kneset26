@@ -6,6 +6,8 @@ import { STATE, STATUS, EVIDENCE_STATUS, RELATIONSHIP, OUTCOME_LINK, ATTRIBUTION
 import { fmtPeriod, fmtDate, fmtValue, fmtMoney, statusTag, actionTypeLabel, entityKind, geoLabel, obsSpan } from "./format.js";
 import { barChart } from "./chart.js";
 
+const K25_START = "2022-11-15";
+
 export const COMPOSITE_KINDS = new Set(["cell", "row-actions", "kpi"]);
 
 export async function renderComposite(repo, kind, id) {
@@ -114,7 +116,9 @@ async function cellEvidence(repo, mode, partyId, subtopicId) {
         ? h("ul", { class: "dr-kpis" }, row.kpis.map((k) => kpiLine(k)))
         : missing(STATE.noKpi)),
 
-    section("בעלי סמכות בתקופה", null, authorityList(row.kpis.flatMap((k) => k.authorities))),
+    section("בעלי סמכות בכנסת ה־25", topic.label, authorityList(
+      (await repo.getAuthorities()).filter((a) => a.topics.includes(topic.id) && (!a.end || a.end >= K25_START)),
+      (await repo.getCompareConfig()).short_names)),
 
     section("ייחוס", null, h("p", null, STATE.noCausal),
       h("p", { class: "dr-note" }, "המאגר אינו מייחס שינוי במדד להתחייבות או לפעולה ללא מקור שתומך בכך במפורש.")),
@@ -198,7 +202,7 @@ async function kpiEvidence(repo, kpiId) {
           h("td", null, sourceById.get(o.source_id)?.publisher || o.source_id)))))),
 
     section("בעלי סמכות בתקופה", obsSpan(obs) || null,
-      authorityList(block.authorities)),
+      authorityList(block.authorities, (await repo.getCompareConfig()).short_names)),
 
     section("ייחוס", null,
       block.attributions.length
@@ -246,13 +250,19 @@ function kpiLine(k) {
     last ? h("span", { class: "muted" }, ` · ${fmtValue(last.value, k.kpi.unit)} (${fmtPeriod(last.period)})`) : null);
 }
 
-export function authorityList(list) {
+export function authorityList(list, shortNames = {}) {
   const uniq = [...new Map(list.map((a) => [a.authority_id, a])).values()];
   if (!uniq.length) return missing(STATE.noAuthority);
-  return h("ul", { class: "dr-list" }, uniq.map((a) => h("li", { class: "dr-item" },
-    h("p", null, h("strong", null, a.holder_name), ` · ${AUTHORITY_ROLES[a.role] || a.role}, ${a.office_label || a.office}`),
-    h("p", { class: "muted" }, ltr(`${fmtDate(a.start)}–${a.end ? fmtDate(a.end) : "היום"}`), a.government ? ` · ${a.government}` : ""),
-    h("button", { type: "button", class: "ev-btn", dataset: { evidenceKind: "authority", evidenceId: a.authority_id } }, "מקור"))));
+  return [
+    h("p", { class: "dr-note" }, "מי החזיק בסמכות הפורמלית בתחום בתקופה, לפי רשומות הכנסת. השיוך הסיעתי הוא ביום תחילת הכהונה. אין בכך קביעה שבעל הסמכות גרם לשינוי במדד."),
+    h("table", { class: "dr-table" },
+      h("thead", null, h("tr", null, h("th", null, "בעל הסמכות"), h("th", null, "תפקיד"), h("th", null, "סיעה"), h("th", null, "תקופה"))),
+      h("tbody", null, uniq.map((a) => h("tr", null,
+        h("td", null, h("button", { type: "button", class: "linkish", dataset: { evidenceKind: "authority", evidenceId: a.authority_id } }, a.holder_name)),
+        h("td", null, a.duty || a.office_label, a.acting && !/ממלא מקום/.test(a.duty || "") ? " (ממלא מקום)" : ""),
+        h("td", null, a.entity_id ? shortNames[a.entity_id] || a.faction_name : a.faction_name || h("span", { class: "missing" }, "לא מתועד במועד המינוי")),
+        h("td", { class: "num" }, ltr(`${fmtDate(a.start)}–${a.end ? fmtDate(a.end) : "היום"}`)))))),
+  ];
 }
 
 function sourceList(sources) {

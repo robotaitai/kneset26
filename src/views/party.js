@@ -8,8 +8,8 @@ import { entityKind, fmtDate } from "../ui/format.js";
 export const title = "פרופיל מפלגה";
 
 export async function mount(root, { repo, params, isCurrent }) {
-  const [parties, config, topics, subtopics, meta, people] = await Promise.all([
-    repo.getParties(), repo.getCompareConfig(), repo.getTopics(), repo.getSubtopics(), repo.getMeta(), repo.getPeople(),
+  const [parties, config, topics, subtopics, meta, people, authorities] = await Promise.all([
+    repo.getParties(), repo.getCompareConfig(), repo.getTopics(), repo.getSubtopics(), repo.getMeta(), repo.getPeople(), repo.getAuthorities(),
   ]);
   if (!isCurrent()) return;
   const party = parties.find((p) => p.entity_id === params.id);
@@ -32,7 +32,9 @@ export async function mount(root, { repo, params, isCurrent }) {
 
   const { items } = await repo.getCommitments({ entityId: party.entity_id });
   const source = await repo.getSource(party.source_id);
-  const members = people.filter((p) => (p.entity_ids || []).includes(party.entity_id));
+  const members = people.filter((p) => (p.entity_ids || []).includes(party.entity_id)).sort((a, b) => a.name.localeCompare(b.name, "he"));
+  const terms = authorities.filter((a) => a.entity_id === party.entity_id).sort((a, b) => b.start.localeCompare(a.start));
+  const topicLabel = new Map(topics.map((t) => [t.id, t.label]));
   const compareHref = `#/compare?p=${encodeURIComponent([party.entity_id, ...config.default_parties.filter((x) => x !== party.entity_id)].slice(0, 5).join(","))}`;
 
   const rows = [];
@@ -59,10 +61,22 @@ export async function mount(root, { repo, params, isCurrent }) {
     h("dl", { class: "kv" },
       h("dt", null, "מקור הרישום"), h("dd", null, source ? h("button", { type: "button", class: "linkish", dataset: { evidenceKind: "source", evidenceId: source.source_id } }, `${source.publisher} · ${source.title}`) : STATE.missing),
       h("dt", null, "התחייבויות מתועדות"), h("dd", null, items.length ? fmtNumber(items.length) : h("span", { class: "missing" }, STATE.missing)),
-      h("dt", null, "אנשים"), h("dd", null, members.length
-        ? members.map((m) => h("a", { href: `#/person?id=${encodeURIComponent(m.person_id)}` }, m.name))
+      h("dt", null, `חברי הסיעה בכנסת ה־25 (${members.length})`), h("dd", null, members.length
+        ? h("span", { class: "inline-list" }, members.map((m) => h("a", { href: `#/person?id=${encodeURIComponent(m.person_id)}` }, m.name)))
         : h("span", { class: "missing" }, STATE.missing)),
       h("dt", null, "פעולות משויכות"), h("dd", null, h("span", { class: "missing" }, "המאגר אינו משייך פעולות ממשלה למפלגה ללא מקור מפורש"))),
+    h("h3", { class: "sec-title" }, "תפקידים ביצועיים בתחומי ההשוואה (חברי הסיעה, מאז 1999)"),
+    terms.length
+      ? h("div", { class: "matrix-wrap static" }, h("table", { class: "plain" },
+          h("thead", null, h("tr", null, h("th", null, "בעל התפקיד"), h("th", null, "תפקיד"), h("th", null, "תחומים"), h("th", null, "תקופה"))),
+          h("tbody", null, terms.map((a) => h("tr", null,
+            h("td", null, h("a", { href: `#/person?id=${encodeURIComponent(a.person_id)}` }, a.holder_name)),
+            h("td", null, a.duty || a.office_label),
+            h("td", null, a.topics.length > 3 ? "כל התחומים" : a.topics.map((t) => topicLabel.get(t) || t).join(", ")),
+            h("td", { class: "num" }, ltr(`${fmtDate(a.start)}–${a.end ? fmtDate(a.end) : "היום"}`)))))))
+      : h("p", { class: "missing" }, STATE.missing),
+    h("p", { class: "dr-note" }, "שיוך לפי הסיעה של בעל התפקיד ביום תחילת הכהונה, כפי שתועד בכנסת. אין בכך ייחוס של תוצאות למפלגה."),
+    h("h3", { class: "sec-title" }, "התחייבויות מתועדות"),
     rows.length
       ? h("div", { class: "matrix-wrap static" }, h("table", { class: "plain profile" },
           h("thead", null, h("tr", null, h("th", null, "נושא"), h("th", null, "התחייבות"), h("th", null, "יעד"), h("th", null, "טווח"), h("th", null, "מערכת בחירות"))),

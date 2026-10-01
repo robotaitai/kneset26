@@ -20,16 +20,16 @@
   "seed_sha256": "55b9fd8c7550b770b8db64a6abf61f2ab3e77c8f6d180653fdda64f27fe48937",
   "counts": {
     "parties": 15,
-    "people": 0,
+    "people": 219,
     "commitments": 49,
     "actions": 7,
     "metric_series": 53,
     "metrics": 70,
-    "sources": 29,
+    "sources": 32,
     "subtopics": 54,
     "kpis": 53,
     "commitment_action_links": 0,
     "attributions": 0,
-    "authorities": 0
+    "authorities": 233
   }
 }
