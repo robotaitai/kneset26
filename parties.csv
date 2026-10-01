@@ -1,0 +1,16 @@
+﻿entity_id,name,entity_type,knesset,source_id
+faction_likud,הליכוד,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_yesh_atid,יש עתיד,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_shas,ש״ס,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_blue_white,כחול לבן - המחנה הממלכתי,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_utj,יהדות התורה,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_rz,הציונות הדתית בראשות בצלאל סמוטריץ׳,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_otzma,עוצמה יהודית בראשות איתמר בן גביר,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_yisrael_beiteinu,ישראל ביתנו,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_raam,רע״ם,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_hadash_taal,חד״ש-תע״ל,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_labor,העבודה,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_new_hope,הימין הממלכתי,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+faction_noam,נעם,parliamentary_faction,25,SRC_KNESSET_FACTIONS
+party_beyahad,ביחד,election_campaign_entity,26,SRC_BEYAHAD_PLANS
+party_democrats,הדמוקרטים,election_campaign_entity,26,SRC_DEMOCRATS_VISION

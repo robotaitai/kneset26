@@ -1,0 +1,71 @@
+﻿metric_id,topic,metric_name,period,value,unit,geography,population,source_id,note,verified_at
+M_CPI_AUG26_MOM,cost_of_living,Consumer Price Index monthly change,2026-08,0.7,percent,Israel,,SRC_CBS_CPI_AUG26,,2026-10-01
+M_CPI_AUG26_YOY,cost_of_living,Consumer Price Index 12-month change,2025-08 to 2026-08,1.5,percent,Israel,,SRC_CBS_CPI_AUG26,,2026-10-01
+M_CPI_2026_YTD,cost_of_living,Consumer Price Index year-to-date change,2026-01 to 2026-08,2.1,percent,Israel,,SRC_CBS_CPI_AUG26,,2026-10-01
+M_CPI_HOUSING_AUG26,housing,CPI housing component monthly change,2026-08,0.6,percent,Israel,,SRC_CBS_CPI_AUG26,,2026-10-01
+M_CPI_TRANSPORT_AUG26,transport,CPI transport component monthly change,2026-08,2.7,percent,Israel,,SRC_CBS_CPI_AUG26,,2026-10-01
+M_CPI_FOOD_AUG26,cost_of_living,CPI food component monthly change,2026-08,-0.5,percent,Israel,,SRC_CBS_CPI_AUG26,,2026-10-01
+M_HOME_PRICE_01,housing,Housing price index bi-monthly change,2025-07,-0.1,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_02,housing,Housing price index bi-monthly change,2025-08,-0.2,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_03,housing,Housing price index bi-monthly change,2025-09,-0.6,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_04,housing,Housing price index bi-monthly change,2025-10,-0.7,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_05,housing,Housing price index bi-monthly change,2025-11,0.5,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_06,housing,Housing price index bi-monthly change,2025-12,0.8,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_07,housing,Housing price index bi-monthly change,2026-01,-0.1,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_08,housing,Housing price index bi-monthly change,2026-02,-0.1,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_09,housing,Housing price index bi-monthly change,2026-03,0.4,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_10,housing,Housing price index bi-monthly change,2026-04,-0.4,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_11,housing,Housing price index bi-monthly change,2026-05,-1.1,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_HOME_PRICE_12,housing,Housing price index bi-monthly change,2026-06,0.1,percent,Israel,,SRC_CBS_HOUSING_PRICE_JUN26,Last periods may be provisional in the CBS release.,2026-10-01
+M_CONST_STARTS_2025,housing,Housing units construction started,2025,80010,units,Israel,,SRC_CBS_CONSTRUCTION_2025,,2026-10-01
+M_CONST_NET_STARTS_2025,housing,Net housing starts,2025,74300,units,Israel,,SRC_CBS_CONSTRUCTION_2025,,2026-10-01
+M_CONST_COMPLETIONS_2025,housing,Housing units completed,2025,59700,units,Israel,,SRC_CBS_CONSTRUCTION_2025,,2026-10-01
+M_CONST_ACTIVE_2025,housing,Housing units under active construction,2025,207200,units,Israel,,SRC_CBS_CONSTRUCTION_2025,,2026-10-01
+M_CONST_PERMITS_2025,housing,Housing units in permits,2025,81200,units,Israel,,SRC_CBS_CONSTRUCTION_2025,,2026-10-01
+M_CONST_DURATION_2025,housing,Weighted construction duration,2025,37.8,months,Israel,,SRC_CBS_CONSTRUCTION_2025,,2026-10-01
+M_CONST_URBAN_RENEWAL_2025,housing,Share of housing starts in urban renewal,2025,28.2,percent,Israel,,SRC_CBS_CONSTRUCTION_2025,,2026-10-01
+M_HEALTH_EXP_2025,health,National health expenditure,2025,156.8,NIS billions,Israel,,SRC_CBS_HEALTH_2026_YEARBOOK,,2026-10-01
+M_HEALTH_GDP_2025,health,National health expenditure as share of GDP,2025,7.4,percent,Israel,,SRC_CBS_HEALTH_2026_YEARBOOK,,2026-10-01
+M_HEALTH_EXP_2024,health,National health expenditure,2024,147.0,NIS billions,Israel,,SRC_CBS_HEALTH_2026_YEARBOOK,,2026-10-01
+M_HEALTH_GDP_2024,health,National health expenditure as share of GDP,2024,7.3,percent,Israel,,SRC_CBS_HEALTH_2026_YEARBOOK,,2026-10-01
+M_EDU_CHANGE_01,education,Primary students change 1999/00-2023/24,1999/00 to 2023/24,55,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_02,education,Middle-school students change 1999/00-2023/24,1999/00 to 2023/24,36,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_03,education,Upper-secondary students change 1999/00-2023/24,1999/00 to 2023/24,56,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_04,education,Primary classes change 1999/00-2023/24,1999/00 to 2023/24,73,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_05,education,Middle-school classes change 1999/00-2023/24,1999/00 to 2023/24,61,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_06,education,Upper-secondary classes change 1999/00-2023/24,1999/00 to 2023/24,72,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_07,education,Primary teachers change 1999/00-2023/24,1999/00 to 2023/24,87,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_08,education,Middle-school teachers change 1999/00-2023/24,1999/00 to 2023/24,107,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_09,education,Upper-secondary teachers change 1999/00-2023/24,1999/00 to 2023/24,71,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_10,education,Primary full-time positions change 1999/00-2023/24,1999/00 to 2023/24,93,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_11,education,Middle-school full-time positions change 1999/00-2023/24,1999/00 to 2023/24,78,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_CHANGE_12,education,Upper-secondary full-time positions change 1999/00-2023/24,1999/00 to 2023/24,67,percent,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_ARAB_PRIMARY_STUD_PER_TEACH_2000,education,"Students per teacher, Arab primary education",1999/00,16.3,students per teacher,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_ARAB_PRIMARY_STUD_PER_TEACH_2024,education,"Students per teacher, Arab primary education",2023/24,11.5,students per teacher,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_HEB_MID_STUD_PER_TEACH_2000,education,"Students per teacher, Hebrew state middle schools",1999/00,12.2,students per teacher,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_EDU_HEB_MID_STUD_PER_TEACH_2024,education,"Students per teacher, Hebrew state middle schools",2023/24,7.7,students per teacher,Israel,,SRC_CBS_EDU_TEACHERS_2026,,2026-10-01
+M_SEC_VICTIMS_ANY_2025,personal_security,Adults victimized by selected offenses in preceding year,2025,15.0,percent,Israel,Age 20+,SRC_CBS_PERSONAL_SECURITY_2025,,2026-10-01
+M_SEC_VICTIMS_CYBER_2025,personal_security,Adults victimized by online offenses,2025,8.2,percent,Israel,Age 20+,SRC_CBS_PERSONAL_SECURITY_2025,,2026-10-01
+M_SEC_VICTIMS_VIOLENCE_2025,personal_security,Adults victimized by violence or threat of violence,2025,3.5,percent,Israel,Age 20+,SRC_CBS_PERSONAL_SECURITY_2025,,2026-10-01
+M_SEC_VICTIMS_THEFT_2025,personal_security,Adults victimized by theft without force,2025,2.8,percent,Israel,Age 20+,SRC_CBS_PERSONAL_SECURITY_2025,,2026-10-01
+M_SEC_VICTIMS_SEXHARASS_2025,personal_security,Adults victimized by sexual harassment,2025,2.5,percent,Israel,Age 20+,SRC_CBS_PERSONAL_SECURITY_2025,,2026-10-01
+M_SEC_SAFETY_WORSE_HAIFA_2025,personal_security,Reported change for worse in personal safety,2025,33.9,percent,Haifa District,Survey respondents,SRC_CBS_PERSONAL_SECURITY_2025,,2026-10-01
+M_SEC_SAFETY_WORSE_TA_2025,personal_security,Reported change for worse in personal safety,2025,33.4,percent,Tel Aviv District,Survey respondents,SRC_CBS_PERSONAL_SECURITY_2025,,2026-10-01
+M_SEC_SAFETY_WORSE_NORTH_2025,personal_security,Reported change for worse in personal safety,2025,32.9,percent,Northern District,Survey respondents,SRC_CBS_PERSONAL_SECURITY_2025,,2026-10-01
+M_SEC_HOMICIDES_2025,personal_security,Homicide victims reported by police in Knesset committee,2025,309,people,Israel,,SRC_KNESSET_CRIME_2025,,2026-10-01
+M_SEC_HOMICIDES_ARAB_2025,personal_security,Homicide victims in Arab sector reported by police in Knesset committee,2025,241,people,Israel,,SRC_KNESSET_CRIME_2025,,2026-10-01
+M_SEC_HOMICIDES_JEWISH_2025,personal_security,Homicide victims in Jewish sector reported by police in Knesset committee,2025,47,people,Israel,,SRC_KNESSET_CRIME_2025,,2026-10-01
+M_SEC_PREVENTED_HOMICIDE_2025,personal_security,Homicide events police said were prevented,2025,112,events,Israel,,SRC_KNESSET_CRIME_2025,,2026-10-01
+M_TR_VEHICLES_2025,transport,Motor vehicles,2025,4348275,vehicles,Israel,,SRC_CBS_MOTOR_2025,,2026-10-01
+M_TR_PRIVATE_2025,transport,Private vehicles,2025,3789429,vehicles,Israel,,SRC_CBS_MOTOR_2025,,2026-10-01
+M_TR_EV_2025,transport,Electric vehicles,2025,216265,vehicles,Israel,,SRC_CBS_MOTOR_2025,,2026-10-01
+M_TR_EBUS_2025,transport,Electric buses,2025,2842,buses,Israel,,SRC_CBS_MOTOR_2025,,2026-10-01
+M_TR_MOTORIZATION_2025,transport,Motorization level,2025,427,"vehicles per 1,000 residents",Israel,,SRC_CBS_MOTOR_2025,Transport context; not a direct public-transport KPI.,2026-10-01
+M_HH_GROSS_INCOME_2023,cost_of_living,Average gross monetary household income per month,2023,26330,NIS/month,Israel,,SRC_CBS_HH_EXP_2023,,2026-10-01
+M_HH_NET_INCOME_2023,cost_of_living,Average net monetary household income per month,2023,21606,NIS/month,Israel,,SRC_CBS_HH_EXP_2023,,2026-10-01
+M_HH_TOTAL_CONSUMPTION_2023,cost_of_living,Average total monthly consumption expenditure,2023,18088,NIS/month,Israel,,SRC_CBS_HH_EXP_2023,,2026-10-01
+M_HH_HOUSING_SHARE_2023,housing,Housing share of household consumption expenditure,2023,25.3,percent,Israel,,SRC_CBS_HH_EXP_2023,,2026-10-01
+M_HH_TRANSPORT_SHARE_2023,transport,Transport and communications share of household consumption expenditure,2023,18.6,percent,Israel,,SRC_CBS_HH_EXP_2023,,2026-10-01
+M_HH_FOOD_SHARE_2023,cost_of_living,Food incl. fruit and vegetables share of household consumption expenditure,2023,17.9,percent,Israel,,SRC_CBS_HH_EXP_2023,,2026-10-01
+M_HH_OWNER_2023,housing,Households living in owner-occupied dwelling,2023,64.1,percent,Israel,,SRC_CBS_HH_EXP_2023,,2026-10-01
+M_HH_RENTER_2023,housing,Households living in rented dwelling,2023,31.8,percent,Israel,,SRC_CBS_HH_EXP_2023,,2026-10-01

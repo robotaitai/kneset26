@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ביקורת בחירות · כנסת 26</title>
+<meta name="description" content="מאגר ראיות ניטרלי: התחייבויות מפלגות, פעולות ממשלה ומדדים ציבוריים, זה לצד זה, עם מקור ותאריך לכל פריט.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=IBM+Plex+Sans+Hebrew:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="kicker">
+      <span class="mono">SEED v<span data-meta="version">0.1</span></span>
+      <span class="dot"></span>
+      <span>עודכן <time data-meta="generated_at">2026-10-01</time></span>
+    </div>
+    <h1>ביקורת<br><em>בחירות</em> <span class="k26">כנסת 26</span></h1>
+    <p class="lede">מה מפלגות אומרות שיעשו, מה הממשלה עשתה בפועל, ומה המספרים מראים. שלוש עמודות של ראיות, זו לצד זו, <strong>בלי חיצים ביניהן</strong>.</p>
+    <dl class="counts" id="counts"></dl>
+  </div>
+</header>
+
+<section class="principles wrap" aria-label="עקרונות">
+  <div class="principle"><span class="pn">01</span><h3>התחייבות</h3><p>מה מפלגה אומרת שבכוונתה לעשות. לקוח ממקור בשליטת המפלגה. אינו ראיה לביצוע.</p></div>
+  <div class="principle"><span class="pn">02</span><h3>פעולה</h3><p>החלטת ממשלה, סעיף תקציב או יעד בתוכנית עבודה, ממקור רשמי. הביצוע בפועל לא תמיד אומת.</p></div>
+  <div class="principle"><span class="pn">03</span><h3>מדד</h3><p>תוצאה ציבורית נמדדת: למ״ס, משטרה, ועדות הכנסת. המאגר אינו מייחס שינוי במדד לשום גורם.</p></div>
+  <p class="nofx">אין כאן ציונים, דירוגים או המלצות הצבעה. נתונים חסרים נשארים חסרים.</p>
+</section>
+
+<nav class="topicbar" aria-label="נושאים">
+  <div class="wrap topicbar-inner">
+    <span class="tb-label">נושא</span>
+    <div class="chips" id="topics" role="tablist"></div>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section class="ledger" id="ledger" aria-live="polite">
+    <div class="col" data-col="commitments">
+      <header class="col-head"><span class="pn">01</span><h2>התחייבויות</h2><span class="n" id="n-commitments"></span></header>
+      <div class="col-tools">
+        <select id="party" aria-label="סינון לפי מפלגה"></select>
+        <input id="q" type="search" placeholder="חיפוש בטקסט..." aria-label="חיפוש">
+      </div>
+      <div class="list" id="list-commitments"></div>
+    </div>
+    <div class="col" data-col="actions">
+      <header class="col-head"><span class="pn">02</span><h2>פעולות</h2><span class="n" id="n-actions"></span></header>
+      <div class="list" id="list-actions"></div>
+    </div>
+    <div class="col" data-col="metrics">
+      <header class="col-head"><span class="pn">03</span><h2>מדדים</h2><span class="n" id="n-metrics"></span></header>
+      <div class="list" id="list-metrics"></div>
+    </div>
+  </section>
+
+  <section class="block" id="coverage-block">
+    <h2 class="sec">כיסוי לפי גוף</h2>
+    <p class="sec-sub">מספר ההתחייבויות המתועדות בגרסה זו. מספר נמוך או אפס משקף את היקף האיסוף, לא את המפלגה.</p>
+    <div class="coverage" id="coverage"></div>
+  </section>
+
+  <section class="block" id="sources-block">
+    <h2 class="sec">מרשם מקורות</h2>
+    <p class="sec-sub">כל פריט במאגר מצביע על מקור. <span class="tag party">מקור מפלגתי</span> <span class="tag official">מקור רשמי</span></p>
+    <div class="sources" id="sources"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <p>הנתונים פתוחים: <a href="election_audit_seed.json">JSON</a> · <a href="commitments.csv">commitments.csv</a> · <a href="actions.csv">actions.csv</a> · <a href="metrics.csv">metrics.csv</a> · <a href="sources.csv">sources.csv</a> · <a href="parties.csv">parties.csv</a></p>
+    <p class="muted">זהו זרע ראשוני ולא מאגר בחירות מלא. נתונים שונים מתייחסים לשנים שונות בשל פערי פרסום בין תחומים. <a href="https://github.com/robotaitai/kneset26">קוד ונתונים ב־GitHub</a></p>
+  </div>
+</footer>
+
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>
