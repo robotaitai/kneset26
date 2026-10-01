@@ -12,7 +12,8 @@
     "source_ids": [
       "SRC_CBS_CPI_AUG26"
     ],
-    "latest_period_end": "2026-08"
+    "latest_period_end": "2026-08",
+    "kpi_id": "cpi_monthly_change"
   },
   {
     "series_id": "S_consumer_price_index_12_month_change",
@@ -27,7 +28,8 @@
     "source_ids": [
       "SRC_CBS_CPI_AUG26"
     ],
-    "latest_period_end": "2026-08"
+    "latest_period_end": "2026-08",
+    "kpi_id": "cpi_12m_change"
   },
   {
     "series_id": "S_consumer_price_index_year_to_date_change",
@@ -42,7 +44,8 @@
     "source_ids": [
       "SRC_CBS_CPI_AUG26"
     ],
-    "latest_period_end": "2026-08"
+    "latest_period_end": "2026-08",
+    "kpi_id": "cpi_ytd_change"
   },
   {
     "series_id": "S_cpi_housing_component_monthly_change",
@@ -57,7 +60,8 @@
     "source_ids": [
       "SRC_CBS_CPI_AUG26"
     ],
-    "latest_period_end": "2026-08"
+    "latest_period_end": "2026-08",
+    "kpi_id": "cpi_housing_monthly_change"
   },
   {
     "series_id": "S_cpi_transport_component_monthly_change",
@@ -72,7 +76,8 @@
     "source_ids": [
       "SRC_CBS_CPI_AUG26"
     ],
-    "latest_period_end": "2026-08"
+    "latest_period_end": "2026-08",
+    "kpi_id": "cpi_transport_monthly_change"
   },
   {
     "series_id": "S_cpi_food_component_monthly_change",
@@ -87,7 +92,8 @@
     "source_ids": [
       "SRC_CBS_CPI_AUG26"
     ],
-    "latest_period_end": "2026-08"
+    "latest_period_end": "2026-08",
+    "kpi_id": "cpi_food_monthly_change"
   },
   {
     "series_id": "S_housing_price_index_bi_monthly_change",
@@ -102,7 +108,8 @@
     "source_ids": [
       "SRC_CBS_HOUSING_PRICE_JUN26"
     ],
-    "latest_period_end": "2026-06"
+    "latest_period_end": "2026-06",
+    "kpi_id": "housing_price_change"
   },
   {
     "series_id": "S_housing_units_construction_started",
@@ -117,7 +124,8 @@
     "source_ids": [
       "SRC_CBS_CONSTRUCTION_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "housing_starts"
   },
   {
     "series_id": "S_net_housing_starts",
@@ -132,7 +140,8 @@
     "source_ids": [
       "SRC_CBS_CONSTRUCTION_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "housing_net_starts"
   },
   {
     "series_id": "S_housing_units_completed",
@@ -147,7 +156,8 @@
     "source_ids": [
       "SRC_CBS_CONSTRUCTION_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "housing_completions"
   },
   {
     "series_id": "S_housing_units_under_active_construction",
@@ -162,7 +172,8 @@
     "source_ids": [
       "SRC_CBS_CONSTRUCTION_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "housing_under_construction"
   },
   {
     "series_id": "S_housing_units_in_permits",
@@ -177,7 +188,8 @@
     "source_ids": [
       "SRC_CBS_CONSTRUCTION_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "housing_permits"
   },
   {
     "series_id": "S_weighted_construction_duration",
@@ -192,7 +204,8 @@
     "source_ids": [
       "SRC_CBS_CONSTRUCTION_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "housing_construction_duration"
   },
   {
     "series_id": "S_share_of_housing_starts_in_urban_renewal",
@@ -207,7 +220,8 @@
     "source_ids": [
       "SRC_CBS_CONSTRUCTION_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "housing_urban_renewal_share"
   },
   {
     "series_id": "S_national_health_expenditure",
@@ -222,7 +236,8 @@
     "source_ids": [
       "SRC_CBS_HEALTH_2026_YEARBOOK"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "health_expenditure"
   },
   {
     "series_id": "S_national_health_expenditure_as_share_of_gdp",
@@ -237,7 +252,8 @@
     "source_ids": [
       "SRC_CBS_HEALTH_2026_YEARBOOK"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "health_expenditure_gdp"
   },
   {
     "series_id": "S_primary_students_change_1999_00_2023_24",
@@ -252,7 +268,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "primary_students_change"
   },
   {
     "series_id": "S_middle_school_students_change_1999_00_2023_24",
@@ -267,7 +284,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "middle_students_change"
   },
   {
     "series_id": "S_upper_secondary_students_change_1999_00_2023_24",
@@ -282,7 +300,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "upper_students_change"
   },
   {
     "series_id": "S_primary_classes_change_1999_00_2023_24",
@@ -297,7 +316,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "primary_classes_change"
   },
   {
     "series_id": "S_middle_school_classes_change_1999_00_2023_24",
@@ -312,7 +332,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "middle_classes_change"
   },
   {
     "series_id": "S_upper_secondary_classes_change_1999_00_2023_24",
@@ -327,7 +348,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "upper_classes_change"
   },
   {
     "series_id": "S_primary_teachers_change_1999_00_2023_24",
@@ -342,7 +364,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "primary_teachers_change"
   },
   {
     "series_id": "S_middle_school_teachers_change_1999_00_2023_24",
@@ -357,7 +380,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "middle_teachers_change"
   },
   {
     "series_id": "S_upper_secondary_teachers_change_1999_00_2023_24",
@@ -372,7 +396,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "upper_teachers_change"
   },
   {
     "series_id": "S_primary_full_time_positions_change_1999_00_2023_24",
@@ -387,7 +412,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "primary_fte_change"
   },
   {
     "series_id": "S_middle_school_full_time_positions_change_1999_00_2023_24",
@@ -402,7 +428,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "middle_fte_change"
   },
   {
     "series_id": "S_upper_secondary_full_time_positions_change_1999_00_2023_24",
@@ -417,7 +444,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "upper_fte_change"
   },
   {
     "series_id": "S_students_per_teacher_arab_primary_education",
@@ -432,7 +460,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "students_per_teacher_arab_primary"
   },
   {
     "series_id": "S_students_per_teacher_hebrew_state_middle_schools",
@@ -447,7 +476,8 @@
     "source_ids": [
       "SRC_CBS_EDU_TEACHERS_2026"
     ],
-    "latest_period_end": "2024-08"
+    "latest_period_end": "2024-08",
+    "kpi_id": "students_per_teacher_hebrew_middle"
   },
   {
     "series_id": "S_adults_victimized_by_selected_offenses_in_preceding_year__age_20",
@@ -462,7 +492,8 @@
     "source_ids": [
       "SRC_CBS_PERSONAL_SECURITY_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "victimized_selected_offenses"
   },
   {
     "series_id": "S_adults_victimized_by_online_offenses__age_20",
@@ -477,7 +508,8 @@
     "source_ids": [
       "SRC_CBS_PERSONAL_SECURITY_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "victimized_online"
   },
   {
     "series_id": "S_adults_victimized_by_violence_or_threat_of_violence__age_20",
@@ -492,7 +524,8 @@
     "source_ids": [
       "SRC_CBS_PERSONAL_SECURITY_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "victimized_violence"
   },
   {
     "series_id": "S_adults_victimized_by_theft_without_force__age_20",
@@ -507,7 +540,8 @@
     "source_ids": [
       "SRC_CBS_PERSONAL_SECURITY_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "victimized_theft"
   },
   {
     "series_id": "S_adults_victimized_by_sexual_harassment__age_20",
@@ -522,7 +556,8 @@
     "source_ids": [
       "SRC_CBS_PERSONAL_SECURITY_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "victimized_sexual_harassment"
   },
   {
     "series_id": "S_reported_change_for_worse_in_personal_safety__survey_respondents",
@@ -539,7 +574,8 @@
     "source_ids": [
       "SRC_CBS_PERSONAL_SECURITY_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "safety_worsened"
   },
   {
     "series_id": "S_homicide_victims_reported_by_police_in_knesset_committee",
@@ -554,7 +590,8 @@
     "source_ids": [
       "SRC_KNESSET_CRIME_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "homicide_victims"
   },
   {
     "series_id": "S_homicide_victims_in_arab_sector_reported_by_police_in_knesset_committee",
@@ -569,7 +606,8 @@
     "source_ids": [
       "SRC_KNESSET_CRIME_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "homicide_victims_arab"
   },
   {
     "series_id": "S_homicide_victims_in_jewish_sector_reported_by_police_in_knesset_committee",
@@ -584,7 +622,8 @@
     "source_ids": [
       "SRC_KNESSET_CRIME_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "homicide_victims_jewish"
   },
   {
     "series_id": "S_homicide_events_police_said_were_prevented",
@@ -599,7 +638,8 @@
     "source_ids": [
       "SRC_KNESSET_CRIME_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "homicide_prevented"
   },
   {
     "series_id": "S_motor_vehicles",
@@ -614,7 +654,8 @@
     "source_ids": [
       "SRC_CBS_MOTOR_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "motor_vehicles"
   },
   {
     "series_id": "S_private_vehicles",
@@ -629,7 +670,8 @@
     "source_ids": [
       "SRC_CBS_MOTOR_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "private_vehicles"
   },
   {
     "series_id": "S_electric_vehicles",
@@ -644,7 +686,8 @@
     "source_ids": [
       "SRC_CBS_MOTOR_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "electric_vehicles"
   },
   {
     "series_id": "S_electric_buses",
@@ -659,7 +702,8 @@
     "source_ids": [
       "SRC_CBS_MOTOR_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "electric_buses"
   },
   {
     "series_id": "S_motorization_level",
@@ -674,7 +718,8 @@
     "source_ids": [
       "SRC_CBS_MOTOR_2025"
     ],
-    "latest_period_end": "2025-12"
+    "latest_period_end": "2025-12",
+    "kpi_id": "motorization_level"
   },
   {
     "series_id": "S_average_gross_monetary_household_income_per_month",
@@ -689,7 +734,8 @@
     "source_ids": [
       "SRC_CBS_HH_EXP_2023"
     ],
-    "latest_period_end": "2023-12"
+    "latest_period_end": "2023-12",
+    "kpi_id": "household_gross_income"
   },
   {
     "series_id": "S_average_net_monetary_household_income_per_month",
@@ -704,7 +750,8 @@
     "source_ids": [
       "SRC_CBS_HH_EXP_2023"
     ],
-    "latest_period_end": "2023-12"
+    "latest_period_end": "2023-12",
+    "kpi_id": "household_net_income"
   },
   {
     "series_id": "S_average_total_monthly_consumption_expenditure",
@@ -719,7 +766,8 @@
     "source_ids": [
       "SRC_CBS_HH_EXP_2023"
     ],
-    "latest_period_end": "2023-12"
+    "latest_period_end": "2023-12",
+    "kpi_id": "household_consumption"
   },
   {
     "series_id": "S_housing_share_of_household_consumption_expenditure",
@@ -734,7 +782,8 @@
     "source_ids": [
       "SRC_CBS_HH_EXP_2023"
     ],
-    "latest_period_end": "2023-12"
+    "latest_period_end": "2023-12",
+    "kpi_id": "housing_share_of_consumption"
   },
   {
     "series_id": "S_transport_and_communications_share_of_household_consumption_expenditure",
@@ -749,7 +798,8 @@
     "source_ids": [
       "SRC_CBS_HH_EXP_2023"
     ],
-    "latest_period_end": "2023-12"
+    "latest_period_end": "2023-12",
+    "kpi_id": "transport_share_of_consumption"
   },
   {
     "series_id": "S_food_incl_fruit_and_vegetables_share_of_household_consumption_expenditure",
@@ -764,7 +814,8 @@
     "source_ids": [
       "SRC_CBS_HH_EXP_2023"
     ],
-    "latest_period_end": "2023-12"
+    "latest_period_end": "2023-12",
+    "kpi_id": "food_share_of_consumption"
   },
   {
     "series_id": "S_households_living_in_owner_occupied_dwelling",
@@ -779,7 +830,8 @@
     "source_ids": [
       "SRC_CBS_HH_EXP_2023"
     ],
-    "latest_period_end": "2023-12"
+    "latest_period_end": "2023-12",
+    "kpi_id": "households_owner_occupied"
   },
   {
     "series_id": "S_households_living_in_rented_dwelling",
@@ -794,6 +846,7 @@
     "source_ids": [
       "SRC_CBS_HH_EXP_2023"
     ],
-    "latest_period_end": "2023-12"
+    "latest_period_end": "2023-12",
+    "kpi_id": "households_renting"
   }
 ]

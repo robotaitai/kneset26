@@ -3,7 +3,7 @@ import { topicChips, updateChipCounts, searchControl } from "../ui/filters.js";
 import { STATE, PERIOD_TYPES, RELATIONSHIP, UNITS } from "../ui/labels.js";
 import { barChart } from "../ui/chart.js";
 
-export const title = "מה קרה בפועל";
+export const title = "סייר המדדים";
 
 export async function mount(root, { repo, params, setParams, isCurrent }) {
   const [topics, allSeries] = await Promise.all([repo.getTopics(), repo.getMetricSeries()]);

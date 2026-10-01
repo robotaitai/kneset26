@@ -1,0 +1,22 @@
+{
+  "_doc": "Presentation defaults for the comparison table. Display names only; they do not change any record.",
+  "default_parties": ["faction_likud", "faction_yesh_atid", "party_democrats", "faction_yisrael_beiteinu", "party_beyahad"],
+  "max_parties": 8,
+  "short_names": {
+    "faction_likud": "הליכוד",
+    "faction_yesh_atid": "יש עתיד",
+    "faction_shas": "ש״ס",
+    "faction_blue_white": "כחול לבן",
+    "faction_utj": "יהדות התורה",
+    "faction_rz": "הציונות הדתית",
+    "faction_otzma": "עוצמה יהודית",
+    "faction_yisrael_beiteinu": "ישראל ביתנו",
+    "faction_raam": "רע״ם",
+    "faction_hadash_taal": "חד״ש-תע״ל",
+    "faction_labor": "העבודה",
+    "faction_new_hope": "הימין הממלכתי",
+    "faction_noam": "נעם",
+    "party_beyahad": "ביחד",
+    "party_democrats": "הדמוקרטים"
+  }
+}

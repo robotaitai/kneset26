@@ -7,6 +7,8 @@
 // Collections are loaded lazily on first use and indexed once. List methods
 // return { items, total } and accept offset/limit so views can paginate.
 
+import { buildComparison } from "./comparison.js";
+
 export function fetchLoader(baseUrl = "data/") {
   return async (name) => {
     const res = await fetch(`${baseUrl}${name}.json`);
@@ -138,8 +140,28 @@ export function createRepository(load) {
     return set;
   };
 
+  const comparisonData = () =>
+    once("comparison", async () => {
+      const names = ["meta", "compare", "parties", "topics", "subtopics", "commitments", "actions", "commitment_action_links",
+        "kpis", "metric_series", "metrics", "attributions", "authorities"];
+      const v = await Promise.all(names.map(get));
+      const d = Object.fromEntries(names.map((n, i) => [n, v[i]]));
+      return { ...d, links: d.commitment_action_links, series: d.metric_series };
+    });
+
   return {
     getMeta: () => get("meta"),
+    getCompareConfig: () => get("compare"),
+    getSubtopics: () => get("subtopics"),
+    getKpis: () => get("kpis"),
+    getAuthorities: () => get("authorities"),
+    getActionsAll: () => get("actions"),
+
+    // The comparison matrix. mode: now | track | outcomes.
+    async getComparison(opts) {
+      return buildComparison(await comparisonData(), opts);
+    },
+
     getTopics: () => get("topics"),
     getTopic: async (id) => (await topicsIdx()).get(id) || null,
     getParties: () => get("parties"),
@@ -215,14 +237,16 @@ export function createRepository(load) {
         case "series": return this.getSeries(id);
         case "party": return this.getParty(id);
         case "source": return this.getSource(id);
+        case "kpi": return (await get("kpis")).find((k) => k.kpi_id === id) || null;
+        case "authority": return (await get("authorities")).find((a) => a.authority_id === id) || null;
         default: return null;
       }
     },
 
     async countCitations(sourceId) {
-      const [c, a, m, p] = await Promise.all([get("commitments"), get("actions"), get("metrics"), get("parties")]);
+      const [c, a, m, p, au] = await Promise.all([get("commitments"), get("actions"), get("metrics"), get("parties"), get("authorities")]);
       const n = (rows) => rows.filter((r) => r.source_id === sourceId).length;
-      return { commitments: n(c), actions: n(a), metrics: n(m), parties: n(p) };
+      return { commitments: n(c), actions: n(a), metrics: n(m), parties: n(p), authorities: n(au) };
     },
   };
 }

@@ -1,16 +1,19 @@
+import { readFileSync } from "node:fs";
+import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
 // Shared vocabulary and schema for build and validation.
 
-// Topic taxonomy. `primary` topics are the top-level categories in the UI.
-// `group` lets the UI cluster related topics (cost of living + housing).
-export const TOPICS = [
-  { id: "education", label: "חינוך", primary: true, group: "education" },
-  { id: "transport", label: "תחבורה ציבורית", primary: true, group: "transport" },
-  { id: "health", label: "בריאות", primary: true, group: "health" },
-  { id: "personal_security", label: "ביטחון אישי", primary: true, group: "personal_security" },
-  { id: "cost_of_living", label: "יוקר מחיה", primary: true, group: "cost_of_living" },
-  { id: "housing", label: "דיור", primary: true, group: "cost_of_living" },
-  { id: "governance", label: "משילות", primary: false, group: "governance" },
-];
+// Comparison taxonomy (topics -> subtopics) lives in config/taxonomy.json so
+// the UI never hardcodes rows. TOPICS keeps the flat shape older code uses.
+const CONFIG = resolve(dirname(fileURLToPath(import.meta.url)), "../config");
+export const readConfig = (name) => JSON.parse(readFileSync(resolve(CONFIG, name + ".json"), "utf8"));
+const TAXONOMY = readConfig("taxonomy");
+export const TOPICS = TAXONOMY.topics.map((t) => ({ id: t.id, label: t.label, label_en: t.label_en, primary: t.primary !== false, group: t.id }));
+export const SUBTOPICS = TAXONOMY.topics.flatMap((t) =>
+  t.subtopics.map((s, i) => ({ subtopic_id: s.id, topic: t.id, label: s.label, label_en: s.label_en, order: i, core: s.core !== false })));
+
+export const AUTHORITY_ROLES = ["government", "minister", "deputy_minister", "committee_chair"];
 
 // Normalized action stages, in pipeline order. Raw seed `status` is kept
 // verbatim; `stage` is derived from it via the explicit map below.
@@ -76,9 +79,10 @@ export const COLLECTIONS = {
   },
   commitments: {
     id: "commitment_id",
-    required: ["commitment_id", "entity_id", "topic", "commitment", "evidence_type", "source_id", "verified_at"],
+    required: ["commitment_id", "entity_id", "topic", "commitment", "evidence_type", "source_id", "verified_at", "campaign"],
     dates: ["verified_at"],
-    refs: { entity_id: "parties", source_id: "sources", topic: "topics", person_ids: "people" },
+    enums: { campaign: Object.keys(readConfig("classification").campaigns) },
+    refs: { entity_id: "parties", source_id: "sources", topic: "topics", person_ids: "people", subtopic_ids: "subtopics" },
   },
   actions: {
     id: "action_id",
@@ -86,12 +90,12 @@ export const COLLECTIONS = {
     dates: ["date"],
     numbers: ["amount_nis"],
     enums: { stage: ACTION_STAGES },
-    refs: { source_id: "sources", topic: "topics" },
+    refs: { source_id: "sources", topic: "topics", subtopic_ids: "subtopics" },
   },
   metric_series: {
     id: "series_id",
-    required: ["series_id", "topic", "metric_name", "unit"],
-    refs: { topic: "topics", source_ids: "sources" },
+    required: ["series_id", "topic", "metric_name", "unit", "kpi_id"],
+    refs: { topic: "topics", source_ids: "sources", kpi_id: "kpis" },
   },
   metrics: {
     id: "metric_id",
@@ -125,5 +129,26 @@ export const COLLECTIONS = {
   topics: {
     id: "id",
     required: ["id", "label"],
+  },
+  subtopics: {
+    id: "subtopic_id",
+    required: ["subtopic_id", "topic", "label"],
+    refs: { topic: "topics" },
+  },
+  kpis: {
+    id: "kpi_id",
+    required: ["kpi_id", "topic", "subtopic", "label", "unit", "source", "series_ids"],
+    nonEmptyArrays: ["series_ids"],
+    refs: { topic: "topics", subtopic: "subtopics", series_ids: "metric_series" },
+  },
+  // Who held formal authority over a topic, and when. Curated: never derived
+  // from metrics, and never evidence that the holder caused a change.
+  authorities: {
+    id: "authority_id",
+    required: ["authority_id", "role", "office", "topics", "holder_name", "start", "source_id"],
+    nonEmptyArrays: ["topics"],
+    dates: ["start", "end"],
+    enums: { role: AUTHORITY_ROLES },
+    refs: { topics: "topics", entity_id: "parties", person_id: "people", source_id: "sources" },
   },
 };

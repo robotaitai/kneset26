@@ -2,7 +2,7 @@ import { h, ltr, orMissing, sourceTag, evidenceButton, pagedList, fmtNumber } fr
 import { topicChips, updateChipCounts, selectControl, searchControl } from "../ui/filters.js";
 import { STATE, STATUS } from "../ui/labels.js";
 
-export const title = "מה מבטיחים עכשיו";
+export const title = "כל ההתחייבויות";
 
 export async function mount(root, { repo, params, setParams, isCurrent }) {
   const [topics, parties, people] = await Promise.all([repo.getTopics(), repo.getParties(), repo.getPeople()]);

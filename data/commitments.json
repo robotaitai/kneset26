@@ -11,7 +11,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_early_childhood"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_002",
@@ -25,7 +29,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_early_childhood"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_003",
@@ -39,7 +47,12 @@
     "source_id": "SRC_ISRAEL_BEITENU_EDU_2026",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_class_size",
+      "edu_teacher_workforce"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_004",
@@ -53,7 +66,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_informal"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_005",
@@ -67,7 +84,12 @@
     "source_id": "SRC_ISRAEL_BEITENU_EDU_2026",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_periphery",
+      "tr_frequency"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_006",
@@ -81,7 +103,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_EDU_2026",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_governance"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_007",
@@ -95,7 +121,13 @@
     "source_id": "SRC_ISRAEL_BEITENU_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_doctors",
+      "hl_nurses",
+      "hl_periphery"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_008",
@@ -109,7 +141,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_beds"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_009",
@@ -123,7 +159,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_community"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_010",
@@ -137,7 +177,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_drug_basket"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_011",
@@ -151,7 +195,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_SENIORS_2026",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_long_term_care"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_012",
@@ -165,7 +213,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_SENIORS_2026",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_allowances"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_013",
@@ -179,7 +231,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_SENIORS_2026",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_allowances"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_IB_014",
@@ -193,7 +249,11 @@
     "source_id": "SRC_ISRAEL_BEITENU_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "ps_violent"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_YA_001",
@@ -207,7 +267,12 @@
     "source_id": "SRC_YESH_ATID_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_frequency",
+      "tr_periphery"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_YA_002",
@@ -221,7 +286,11 @@
     "source_id": "SRC_YESH_ATID_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_weekend"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_YA_003",
@@ -235,7 +304,11 @@
     "source_id": "SRC_YESH_ATID_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_shared"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_YA_004",
@@ -249,7 +322,11 @@
     "source_id": "SRC_YESH_ATID_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "ps_road_safety"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_YA_005",
@@ -263,7 +340,11 @@
     "source_id": "SRC_YESH_ATID_PERIPHERY",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "gov_local"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_001",
@@ -277,7 +358,11 @@
     "source_id": "SRC_BEYAHAD_EDU",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_teacher_pay"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_002",
@@ -291,7 +376,11 @@
     "source_id": "SRC_BEYAHAD_EDU",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_governance"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_003",
@@ -305,7 +394,11 @@
     "source_id": "SRC_BEYAHAD_EDU",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_core_curriculum"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_004",
@@ -319,7 +412,11 @@
     "source_id": "SRC_BEYAHAD_EDU",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_core_curriculum"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_005",
@@ -333,7 +430,12 @@
     "source_id": "SRC_BEYAHAD_EDU",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_core_curriculum",
+      "edu_governance"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_006",
@@ -347,7 +449,11 @@
     "source_id": "SRC_BEYAHAD_EDU",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_early_childhood"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_007",
@@ -361,7 +467,11 @@
     "source_id": "SRC_BEYAHAD_COL",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_food"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_008",
@@ -375,7 +485,12 @@
     "source_id": "SRC_BEYAHAD_COL",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_competition",
+      "col_food"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_009",
@@ -389,7 +504,11 @@
     "source_id": "SRC_BEYAHAD_COL",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_competition"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_010",
@@ -403,7 +522,11 @@
     "source_id": "SRC_BEYAHAD_COL",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_competition"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_011",
@@ -417,7 +540,11 @@
     "source_id": "SRC_BEYAHAD_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_bus"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_012",
@@ -431,7 +558,12 @@
     "source_id": "SRC_BEYAHAD_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_rail",
+      "tr_frequency"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_013",
@@ -445,7 +577,11 @@
     "source_id": "SRC_BEYAHAD_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_travel_time"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_014",
@@ -459,7 +595,11 @@
     "source_id": "SRC_BEYAHAD_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_ridership"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_015",
@@ -473,7 +613,11 @@
     "source_id": "SRC_BEYAHAD_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_travel_time"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_016",
@@ -487,7 +631,11 @@
     "source_id": "SRC_BEYAHAD_TRANSPORT",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "tr_costs"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_017",
@@ -501,7 +649,11 @@
     "source_id": "SRC_BEYAHAD_HEALTH",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_community"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_018",
@@ -515,7 +667,11 @@
     "source_id": "SRC_BEYAHAD_HEALTH",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_community"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_019",
@@ -529,7 +685,11 @@
     "source_id": "SRC_BEYAHAD_HEALTH",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_community"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_020",
@@ -543,7 +703,11 @@
     "source_id": "SRC_BEYAHAD_PLANS",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "ho_planning"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_BY_021",
@@ -557,7 +721,11 @@
     "source_id": "SRC_BEYAHAD_PLANS",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "ho_planning"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_DEM_001",
@@ -571,7 +739,12 @@
     "source_id": "SRC_DEMOCRATS_VISION",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_food",
+      "col_competition"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_DEM_002",
@@ -585,7 +758,11 @@
     "source_id": "SRC_DEMOCRATS_VISION",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "ho_planning"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_DEM_003",
@@ -599,7 +776,11 @@
     "source_id": "SRC_DEMOCRATS_VISION",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_competition"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_DEM_004",
@@ -613,7 +794,11 @@
     "source_id": "SRC_DEMOCRATS_VISION",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_prices"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_DEM_005",
@@ -627,7 +812,11 @@
     "source_id": "SRC_DEMOCRATS_VISION",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_funding"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_RZ_001",
@@ -641,7 +830,11 @@
     "source_id": "SRC_RZ_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "edu_general"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_RZ_002",
@@ -655,7 +848,11 @@
     "source_id": "SRC_RZ_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "col_general"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_RZ_003",
@@ -669,7 +866,11 @@
     "source_id": "SRC_RZ_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "hl_mental"
+    ],
+    "campaign": "knesset26"
   },
   {
     "commitment_id": "C_RZ_004",
@@ -683,6 +884,10 @@
     "source_id": "SRC_RZ_PLATFORM",
     "verified_at": "2026-10-01",
     "attribution_note": "This records what the party says it intends to do; it is not evidence of implementation or outcome.",
-    "person_ids": []
+    "person_ids": [],
+    "subtopic_ids": [
+      "ps_property"
+    ],
+    "campaign": "knesset26"
   }
 ]

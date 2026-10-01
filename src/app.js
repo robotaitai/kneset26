@@ -1,16 +1,25 @@
 import { createRepository, fetchLoader } from "./data/repository.js";
 import { setupEvidencePanel } from "./ui/evidence.js";
 import { h, empty } from "./ui/dom.js";
+import * as compareView from "./views/compare.js";
+import * as partyView from "./views/party.js";
+import * as personView from "./views/person.js";
+import * as sourcesView from "./views/sources.js";
 import * as commitmentsView from "./views/commitments.js";
 import * as trackingView from "./views/tracking.js";
 import * as outcomesView from "./views/outcomes.js";
 
+// The comparison table is the product; everything else is a secondary page.
 const ROUTES = {
+  compare: compareView,
+  party: partyView,
+  person: personView,
+  metrics: outcomesView,
+  sources: sourcesView,
   commitments: commitmentsView,
-  tracking: trackingView,
-  outcomes: outcomesView,
+  actions: trackingView,
 };
-const DEFAULT_ROUTE = "commitments";
+const DEFAULT_ROUTE = "compare";
 
 const repo = createRepository(fetchLoader("data/"));
 const main = document.getElementById("view");
@@ -43,7 +52,8 @@ async function render() {
   });
   const view = ROUTES[route];
   document.title = `${view.title} · ביקורת בחירות כנסת 26`;
-  const root = h("div", { class: "view view-" + route });
+  document.body.dataset.route = route;
+  const root = h("div", { class: `view view-${route} ${route === "compare" ? "wide" : "wrap"}` });
   main.replaceChildren(root);
   try {
     await view.mount(root, {

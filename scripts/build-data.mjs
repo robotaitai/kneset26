@@ -3,14 +3,19 @@
 // Usage: node scripts/build-data.mjs [path/to/election_audit_seed.json]
 //
 // Seed-derived files are overwritten on every run. Curated files
-// (people, commitment_action_links, attributions) are never overwritten;
-// they are created empty if missing.
+// (people, commitment_action_links, attributions, authorities) are never
+// overwritten; they are created empty if missing.
+//
+// Config-derived files (subtopics, kpis) come from config/*.json, and each
+// commitment/action gets the comparison rows it belongs to from
+// config/classification.json. Classification only places a record in a row;
+// it never links records to each other.
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { resolve, dirname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
-import { TOPICS, ACTION_STAGE_BY_STATUS, parsePeriod, datePrecision } from "./schema.mjs";
+import { TOPICS, SUBTOPICS, ACTION_STAGE_BY_STATUS, parsePeriod, datePrecision, readConfig } from "./schema.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SEED = resolve(process.argv[2] || resolve(ROOT, "seed/election_audit_seed.json"));
@@ -27,6 +32,23 @@ for (const key of ["metadata", "parties", "commitments", "actions", "metrics", "
 if (errors.length) done();
 
 const topicIds = new Set(TOPICS.map((t) => t.id));
+const classification = readConfig("classification");
+const subtopicById = new Map(SUBTOPICS.map((s) => [s.subtopic_id, s]));
+// Returns the row ids for a record, checking each row belongs to the record's topic.
+const classify = (kind, rec, idField) => {
+  const entry = classification[kind][rec[idField]];
+  if (!entry) { fail(`${rec[idField]}: not classified (add it to config/classification.json "${kind}")`); return { subtopics: [] }; }
+  for (const id of entry.subtopics || []) {
+    const st = subtopicById.get(id);
+    if (!st) fail(`${rec[idField]}: unknown subtopic "${id}" in config/classification.json`);
+    else if (st.topic !== rec.topic) fail(`${rec[idField]}: subtopic "${id}" belongs to "${st.topic}", record topic is "${rec.topic}"`);
+  }
+  return entry;
+};
+for (const kind of ["commitments", "actions"]) {
+  const known = new Set(seed[kind].map((r) => r[kind === "commitments" ? "commitment_id" : "action_id"]));
+  for (const id of Object.keys(classification[kind])) if (!known.has(id)) fail(`config/classification.json: ${kind} "${id}" is not in the seed`);
+}
 const checkTopic = (rec, idField) => {
   if (!topicIds.has(rec.topic)) fail(`${rec[idField]}: unknown topic "${rec.topic}" (add it to scripts/schema.mjs)`);
 };
@@ -37,15 +59,18 @@ const sources = seed.sources.map((s) => ({ ...s }));
 
 const commitments = seed.commitments.map((c) => {
   checkTopic(c, "commitment_id");
-  return { ...c, person_ids: c.person_ids || [] };
+  const cls = classify("commitments", c, "commitment_id");
+  return { ...c, person_ids: c.person_ids || [], subtopic_ids: cls.subtopics || [], campaign: c.campaign ?? cls.campaign ?? null };
 });
 
 const actions = seed.actions.map((a) => {
   checkTopic(a, "action_id");
   const stage = ACTION_STAGE_BY_STATUS[a.status];
   if (!stage) fail(`${a.action_id}: no stage mapping for status "${a.status}" (add it to scripts/schema.mjs)`);
+  const cls = classify("actions", a, "action_id");
   return {
     ...a,
+    subtopic_ids: cls.subtopics || [],
     date_precision: datePrecision(a.date),
     stage: stage || null,
     implementation_verified: stage === "implemented",
@@ -112,6 +137,26 @@ const seriesById = new Map(metricSeries.map((s) => [s.series_id, s]));
 assertPreserved("metrics", seed.metrics,
   metrics.map((o) => ({ ...seriesById.get(o.series_id), ...o })), "metric_id");
 
+// KPI definitions: one per series, each placed in a row of its own topic.
+const kpis = readConfig("kpis").kpis;
+const seriesInKpi = new Map();
+for (const k of kpis) {
+  const st = subtopicById.get(k.subtopic);
+  if (!st) fail(`kpi ${k.kpi_id}: unknown subtopic "${k.subtopic}"`);
+  else if (st.topic !== k.topic) fail(`kpi ${k.kpi_id}: subtopic "${k.subtopic}" is not in topic "${k.topic}"`);
+  for (const sid of k.series_ids) {
+    const s = metricSeries.find((x) => x.series_id === sid);
+    if (!s) { fail(`kpi ${k.kpi_id}: unknown series "${sid}"`); continue; }
+    if (s.unit !== k.unit) fail(`kpi ${k.kpi_id}: unit "${k.unit}" differs from series unit "${s.unit}"`);
+    if (seriesInKpi.has(sid)) fail(`series ${sid} is in two KPIs (${seriesInKpi.get(sid)}, ${k.kpi_id})`);
+    seriesInKpi.set(sid, k.kpi_id);
+  }
+}
+for (const s of metricSeries) {
+  if (!seriesInKpi.has(s.series_id)) fail(`series ${s.series_id} has no KPI definition (add it to config/kpis.json)`);
+  s.kpi_id = seriesInKpi.get(s.series_id) ?? null;
+}
+
 if (errors.length) done();
 
 mkdirSync(OUT, { recursive: true });
@@ -123,22 +168,29 @@ const counts = {
   metric_series: metricSeries.length,
   metrics: metrics.length,
   sources: sources.length,
+  subtopics: SUBTOPICS.length,
+  kpis: kpis.length,
 };
 
 write("topics", TOPICS);
+write("subtopics", SUBTOPICS);
+write("kpis", kpis);
+write("compare", readConfig("compare"));
 write("parties", parties);
 write("commitments", commitments);
 write("actions", actions);
 write("metric_series", metricSeries);
 write("metrics", metrics);
 write("sources", sources);
-for (const curated of ["people", "commitment_action_links", "attributions"]) {
+for (const curated of ["people", "commitment_action_links", "attributions", "authorities"]) {
   const p = resolve(OUT, curated + ".json");
   if (!existsSync(p)) write(curated, []);
   counts[curated] = JSON.parse(readFileSync(p, "utf8")).length;
 }
 write("meta", {
   ...seed.metadata,
+  current_campaign: classification.current_campaign,
+  campaigns: classification.campaigns,
   built_from: relative(ROOT, SEED),
   seed_sha256: createHash("sha256").update(raw).digest("hex"),
   counts,

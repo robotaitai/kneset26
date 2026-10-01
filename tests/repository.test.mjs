@@ -71,3 +71,89 @@ test("source lookup and citations", async () => {
   assert.ok(n.metrics > 0);
   assert.equal(await repo.getSource("NOPE"), null);
 });
+
+// ---------------------------------------------------------------------------
+// Comparison matrix
+
+test("comparison: every row comes from the taxonomy config, in order", async () => {
+  const subtopics = await repo.getSubtopics();
+  const cmp = await repo.getComparison({ mode: "now", partyIds: ["faction_likud"], topicIds: ["education"] });
+  assert.equal(cmp.topics.length, 1);
+  const expected = subtopics.filter((s) => s.topic === "education").map((s) => s.subtopic_id);
+  assert.deepEqual(cmp.topics[0].rows.map((r) => r.subtopic.subtopic_id), expected);
+});
+
+test("comparison: party with no data gets empty cells, never inferred content", async () => {
+  const cmp = await repo.getComparison({ mode: "now", partyIds: ["faction_likud"] });
+  for (const t of cmp.topics) for (const r of t.rows) {
+    const cell = r.cells.faction_likud;
+    assert.equal(cell.current.length, 0);
+    assert.equal(cell.past.length, 0);
+    assert.equal(cell.track_status, null);
+  }
+});
+
+test("comparison: cells contain only that party's commitments for that row", async () => {
+  const ids = ["party_beyahad", "faction_yisrael_beiteinu", "party_democrats"];
+  const cmp = await repo.getComparison({ mode: "now", partyIds: ids });
+  let n = 0;
+  for (const t of cmp.topics) for (const r of t.rows) for (const id of ids) {
+    for (const c of r.cells[id].current) {
+      assert.equal(c.entity_id, id);
+      assert.ok(c.subtopic_ids.includes(r.subtopic.subtopic_id));
+      n++;
+    }
+  }
+  assert.ok(n > 0);
+});
+
+test("comparison: actions are never placed in a party cell without an explicit link", async () => {
+  const cmp = await repo.getComparison({ mode: "track", partyIds: ["faction_likud", "faction_shas", "party_beyahad"] });
+  const rowActions = cmp.topics.flatMap((t) => t.rows.flatMap((r) => r.actions));
+  assert.ok(rowActions.length > 0, "seed actions appear at row level");
+  for (const t of cmp.topics) for (const r of t.rows) for (const cell of Object.values(r.cells)) {
+    assert.equal(cell.links.length, 0, "seed has no commitment_action_links");
+  }
+});
+
+test("comparison: KPI definitions are identical regardless of selected parties", async () => {
+  const a = await repo.getComparison({ mode: "outcomes", partyIds: ["faction_likud"], topicIds: ["housing"] });
+  const b = await repo.getComparison({ mode: "outcomes", partyIds: ["party_democrats", "faction_yesh_atid"], topicIds: ["housing"] });
+  const kpis = (c) => c.topics[0].rows.flatMap((r) => r.kpis.map((k) => JSON.stringify([k.kpi, k.observations])));
+  assert.deepEqual(kpis(a), kpis(b));
+  assert.ok(kpis(a).length > 0);
+});
+
+test("comparison: every metric series is reachable through exactly one KPI row", async () => {
+  const cmp = await repo.getComparison({ mode: "outcomes", partyIds: [] });
+  const seen = cmp.topics.flatMap((t) => t.rows.flatMap((r) => r.kpis.flatMap((k) => k.kpi.series_ids)));
+  const series = await repo.getMetricSeries();
+  assert.equal(seen.length, series.total);
+  assert.equal(new Set(seen).size, series.total);
+});
+
+test("track status: promise alone is 'not verified', never implemented", async () => {
+  const { trackStatus, highestStage } = await import("../src/data/comparison.js");
+  assert.equal(trackStatus({ past: [], links: [] }), null);
+  assert.equal(trackStatus({ past: [{}], links: [] }), "not_verified");
+  assert.equal(trackStatus({ past: [{}], links: [{ action: { stage: "approved" } }, { action: { stage: "budgeted" } }] }), "budgeted");
+  assert.equal(highestStage([{ stage: "target" }, { stage: "proposed" }]), "target");
+});
+
+test("comparison: a documented link puts the action in that party's cell only", async () => {
+  const { buildComparison } = await import("../src/data/comparison.js");
+  const load = (n) => readFile(new URL(`../data/${n}.json`, import.meta.url), "utf8").then(JSON.parse);
+  const names = ["meta", "compare", "parties", "topics", "subtopics", "commitments", "actions", "kpis", "metric_series", "metrics", "attributions", "authorities"];
+  const d = Object.fromEntries(await Promise.all(names.map(async (n) => [n, await load(n)])));
+  d.series = d.metric_series;
+  // Synthetic past promise + explicit link, as curated data would add them.
+  d.commitments = [...d.commitments, { commitment_id: "C_TEST_PAST", entity_id: "faction_likud", topic: "housing", subtopic_ids: ["ho_rent"], campaign: "knesset25", commitment: "x", source_id: "SRC_KNESSET_FACTIONS" }];
+  d.links = [{ link_id: "L1", commitment_id: "C_TEST_PAST", action_id: "A_BUDGET_RENT_ASSIST_2025", relationship: "implements", explanation: "test", source_ids: ["SRC_BUDGET_2025"] }];
+  const cmp = buildComparison(d, { mode: "track", partyIds: ["faction_likud", "party_beyahad"], topicIds: ["housing"] });
+  const row = cmp.topics[0].rows.find((r) => r.subtopic.subtopic_id === "ho_rent");
+  assert.equal(row.cells.faction_likud.track_status, "budgeted");
+  assert.equal(row.cells.faction_likud.links[0].action.action_id, "A_BUDGET_RENT_ASSIST_2025");
+  assert.equal(row.cells.party_beyahad.links.length, 0);
+  const other = cmp.topics[0].rows.find((r) => r.subtopic.subtopic_id === "ho_prices");
+  assert.equal(other.cells.faction_likud.track_status, null, "link does not leak to other rows");
+});
