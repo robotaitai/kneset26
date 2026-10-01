@@ -1,0 +1,799 @@
+[
+  {
+    "series_id": "S_consumer_price_index_monthly_change",
+    "topic": "cost_of_living",
+    "metric_name": "Consumer Price Index monthly change",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CPI_AUG26"
+    ],
+    "latest_period_end": "2026-08"
+  },
+  {
+    "series_id": "S_consumer_price_index_12_month_change",
+    "topic": "cost_of_living",
+    "metric_name": "Consumer Price Index 12-month change",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CPI_AUG26"
+    ],
+    "latest_period_end": "2026-08"
+  },
+  {
+    "series_id": "S_consumer_price_index_year_to_date_change",
+    "topic": "cost_of_living",
+    "metric_name": "Consumer Price Index year-to-date change",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CPI_AUG26"
+    ],
+    "latest_period_end": "2026-08"
+  },
+  {
+    "series_id": "S_cpi_housing_component_monthly_change",
+    "topic": "housing",
+    "metric_name": "CPI housing component monthly change",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CPI_AUG26"
+    ],
+    "latest_period_end": "2026-08"
+  },
+  {
+    "series_id": "S_cpi_transport_component_monthly_change",
+    "topic": "transport",
+    "metric_name": "CPI transport component monthly change",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CPI_AUG26"
+    ],
+    "latest_period_end": "2026-08"
+  },
+  {
+    "series_id": "S_cpi_food_component_monthly_change",
+    "topic": "cost_of_living",
+    "metric_name": "CPI food component monthly change",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CPI_AUG26"
+    ],
+    "latest_period_end": "2026-08"
+  },
+  {
+    "series_id": "S_housing_price_index_bi_monthly_change",
+    "topic": "housing",
+    "metric_name": "Housing price index bi-monthly change",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 12,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HOUSING_PRICE_JUN26"
+    ],
+    "latest_period_end": "2026-06"
+  },
+  {
+    "series_id": "S_housing_units_construction_started",
+    "topic": "housing",
+    "metric_name": "Housing units construction started",
+    "unit": "units",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CONSTRUCTION_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_net_housing_starts",
+    "topic": "housing",
+    "metric_name": "Net housing starts",
+    "unit": "units",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CONSTRUCTION_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_housing_units_completed",
+    "topic": "housing",
+    "metric_name": "Housing units completed",
+    "unit": "units",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CONSTRUCTION_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_housing_units_under_active_construction",
+    "topic": "housing",
+    "metric_name": "Housing units under active construction",
+    "unit": "units",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CONSTRUCTION_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_housing_units_in_permits",
+    "topic": "housing",
+    "metric_name": "Housing units in permits",
+    "unit": "units",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CONSTRUCTION_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_weighted_construction_duration",
+    "topic": "housing",
+    "metric_name": "Weighted construction duration",
+    "unit": "months",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CONSTRUCTION_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_share_of_housing_starts_in_urban_renewal",
+    "topic": "housing",
+    "metric_name": "Share of housing starts in urban renewal",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_CONSTRUCTION_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_national_health_expenditure",
+    "topic": "health",
+    "metric_name": "National health expenditure",
+    "unit": "NIS billions",
+    "population": null,
+    "observation_count": 2,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HEALTH_2026_YEARBOOK"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_national_health_expenditure_as_share_of_gdp",
+    "topic": "health",
+    "metric_name": "National health expenditure as share of GDP",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 2,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HEALTH_2026_YEARBOOK"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_primary_students_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Primary students change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_middle_school_students_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Middle-school students change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_upper_secondary_students_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Upper-secondary students change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_primary_classes_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Primary classes change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_middle_school_classes_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Middle-school classes change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_upper_secondary_classes_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Upper-secondary classes change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_primary_teachers_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Primary teachers change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_middle_school_teachers_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Middle-school teachers change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_upper_secondary_teachers_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Upper-secondary teachers change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_primary_full_time_positions_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Primary full-time positions change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_middle_school_full_time_positions_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Middle-school full-time positions change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_upper_secondary_full_time_positions_change_1999_00_2023_24",
+    "topic": "education",
+    "metric_name": "Upper-secondary full-time positions change 1999/00-2023/24",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_students_per_teacher_arab_primary_education",
+    "topic": "education",
+    "metric_name": "Students per teacher, Arab primary education",
+    "unit": "students per teacher",
+    "population": null,
+    "observation_count": 2,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_students_per_teacher_hebrew_state_middle_schools",
+    "topic": "education",
+    "metric_name": "Students per teacher, Hebrew state middle schools",
+    "unit": "students per teacher",
+    "population": null,
+    "observation_count": 2,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_EDU_TEACHERS_2026"
+    ],
+    "latest_period_end": "2024-08"
+  },
+  {
+    "series_id": "S_adults_victimized_by_selected_offenses_in_preceding_year__age_20",
+    "topic": "personal_security",
+    "metric_name": "Adults victimized by selected offenses in preceding year",
+    "unit": "percent",
+    "population": "Age 20+",
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_PERSONAL_SECURITY_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_adults_victimized_by_online_offenses__age_20",
+    "topic": "personal_security",
+    "metric_name": "Adults victimized by online offenses",
+    "unit": "percent",
+    "population": "Age 20+",
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_PERSONAL_SECURITY_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_adults_victimized_by_violence_or_threat_of_violence__age_20",
+    "topic": "personal_security",
+    "metric_name": "Adults victimized by violence or threat of violence",
+    "unit": "percent",
+    "population": "Age 20+",
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_PERSONAL_SECURITY_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_adults_victimized_by_theft_without_force__age_20",
+    "topic": "personal_security",
+    "metric_name": "Adults victimized by theft without force",
+    "unit": "percent",
+    "population": "Age 20+",
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_PERSONAL_SECURITY_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_adults_victimized_by_sexual_harassment__age_20",
+    "topic": "personal_security",
+    "metric_name": "Adults victimized by sexual harassment",
+    "unit": "percent",
+    "population": "Age 20+",
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_PERSONAL_SECURITY_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_reported_change_for_worse_in_personal_safety__survey_respondents",
+    "topic": "personal_security",
+    "metric_name": "Reported change for worse in personal safety",
+    "unit": "percent",
+    "population": "Survey respondents",
+    "observation_count": 3,
+    "geographies": [
+      "Haifa District",
+      "Tel Aviv District",
+      "Northern District"
+    ],
+    "source_ids": [
+      "SRC_CBS_PERSONAL_SECURITY_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_homicide_victims_reported_by_police_in_knesset_committee",
+    "topic": "personal_security",
+    "metric_name": "Homicide victims reported by police in Knesset committee",
+    "unit": "people",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_KNESSET_CRIME_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_homicide_victims_in_arab_sector_reported_by_police_in_knesset_committee",
+    "topic": "personal_security",
+    "metric_name": "Homicide victims in Arab sector reported by police in Knesset committee",
+    "unit": "people",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_KNESSET_CRIME_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_homicide_victims_in_jewish_sector_reported_by_police_in_knesset_committee",
+    "topic": "personal_security",
+    "metric_name": "Homicide victims in Jewish sector reported by police in Knesset committee",
+    "unit": "people",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_KNESSET_CRIME_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_homicide_events_police_said_were_prevented",
+    "topic": "personal_security",
+    "metric_name": "Homicide events police said were prevented",
+    "unit": "events",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_KNESSET_CRIME_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_motor_vehicles",
+    "topic": "transport",
+    "metric_name": "Motor vehicles",
+    "unit": "vehicles",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_MOTOR_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_private_vehicles",
+    "topic": "transport",
+    "metric_name": "Private vehicles",
+    "unit": "vehicles",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_MOTOR_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_electric_vehicles",
+    "topic": "transport",
+    "metric_name": "Electric vehicles",
+    "unit": "vehicles",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_MOTOR_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_electric_buses",
+    "topic": "transport",
+    "metric_name": "Electric buses",
+    "unit": "buses",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_MOTOR_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_motorization_level",
+    "topic": "transport",
+    "metric_name": "Motorization level",
+    "unit": "vehicles per 1,000 residents",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_MOTOR_2025"
+    ],
+    "latest_period_end": "2025-12"
+  },
+  {
+    "series_id": "S_average_gross_monetary_household_income_per_month",
+    "topic": "cost_of_living",
+    "metric_name": "Average gross monetary household income per month",
+    "unit": "NIS/month",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HH_EXP_2023"
+    ],
+    "latest_period_end": "2023-12"
+  },
+  {
+    "series_id": "S_average_net_monetary_household_income_per_month",
+    "topic": "cost_of_living",
+    "metric_name": "Average net monetary household income per month",
+    "unit": "NIS/month",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HH_EXP_2023"
+    ],
+    "latest_period_end": "2023-12"
+  },
+  {
+    "series_id": "S_average_total_monthly_consumption_expenditure",
+    "topic": "cost_of_living",
+    "metric_name": "Average total monthly consumption expenditure",
+    "unit": "NIS/month",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HH_EXP_2023"
+    ],
+    "latest_period_end": "2023-12"
+  },
+  {
+    "series_id": "S_housing_share_of_household_consumption_expenditure",
+    "topic": "housing",
+    "metric_name": "Housing share of household consumption expenditure",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HH_EXP_2023"
+    ],
+    "latest_period_end": "2023-12"
+  },
+  {
+    "series_id": "S_transport_and_communications_share_of_household_consumption_expenditure",
+    "topic": "transport",
+    "metric_name": "Transport and communications share of household consumption expenditure",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HH_EXP_2023"
+    ],
+    "latest_period_end": "2023-12"
+  },
+  {
+    "series_id": "S_food_incl_fruit_and_vegetables_share_of_household_consumption_expenditure",
+    "topic": "cost_of_living",
+    "metric_name": "Food incl. fruit and vegetables share of household consumption expenditure",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HH_EXP_2023"
+    ],
+    "latest_period_end": "2023-12"
+  },
+  {
+    "series_id": "S_households_living_in_owner_occupied_dwelling",
+    "topic": "housing",
+    "metric_name": "Households living in owner-occupied dwelling",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HH_EXP_2023"
+    ],
+    "latest_period_end": "2023-12"
+  },
+  {
+    "series_id": "S_households_living_in_rented_dwelling",
+    "topic": "housing",
+    "metric_name": "Households living in rented dwelling",
+    "unit": "percent",
+    "population": null,
+    "observation_count": 1,
+    "geographies": [
+      "Israel"
+    ],
+    "source_ids": [
+      "SRC_CBS_HH_EXP_2023"
+    ],
+    "latest_period_end": "2023-12"
+  }
+]

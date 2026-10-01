@@ -1,0 +1,107 @@
+[
+  {
+    "entity_id": "faction_likud",
+    "name": "הליכוד",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_yesh_atid",
+    "name": "יש עתיד",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_shas",
+    "name": "ש״ס",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_blue_white",
+    "name": "כחול לבן - המחנה הממלכתי",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_utj",
+    "name": "יהדות התורה",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_rz",
+    "name": "הציונות הדתית בראשות בצלאל סמוטריץ׳",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_otzma",
+    "name": "עוצמה יהודית בראשות איתמר בן גביר",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_yisrael_beiteinu",
+    "name": "ישראל ביתנו",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_raam",
+    "name": "רע״ם",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_hadash_taal",
+    "name": "חד״ש-תע״ל",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_labor",
+    "name": "העבודה",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_new_hope",
+    "name": "הימין הממלכתי",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "faction_noam",
+    "name": "נעם",
+    "entity_type": "parliamentary_faction",
+    "knesset": 25,
+    "source_id": "SRC_KNESSET_FACTIONS"
+  },
+  {
+    "entity_id": "party_beyahad",
+    "name": "ביחד",
+    "entity_type": "election_campaign_entity",
+    "knesset": 26,
+    "source_id": "SRC_BEYAHAD_PLANS"
+  },
+  {
+    "entity_id": "party_democrats",
+    "name": "הדמוקרטים",
+    "entity_type": "election_campaign_entity",
+    "knesset": 26,
+    "source_id": "SRC_DEMOCRATS_VISION"
+  }
+]
